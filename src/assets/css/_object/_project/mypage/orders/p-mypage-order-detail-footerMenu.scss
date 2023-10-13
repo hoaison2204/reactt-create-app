@@ -1,0 +1,98 @@
+.footer-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    @media (min-width: 640px) { 
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+     }
+  
+    .a-divider:not(.a-divider--vertical) {
+      margin-left: 1rem; 
+      margin-right: 1rem;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  
+    .items-footer {
+      display: flex;
+      align-items: center;
+      
+      .button {
+        column-gap: 0.5rem;
+        display: flex;
+        align-items: center;
+  
+        @media (min-width: 640px) { 
+          display: flex;
+          flex-direction: row-reverse;
+        }
+  
+        .button-footer {
+          border-radius: 4px;
+          border: 1px solid #222222;
+          padding: 7px 8px;
+        }
+      }
+      .coupons-social {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        column-gap: 1rem;
+        .icon {
+          font-size: 26px;
+        }
+        .divider{
+          background-color: #cdcdcd;
+          height: 32px;
+          width: 2px;
+        }
+      
+        .c-btn {
+          height: 32px;
+        }
+  
+        @media (min-width: 1024px) { 
+          flex-wrap: wrap;
+          justify-content: center;
+          span {
+            @apply  mb-4;
+            width: 100%;
+            text-align: center;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+          } 
+        }
+      }
+    }
+  
+    span {
+      margin-right: 1rem;
+      font-size: 12px;
+      font-weight: 500;
+      @media (min-width: 640px) { 
+        padding-top: 0.5rem; 
+        padding-bottom: 0.5rem;
+        font-size: 14px;
+      }
+    }
+  
+    i {
+      margin-right: 1rem;
+      font-size: 25px;
+    }
+  
+  }
+  
+  .h-vertical1 {
+    height: 30px;
+  }
+  
+  ::v-deep .divider-v {
+    display: none;
+  }

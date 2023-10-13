@@ -1,0 +1,200 @@
+{
+  "content": [
+    {
+      "id": 6325,
+      "itemType": "favourite",
+      "menuNo": "10140024",
+      "customerNo": "900000006207638",
+      "dateAdded": "2022-07-28T19:12:02.574+00:00",
+      "menuDetailResponse": {
+        "menuRcEndDt": "2099/03/31 23:59:59",
+        "menuNo": "10140024",
+        "targetMenuNo": null,
+        "menuImages": [
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+          }
+        ],
+        "leadCopy": "★━━━━━━━━━━━━━━ＪＲ川口駅徒歩3分女性一人でも安心して泊まれる♪レジャー・ビジネス 様々なシーンに細やかで充実したサービスでおもてなし━━━━━━━━━━━━━━★・*｡.オススメポイント.｡*・ ◆手足を伸ばしてゆっくりと寛げる大浴場　　『禅（しずか）の湯』 ◆都内にも至近！　お仕事、観光の拠点として幅広くご利用下さい◆さいたまスーパーアリーナは電車乗り換え無しで17分◆無料LAN・Wi-Fi完備！ ◆和洋食の朝食ブッフェをお得な料金でご用意♪",
+        "areaInfomation": {
+          "areaMidClassNm": "埼玉県",
+          "areaDtlClassNm": null,
+          "areaMidClassCd": "saitama",
+          "areaDtlClassCd": null,
+          "latitude": 35.804932,
+          "areaLrgClassNm": "首都圏",
+          "areaSmlClassNm": "大宮・浦和・川口・上尾",
+          "areaLrgClassCd": "region-4",
+          "areaSmlClassCd": "saitama",
+          "longitude": 139.716681
+        },
+        "menuRcSttDt": "2009/11/01 00:00:00",
+        "shopAreaDiv": "0",
+        "catchCopy": "自慢の大浴場『禅（しずか）の湯』を是非ご利用くださいませ！",
+        "extSystemMenuId": null,
+        "categoryInfomation": {
+          "catLrgClassCd": "101",
+          "catMidClassNm": "国内の宿",
+          "catLrgClassNm": "トラベル",
+          "catSmlClassCd": "301",
+          "catMidClassCd": "201",
+          "catSmlClassNm": "ホテル"
+        },
+        "menuNmKana": "スマイルホテルカワグチ",
+        "menuNm": "スマイルホテル川口",
+        "extSystemCd": null,
+        "srvicDiv": "A10"
+      },
+      "favourite": true,
+      "idFavourite": 6325,
+      "serviceType": "stay"
+    },
+    {
+      "id": 6228,
+      "itemType": "favourite",
+      "menuNo": "10151391",
+      "customerNo": "900000006207638",
+      "dateAdded": "2022-07-27T08:17:19.084+00:00",
+      "menuDetailResponse": {
+        "menuRcEndDt": "2099/03/31 23:59:59",
+        "menuNo": "10151391",
+        "targetMenuNo": null,
+        "menuImages": [
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000174/17487.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/07/780.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000152/15211.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000130/13099.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000120/12023.jpg"
+          }
+        ],
+        "leadCopy": "客室は全室44平米以上。総大理石のバスルームはバスタブとシャワーブースを完備。オークラならではの、やすらぎと癒しの空間をお届け。",
+        "areaInfomation": null,
+        "menuRcSttDt": "2002/04/01 00:00:00",
+        "shopAreaDiv": "0",
+        "catchCopy": "東京ディズニーリゾートRオフィシャルホテル",
+        "extSystemMenuId": null,
+        "categoryInfomation": {
+          "catLrgClassCd": "101",
+          "catMidClassNm": "国内の宿",
+          "catLrgClassNm": "トラベル",
+          "catSmlClassCd": "301",
+          "catMidClassCd": "201",
+          "catSmlClassNm": "ホテル"
+        },
+        "menuNmKana": "ホテルオークラトウキョウベイ",
+        "menuNm": "ホテルオークラ東京ベイ",
+        "extSystemCd": null,
+        "srvicDiv": "A10"
+      },
+      "favourite": true,
+      "idFavourite": 6228,
+      "serviceType": "stay"
+    },
+    {
+      "id": 6226,
+      "itemType": "favourite",
+      "menuNo": "10030023",
+      "customerNo": "900000006207638",
+      "dateAdded": "2022-07-27T08:15:22.563+00:00",
+      "menuDetailResponse": {
+        "menuRcEndDt": "2099/03/31 23:59:59",
+        "menuNo": "10030023",
+        "targetMenuNo": null,
+        "menuImages": [
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000180/18037.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/0055/5549.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000154/15470.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/0023/2367.jpg"
+          },
+          {
+            "imageExplanation": null,
+            "imageUrl": "https://mn.tst.boimg.jp/img/psty/image_file/000176/17624.jpg"
+          }
+        ],
+        "leadCopy": "館内施設の営業変更について　　〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）　　・各種リラクゼーションメニューの提供は休止しております。　　・ジャグジーの機材変更に伴う工事の為、ジャグジー機能は停止しております。  　〇１階　スーベニアショップ「HOKKAIDO AKARENGA」　　営業時間　１７：００～２１：３０（時間短縮営業）　　休業日　　不定休　〇３０階　中国料理「仙雲」　　休業～当面の間　〇ルームサービスを当面の間、休止しております。",
+        "areaInfomation": {
+          "areaMidClassNm": "北海道",
+          "areaDtlClassNm": "札幌・新札幌・琴似",
+          "areaMidClassCd": "hokkaido",
+          "areaDtlClassCd": "A",
+          "latitude": 43,
+          "areaLrgClassNm": "北海道",
+          "areaSmlClassNm": "札幌",
+          "areaLrgClassCd": "region-1",
+          "areaSmlClassCd": "sapporo",
+          "longitude": 141
+        },
+        "menuRcSttDt": "2003/11/01 00:00:00",
+        "shopAreaDiv": "0",
+        "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+        "extSystemMenuId": null,
+        "categoryInfomation": {
+          "catLrgClassCd": "101",
+          "catMidClassNm": "国内の宿",
+          "catLrgClassNm": "トラベル",
+          "catSmlClassCd": "301",
+          "catMidClassCd": "201",
+          "catSmlClassNm": "ホテル"
+        },
+        "menuNmKana": "ホテルエミシアサッポロ",
+        "menuNm": "ホテルエミシア札幌",
+        "extSystemCd": null,
+        "srvicDiv": "A10"
+      },
+      "favourite": true,
+      "idFavourite": 6226,
+      "serviceType": "stay"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "pageNumber": 0,
+    "pageSize": 10,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalElements": 3,
+  "totalPages": 1,
+  "number": 0,
+  "first": true,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "numberOfElements": 3,
+  "size": 10,
+  "empty": false
+}

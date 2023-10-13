@@ -1,0 +1,848 @@
+{
+  "usageLimitInformation": [
+    {
+      "usageLimitCont": "こちらのプランは、2021/04/01～2022/03/31の期間に、ご家族含むご本人様のお客様番号につき1部屋までご利用可能となります。",
+      "usageLimitId": "0000016313",
+      "usageLimitUserDiv": "2",
+      "usageLimitTgtDiv": "3",
+      "menuIdList": null,
+      "planIdList": [
+        {
+          "menuNo": "10730205",
+          "planId": "0011641802"
+        }
+      ],
+      "usageLimitTermDiv": "2",
+      "usageLimitTermStt": "2021/04/01",
+      "usageLimitTermEnd": "2022/03/31",
+      "usageLimitSttMo": 4,
+      "usageLimitTotDiv": "3",
+      "usageLimitNumOfTimes": null,
+      "usageLimitCnt": 1
+    }
+  ],
+  "planBasicInfo": {
+    "menuNo": "10170243",
+    "planNm": "カレンダープラン",
+    "planRcEndDt": "2022/01/31 23:59:59",
+    "planRcSttDt": "2022/02/06 00:00:00",
+    "planId": "0011727644",
+    "planImages": [
+      {
+        "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/676023_00147.jpg",
+        "imageExplanation": "ファミリーにおすすめ♪箱根園の宿泊セットプランがお得"
+      },
+      {
+        "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9vbXxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "imageExplanation": "ファミリーにおすすめ♪箱根園の宿泊セットプランがお得"
+      },
+      {
+        "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/676023_00147.jpg",
+        "imageExplanation": "ファミリーにおすすめ♪箱根園の宿泊セットプランがお得"
+      },
+      {
+        "imageUrl": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "imageExplanation": "ファミリーにおすすめ♪箱根園の宿泊セットプランがお得"
+      }
+    ],
+    "planLeadCopy": "料金はカレンダーを見てのお楽しみ！！\n\nみなとみらいにただひとつのバルコニー付きのエグゼクティブツインもお選びいただけます。\n空室カレンダーを見てのお楽しみ！ \nご提供できる室数も日によって変動いたします。\n\n※　デラックスツイン、ラグジュアリーハーバーキングタイプはバルコニー無しのお部屋です\n"
+  },
+  "planIcons": [
+    {
+      "iconNm": "ベネポ使える",
+      "iconCd": "benepo_tsukaeru",
+      "iconSuppl": null
+    }
+  ],
+  "planInfomation": [
+    {
+      "title": "◆キャンセル・変更",
+      "content": "◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更◆キャンセル・変更",
+      "infoLev": "3",
+      "linkUrl": null,
+      "linkNm": null
+    },
+    {
+      "title": "◆返品◆返品",
+      "content": "サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。サービス提供企業のキャンセル・変更のルールが適用になります。",
+      "infoLev": "3",
+      "linkUrl": null,
+      "linkNm": null
+    },
+    {
+      "title": "◆返品",
+      "content": "サービス提供企業の返品のルールが適用になります。サービス提供企業の返品のルールが適用になります。",
+      "infoLev": "3",
+      "linkUrl": null,
+      "linkNm": null
+    },
+    {
+      "title": "◆返品",
+      "content": "サービス提供企業の返品のルールが適用になります。",
+      "infoLev": "3",
+      "linkUrl": null,
+      "linkNm": null
+    }
+  ],
+  "planUsage": {
+    "applFlag": "1",
+    "usageDetailLife": null,
+    "usageDetailStay": {
+      "rsvReceptEndDtTxt": "20220131",
+      "visitorAvailDiv": "1",
+      "rsvReceptExcTerms": null,
+      "breakfastFlag": "0",
+      "checkOutTm": "1100",
+      "lastCheckInTm": "2200",
+      "checkInTm": "1500",
+      "rsvReceptSttDtTxt": "20210206",
+      "lowPriceReqNgFlag": "0",
+      "dinnerFlag": "0"
+    },
+    "usageDetail": {
+      "usageTxtGuidance": null,
+      "famiExclusionFlag": "0",
+      "ticketExclusionFlag": "0",
+      "ostiariesFlag": "0",
+      "receivableFlag": "0",
+      "buppanExclusionFlag": "0",
+      "optinFlag": "0"
+    },
+    "usageDiv": "40",
+    "usageLoginBfrDispFlag": "1"
+  },
+  "roomBasicInfo": {
+    "roomSizeTxt": "49.9",
+    "maxStayCapacity": "4",
+    "note": "ラグジュアリーオーシャンツイン ベイビューは夜景の見えるバスルームを備えたお部屋です。\n大きな窓にバルコニーを備えた客室からは正面に横浜港とベイブリッジをご覧いただけ、バスルームには独立シャワーブースをご用意しております。\n人気のバスの曲面のウィンドウからはみなとみらいの大観覧車が目前に迫る迫力。\n照明を落とし観覧車が放つカクテル光線のイルミネーションが幻想的に演出します。\n禁煙のお部屋タイプとなっております。",
+    "roomNm": "【禁煙】ビューバスラグジュアリーツインベイビュー",
+    "roomCondNm": "ツイン",
+    "minStayCapacity": "1",
+    "roomImages": [
+      {
+        "imageExplanation": null,
+        "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/NOIMAGE.jpg"
+      }
+    ],
+    "smokingDiv": "1",
+    "roomId": "0000202076",
+    "roomCond": "youshitutwin",
+    "roomIcons": [
+      {
+        "iconNm": "",
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      },
+      {
+        "iconNm": null,
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      },
+      {
+        "iconNm": "ベネポ3",
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      },
+      {
+        "iconNm": "ベネポ4",
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      },
+      {
+        "iconNm": "ベネポ5",
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      }
+    ]
+  },
+  "vacancyCalendar": {
+    "priceRemarks": null,
+    "childPriceInfo": {
+      "childFeeApplicationDiv": "1",
+      "childInfos": [
+        {
+          "priceUnit": "％",
+          "priceReference": "大人料金に対して100%",
+          "subsidySettDiv": "0",
+          "subsidy": null,
+          "price": 100.0,
+          "calc": "1",
+          "childDiv": "10",
+          "transFeeFlag": "1",
+          "content": null
+        },
+        {
+          "priceUnit": "％",
+          "priceReference": "大人料金に対して100%",
+          "subsidySettDiv": "0",
+          "subsidy": null,
+          "price": 100.0,
+          "calc": "1",
+          "childDiv": "15",
+          "transFeeFlag": "1",
+          "content": null
+        },
+        {
+          "priceUnit": "円",
+          "priceReference": "定額0円",
+          "subsidySettDiv": "0",
+          "subsidy": null,
+          "price": 0.0,
+          "calc": "0",
+          "childDiv": "50",
+          "transFeeFlag": "1",
+          "content": null
+        }
+      ]
+    },
+    "vacancyCalendars": [
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/13",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 16000.0,
+        "adultPrice": 17000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/14",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 23000.0,
+        "adultPrice": 24000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/15",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 14500.0,
+        "adultPrice": 15500.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/16",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/17",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/18",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/19",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/20",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 16000.0,
+        "adultPrice": 17000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/21",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 23000.0,
+        "adultPrice": 24000.0,
+        "reservationDiv": "10",
+        "stock": 2.0,
+        "stayDay": "2022/02/22",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 14500.0,
+        "adultPrice": 15500.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/23",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/24",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/25",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/26",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/27",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 17000.0,
+            "price": 17000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 16000.0,
+        "adultPrice": 17000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/28",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 24000.0,
+            "price": 24000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 23000.0,
+        "adultPrice": 24000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/29",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 15500.0,
+            "price": 15500.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 14500.0,
+        "adultPrice": 15500.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/30",
+        "boneSubsidy": 1000.0
+      },
+      {
+        "roomPrice": null,
+        "childrenPriceTable": [
+          {
+            "childDiv": "10",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "15",
+            "childPrice": 14000.0,
+            "price": 14000.0,
+            "boneSubsidy": 0.0
+          },
+          {
+            "childDiv": "50",
+            "childPrice": 0.0,
+            "price": 0.0,
+            "boneSubsidy": 0.0
+          }
+        ],
+        "price": 13000.0,
+        "adultPrice": 14000.0,
+        "reservationDiv": "10",
+        "stock": 3.0,
+        "stayDay": "2022/02/31",
+        "boneSubsidy": 1000.0
+      }
+    ],
+    "stayTaxInfo": null
+  },
+  "cancelPolicy": {
+    "webCancelAvailDiv": "0",
+    "canclTaxExcChrgFlag": "1",
+    "cancelPolicies": [
+      {
+        "cancelPolicyTable": [
+          {
+            "cancelCond": "料金の20%",
+            "cancelRule": "3日前～前日",
+            "cancelPolicySttDay": 3,
+            "cancelPolicyEndDay": 1,
+            "cancelPolicyTm": null,
+            "noneContactFlag": "0",
+            "cancelChargeDiv": "2",
+            "cancelChargeRate": 20,
+            "cancelCharge": null,
+            "cancelChargeOth": null
+          },
+          {
+            "cancelCond": "料金の50%",
+            "cancelRule": "当日",
+            "cancelPolicySttDay": 0,
+            "cancelPolicyEndDay": 0,
+            "cancelPolicyTm": null,
+            "noneContactFlag": "0",
+            "cancelChargeDiv": "1",
+            "cancelChargeRate": 50,
+            "cancelCharge": null,
+            "cancelChargeOth": null
+          },
+          {
+            "cancelCond": "料金の100%",
+            "cancelRule": "当日（無連絡）",
+            "cancelPolicySttDay": 0,
+            "cancelPolicyEndDay": 0,
+            "cancelPolicyTm": null,
+            "noneContactFlag": "0",
+            "cancelChargeDiv": "1",
+            "cancelChargeRate": 100,
+            "cancelCharge": null,
+            "cancelChargeOth": null
+          }
+        ],
+        "cancelTitle": "キャンセル規定",
+        "cancelNote1": "カレンダープランのキャンセル規定は下記となっております。キャンセル料発生該当前日の 18:00 以降はキャンセル料発生該当日の扱いとなりますので、ご了承願います。",
+        "cancelNote2": ""
+      },
+      {
+        "cancelPolicyTable": [
+
+        ],
+        "cancelTitle": "キャンセル規定",
+        "cancelNote1": "カレンダープランのキャンセル規定は下記となっております。キャンセル料発生該当前日の 18:00 以降はキャンセル料発生該当日の扱いとなりますので、ご了承願います。",
+        "cancelNote2": ""
+      }
+    ]
+  },
+  "menuInformation": {
+    "menuRcEndDt": "2022/03/31 23:59:59",
+    "menuNo": "10170243",
+    "menuImages": [
+      {
+        "imageExplanation": null,
+        "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+      }
+    ],
+    "leadCopy": "みなとみらいの中心に位置し、緑あふれる公園と横浜港を見渡す横浜ベイホテル東急。みなとみらい駅から徒歩1分という都市ホテルの機能と利便性に加え、上質なやすらぎの空間、洗練された味覚、そして心を尽くしたおもてなしで皆様をお迎えいたします。",
+    "areaInfomation": {
+      "areaMidClassNm": "",
+      "areaDtlClassNm": "",
+      "areaMidClassCd": "",
+      "areaDtlClassCd": "",
+      "latitude": null,
+      "areaLrgClassNm": "",
+      "areaSmlClassNm": "",
+      "areatLrgClassCd": "",
+      "areaSmlClassCd": "",
+      "longitude": null
+    },
+    "menuRcSttDt": "2002/03/31 00:00:00",
+    "shopAreaDiv": "0",
+    "catchCopy": "最上のくつろぎを湛えた、「アーバンオアシス」と呼ばれるホテル",
+    "categoryInfomation": {
+      "catLrgClassCd": "001",
+      "catMidClassNm": "シティホテル",
+      "catLrgClassNm": "宿泊施設",
+      "catSmlClassCd": "000",
+      "catMidClassCd": "005",
+      "catSmlClassNm": "シティホテル"
+    },
+    "menuNmKana": "ヨコハマベイホテルトウキュウ",
+    "menuNm": "横浜ベイホテル東急",
+    "extSystemCd": null,
+    "srvicDiv": "A10"
+  }
+}

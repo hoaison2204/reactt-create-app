@@ -1,0 +1,417 @@
+.p-mypage__outline {
+  margin-bottom: 1rem;
+  @include mq() {
+    margin-bottom: 3rem;
+  }
+  &--no-contents {
+    margin-bottom: initial;
+  }
+}
+
+.p-mypage-outline__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  &__logout {
+    padding-left: 1rem;
+    min-width: 8em;
+    text-align: right;
+    @include mq() {
+      display: none;
+    }
+  }
+  &__id {
+    margin-bottom: 0.2rem;
+    color: $CoolGray;
+  }
+}
+
+.p-mypage-outline__navigation {
+  display: flex;
+  align-items: stretch;
+  @include mq('md', 'min') {
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+  }
+  @include mq() {
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    background-color: $CoolGray6;
+  }
+  > li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    @include mq('md', 'min') {
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+    }
+    @include mq() {
+      flex: none;
+      width: 33.3%;
+      &:not(:last-child) {
+        &::after {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          display: block;
+          content: '';
+          margin-top: -2rem;
+          background-color: $CoolGray4;
+          width: 1px;
+          height: 4rem;
+        }
+      }
+    }
+    > a,
+    > button {
+      display: block;
+      color: $CoolBlack;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      &:hover {
+        background-color: $CoolGray5;
+        color: $Red;
+        text-decoration: none;
+        .c-icon {
+          g {
+            fill: $Red;
+          }
+        }
+      }
+      @include mq('md', 'min') {
+        padding: 1rem;
+        background-color: $CoolGray6;
+        border-radius: 0.5rem;
+      }
+      @include mq() {
+        padding: 0.5rem 0.25rem;
+      }
+    }
+  }
+  &__icon {
+    margin-bottom: 0.25rem;
+    line-height: 1;
+    .c-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      g {
+        fill: $RedPink;
+      }
+    }
+    @include mq() {
+      margin-bottom: 0;
+      .c-icon {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+  &__label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.875rem;
+    @include mq() {
+      font-size: 0.62rem;
+    }
+    span {
+      margin-left: 0.5rem;
+      position: relative;
+      @include mq() {
+        margin-left: 0.3rem;
+      }
+    }
+    &--pr {
+      padding-right: 20px;
+      @include mq() {
+        padding-right: 18px;
+      }
+    }
+  }
+  &__label__link {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    @include mq() {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  &__itemsBox {
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: repeat(3, 190px);
+    grid-gap: 16px;
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 9px;
+    }
+  }
+}
+
+.p-mypage-outline__navigation {
+  padding-bottom: 2rem;
+  @include mq() {
+    padding-bottom: 0;
+  }
+}
+
+.p-mypage-outline__navigation__list {
+  z-index: 1;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  margin-left: -4.75em;
+  width: 10em;
+  @include mq() {
+    margin-left: -5rem;
+  }
+  > ul {
+    padding: 0.5rem 0;
+    background: $CoolGray6;
+    box-shadow: 0px 1px 8px rgba($color: $CoolBlack, $alpha: 0.16);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    &::before {
+      z-index: 1;
+      position: absolute;
+      top: -0.625rem;
+      left: 50%;
+      margin-left: -0.5rem;
+      display: block;
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0.5rem 0.625rem 0.5rem;
+      border-color: transparent transparent $CoolGray6 transparent;
+    }
+    > li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 0.875rem;
+      a,
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5rem 1rem;
+        width: 100%;
+        color: $CoolBlack;
+        cursor: pointer;
+        text-decoration: none;
+        text-align-last: left;
+        &:hover {
+          color: $Red;
+          .c-icon {
+            g {
+              fill: $Red;
+            }
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 0.25rem;
+        }
+        .c-icon {
+          margin-left: 0.5em;
+          g {
+            fill: $CoolGray;
+          }
+        }
+      }
+    }
+  }
+}
+
+.p-mypage-outline__summary {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 -2rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  @include mq() {
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 1rem;
+    border-top: none;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 23%;
+    color: $CoolGray;
+    .c-title5 {
+      margin-bottom: 0;
+    }
+    @include mq() {
+      margin-bottom: 0.875rem;
+      width: 100%;
+      br {
+        display: none;
+      }
+    }
+  }
+  &__arrow {
+    cursor: pointer;
+    .c-icon {
+      width: 2rem;
+      height: 2rem;
+      g {
+        fill: $Red;
+      }
+    }
+    @include mq('md', 'min') {
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      margin-top: -0.5rem;
+    }
+  }
+  &__content {
+    width: 77%;
+    padding-right: 4rem;
+    @include mq() {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+  &__points {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.p-mypage-outline__coupon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $CoolGray4;
+  }
+  @include mq() {
+    font-size: 0.875rem;
+  }
+  &__label {
+    width: 40%;
+    font-weight: bold;
+    @include mq() {
+      margin-bottom: 0.5rem;
+      width: 100%;
+      font-size: 0.875rem;
+    }
+  }
+  &__period {
+    width: 30%;
+    @include mq() {
+      width: 50%;
+    }
+  }
+  &__value {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+    .p-mypage-outline__coupon__list {
+      justify-content: flex-end;
+      dd {
+        min-width: 3em;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: right;
+        @include mq() {
+          font-size: 0.875rem;
+        }
+      }
+    }
+    @include mq() {
+      width: 50%;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1;
+    dt {
+      margin-right: 1rem;
+      padding: 0.4rem 0.5rem;
+      background-color: $CoolGray5;
+      font-size: 0.75rem;
+    }
+    dd {
+      font-size: 0.875rem;
+    }
+    @include mq() {
+      dt {
+        margin-right: 0.5rem;
+        font-size: 0.6rem;
+      }
+      dd {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+
+.p-mypage-outline__coupons {
+  padding-right: 4rem;
+}
+
+.p-mypage-outline__footer {
+  padding: 1rem 0;
+  text-align: right;
+  &__logout {
+    padding-left: 1rem;
+    min-width: 8em;
+    text-align: right;
+    @include mq() {
+      display: none;
+    }
+  }
+  @include mq('md', 'min') {
+    display: none;
+  }
+}
+
+.p-mypage-outline--separate {
+  border-bottom: 1px solid $CoolGray4;
+  margin: 0.5rem 0;
+}
+
+.p-mypage__outline__container {
+  margin-bottom: 1rem;
+}
+
+.outline {
+  &__section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &__info {
+    font-size: 14px;
+    color: $CoolGray4;
+    margin: 0 2rem 1rem 2rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
+      margin: 0 1rem 1rem 1rem;
+    }
+  }
+}

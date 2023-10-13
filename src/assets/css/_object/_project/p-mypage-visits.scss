@@ -1,0 +1,154 @@
+.p-mypage-visits {
+  .p-mypage-visits__header {
+    .c-card__inner4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+
+.p-mypage-visits__header {
+  position: relative;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  &__buttons {
+    margin-bottom: 1rem;
+  }
+  &__filter {
+    display: flex;
+    align-items: center;
+    margin-left: -1rem;
+    @include mq() {
+      justify-content: space-between;
+    }
+    > li {
+      padding-left: 1rem;
+      @include mq() {
+        flex-grow: 1;
+        .c-button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.p-mypage-visits__pager {
+}
+
+.p-mypage-visits__menus {
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  > li {
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+  }
+  .menus__item__list {
+    display: flex;
+    align-items: center;
+    .menus__item__image {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      @media only screen and (max-width: 639px) {
+        width: 80px;
+      }
+    }
+    .menus__item__content {
+      padding-left: 1.5rem;
+      .top {
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: flex-start;
+        @media only screen and (max-width: 639px) {
+          display: block;
+        }
+        .label {
+          display: inline-block;
+          background-color: $CoolGray5;
+          color: $Red;
+          padding: 0.1rem 0.5rem;
+          margin-right: 1rem;
+          font-size: 0.7rem;
+        }
+        .item-number {
+          align-self: center;
+          font-size: 0.7rem;
+          color: #73767A;
+          @media only screen and (max-width: 639px) {
+            font-size: 1rem;
+          }
+        }
+      }
+      .title {
+        font-size: 1.15rem;
+        font-weight: bold;
+        @media only screen and (max-width: 639px) {
+          display: none;
+        }
+      }
+      .address {
+        display: flex;
+        align-items: center;
+        .c-icon {
+          margin-right: 0.5rem;
+        }
+        @media only screen and (max-width: 639px) {
+          display: none;
+        }
+      }
+      .control {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          font-size: 0.9rem;
+          display: flex;
+          align-items: center;
+        }
+        .c-icon {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  .menus-item__SP {
+    display: none;
+    @media only screen and (max-width: 639px) {
+      display: block;
+      .title {
+        display: block;
+        font-size: 1.15rem;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+      .address {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        .c-icon {
+          margin-right: 0.5rem;
+        }
+      }
+      .control {
+        margin-top :1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          display: flex;
+          align-items: center;
+          .c-icon {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

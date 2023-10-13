@@ -1,0 +1,115 @@
+
+.p-mypage-point {
+  &__inner {
+    @include mypageInner();
+  }
+  &__lists {
+    line-height: 2rem;
+    padding: 1.5rem;
+    &--allPoints {
+      border-bottom: 1px solid #CDCDCD;
+    }
+  }
+  &__list {
+    &__benepo{
+      display: flex;
+      justify-content: space-between;
+    }
+    &__heading {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    &__normal {
+      text-indent: 1rem;
+    }
+    &__restricted {
+      text-indent: 1rem;
+    }
+    &__child {
+      text-indent: 2rem;
+    }
+    &__unit {
+      font-weight: bold;
+    }
+  }
+  &__detail-btn {
+    text-align: right;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  &__detail {
+    &__heading {
+      padding: 1.5rem;
+      border-bottom: 1px solid $CoolGray4;
+    }
+    &__points {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin: 0 1.5rem;
+      border-bottom: 1px solid $CoolGray4;
+      &:last-child {
+        border:none;
+      }
+      &__date {
+        margin-right: 1.5rem;
+        display: inline-block;
+        min-width: 4.5rem;
+      }
+      &__label {
+        background-color: $CoolGray4;
+        padding: 0.2rem 0.6rem;
+        font-size: 0.75rem;
+        border-radius: 2px;
+        margin-right: 0.5rem;
+        color: #FFF;
+        &--plus {
+          background-color: $Blue;
+        }
+        &--minus {
+          background-color: $RedPink;
+        }
+      }
+      &--value {
+        font-weight: bold;
+        &--plus {
+          color: $Blue;
+        }
+        &--minus {
+          color: $RedPink;
+        }
+      }
+    }
+    &__search {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      gap: 1rem;
+      &__title {
+        font-size: .875rem;
+        color: $CoolGray;
+      }
+      &__period {
+        display: flex;
+        align-items: center;
+        &--space {
+          margin-right: .5rem;
+          margin-left: .5rem;
+          font-size: .875rem;
+        }
+      }
+      &__info {
+        margin-bottom: 1rem;
+        &__item {
+          font-size: .8rem;
+        }
+      }
+    }
+    &__to-menu {
+      padding: 1.5rem;
+      text-align: center;
+      border-top: 1px solid $CoolGray4;
+    }
+  }
+}

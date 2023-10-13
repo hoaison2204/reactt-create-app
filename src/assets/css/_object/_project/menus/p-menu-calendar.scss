@@ -1,0 +1,65 @@
+.p-menu-calendar {
+  &__head {
+    margin-bottom: 1rem;
+    &__list {
+      display: flex;
+      justify-content: center;
+    }
+    &__current-date {
+      font-weight: bold;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  &__body{
+    margin-bottom: 1rem;
+    UL{
+      display: flex;
+      flex-wrap: wrap;
+      LI{
+        width: 14.2857%;
+        font-size: .875rem;
+      }
+    }
+  }
+
+  &__week{
+    margin-bottom: 1rem;
+    LI {
+      text-align: center;
+    }
+  }
+  &__day{
+    font-weight: bold;
+    background-color: $CoolGray6;
+    &--selected{
+      background-color: $LightYellow;
+    }
+    &--pass{
+      color: $CoolGray2;
+      background-color: #FFF;
+    }
+    LI{
+      position: relative;
+      height: 64px;
+      border: 2px solid #FFF;
+      padding: 4px;
+    }
+    &__state {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $LinkText;
+      cursor: pointer;
+      &--endOfSale {
+        color: inherit;
+        cursor: default;
+      }
+    }
+  }
+  &__annotation {
+    font-size: .875rem;
+    color: $CoolGray;
+  }
+}

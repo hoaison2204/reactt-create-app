@@ -1,0 +1,36 @@
+.p-mypage-reviews {
+  @include mypageInner();
+  &__search {
+    position: relative;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid $CoolGray4;
+    &__filter {
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      transform: translateY(-50%);
+      &__sortBtn {
+        position: relative;
+        .c-btn_sm {
+          padding-left: 1.6rem;
+        }
+        .c-icon {
+          position: absolute;
+          top: 50%;
+          left: 4px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+  &__list {
+    > LI {
+      border-bottom: 1px solid #CCC;
+      padding: 1rem;
+      cursor: pointer;
+    }
+  }
+  &__footer {
+    padding: 19px 24px 29px 24px;
+  }
+}

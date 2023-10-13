@@ -1,0 +1,44 @@
+.c-page-header {
+  // @include displayWidth();
+  &--map {
+    display: none;
+  }
+  &__breadcrumb__none {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    list-style: none;
+    font-size: 0.75rem;
+    color: $CoolGray;
+    .c-breadcrumb__item__icon {
+      display: none;
+    }
+    &__item:not(:first-child) {
+      padding-left: 0.5rem;
+      .c-breadcrumb__item__link {
+        display: flex;
+        align-items: flex-start;
+      }
+      .c-breadcrumb__item__icon {
+        display: block;
+        margin-right: 0.4rem;
+      }
+    }
+  }
+  &__title {
+    font-size: 1.5rem;
+    color: #222;
+    font-weight: bold;
+    padding: 1rem 0;
+    @include mq () {
+      font-size: 18px;
+      padding: 13px 0;
+    }
+  }
+  a {
+    color: $CoolBlack;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

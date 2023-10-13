@@ -1,0 +1,35 @@
+/**
+ * ログイン 各種ログインボタン小
+ */
+.crth-a-login-login-btn-small {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: top;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  @include mq() {
+    width: 140px;
+  }
+}
+
+/* PCオンリー */
+.crth-pc {
+  display: block;
+
+  @include mq() {
+    display: none !important;
+  }
+}
+/* スマホオンリー */
+.crth-sp {
+  display: none;
+
+  @include mq() {
+    display: block;
+  }
+}

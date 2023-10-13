@@ -1,0 +1,34 @@
+/*========================================================
+        TOASRT
+=========================================================*/
+.toasted-container {
+    z-index: 100000 !important;
+  }
+.toasted-container.top-right {
+  top: 2rem !important;
+  right: 2rem !important;
+}
+@media screen and (max-width: 768px) {
+  .toasted-container.top-right {
+    top: 0 !important;
+    right: 0 !important;
+  }
+}
+.toasted {
+  padding: 1rem !important;
+}
+.toasted .primary, .toasted.toasted-primary {
+  background-color: #353535cf;
+}
+.toasted.success, .toast-success {
+  background-color : #4caf50cf !important;
+}
+.toasted.error, .toast-error {
+  background-color : #f44336cf !important;
+}
+.toasted.info, .toast-info {
+  background-color : #00CFE8cf !important;
+}
+.toasted.warning, .toast-warning {
+  background-color : #FF9F43cf !important;
+}

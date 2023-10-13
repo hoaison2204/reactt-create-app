@@ -1,0 +1,212 @@
+{
+  "catLrgClassNm": "エンタメ",
+  "menuNo": "10781230",
+  "menuNm": "ブルーマングループ　ワールドツアー　IN JAPAN 2022",
+  "srvicDiv": "B45",
+  "areaLrgClassNm": null,
+  "areaMidClassNm": null,
+  "areaSmlClassNm": null,
+  "facilities": null,
+  "planNm": "【UAT/Z】抽選　複数希望【後日発送】東京公演",
+  "imageUrl": [
+    "https://d3u3cps1l61p9b.cloudfront.net/img/plfe/vd_image_file/0012/1284.png"
+  ],
+  "planLeadCopy": "ブルーマン抽選　複数希望",
+  "planIcons": [
+    { "iconCd": "lottery", "iconNm": "抽選" },
+    { "iconCd": "first_arrival", "iconNm": "先着" }
+  ],
+  "benepoReturnRate": null,
+  "benepoReturnDiv": null,
+  "benepoReturnFixed": null,
+  "usageDiv": "41",
+  "applFlag": "1",
+  "usageTxtGuidance": null,
+  "ostiariesFlag": "0",
+  "receivableFlag": "1",
+  "ticketExclusionFlag": "0",
+  "buppanExclusionFlag": "0",
+  "famiExclusionFlag": "0",
+  "usageLimitCont": null,
+  "planId": "2000000153",
+  "memberBenefits": [
+    {
+      "benefitHeading": "2022年04月09日／EXシアター六本木／13:00／ポンチョシート（全席指定） 11,000円 ⇒",
+      "benefitContent": "9,900円",
+      "price": 8800,
+      "applWinDispDiv": "1",
+      "memberBenefitsId": "105715746",
+      "benefitDiv": "1",
+      "stockKey": "230354",
+      "ticketHeading": {
+        "performanceDay": "2022/05/01",
+        "venue": "東京rドーム",
+        "prefecture": "東京都",
+        "openingDoorTm": "1700",
+        "performanceSttTm": "1800",
+        "seatType": "S1",
+        "saleDivNm": null
+      },
+      "pyrlDedPayeeDiv": null,
+      "generalPrice": 11000,
+      "alliancePrice": 9900,
+      "pyrlDedDiscount": null
+    },
+    {
+      "benefitHeading": "2022年04月09日／EXシアター六本木／13:00／S席（全席指定） 9,800円 ⇒",
+      "benefitContent": "8,820円",
+      "price": 7840,
+      "applWinDispDiv": "1",
+      "memberBenefitsId": "105715747",
+      "benefitDiv": "1",
+      "stockKey": "230355",
+      "ticketHeading": {
+        "performanceDay": "2022/05/01",
+        "venue": "東京rドーム",
+        "prefecture": "東京都",
+        "openingDoorTm": "1700",
+        "performanceSttTm": "1800",
+        "seatType": "A",
+        "saleDivNm": null
+      },
+      "pyrlDedPayeeDiv": null,
+      "generalPrice": 9800,
+      "alliancePrice": 8820,
+      "pyrlDedDiscount": null
+    },
+    {
+      "benefitHeading": "2022年04月09日／EXシアター六本木／13:00／ステージビューシート（全席指定） 8,800円 ⇒",
+      "benefitContent": "7,920円",
+      "price": 7040,
+      "applWinDispDiv": "1",
+      "memberBenefitsId": "105715748",
+      "benefitDiv": "1",
+      "stockKey": "230356",
+      "ticketHeading": {
+        "performanceDay": "2022/05/01",
+        "venue": "東京rドーム",
+        "prefecture": "東京都",
+        "openingDoorTm": "1700",
+        "performanceSttTm": "1800",
+        "seatType": "B",
+        "saleDivNm": null
+      },
+      "pyrlDedPayeeDiv": null,
+      "generalPrice": 8800,
+      "alliancePrice": 7920,
+      "pyrlDedDiscount": null
+    }
+  ],
+  "benefitImportantPoints": [
+    {
+      "content": " \n【ベネポプレゼントについて】\n●ベネポは公演月の末日までにプ\nレゼントいたしますので、ベネフ\nィット・ステーション会員専用サ\nイト内マイページの【ベネポの確\n認】からご確認ください。\n●ご契約内容により、法人（団\n体）に配布されている1つの会員\nIDを皆様でご利用されている場合\nは、ベネポプレゼントの対象外と\nなります。また、ベネポのプレゼ\nントにあたっては、ベネポのご利\n用ポイント分を除いた自己負担額\nに対して適用されます。ベネポで\n全額お支払いの場合は、ベネポプ\nレゼント対象外となりますのであ\nらかじめご了承ください。\n●ベネポとカフェテリアプランポ\nイントとは異なります。"
+    },
+    {
+      "content": "未就学児入場不可。\nこども料金は2022年度に小中学生の\n方が対象。"
+    }
+  ],
+  "usageDetailLife": {
+    "couponLimits": {
+      "headCntInputFieldFlag": null,
+      "minUseHeadCnt": null,
+      "maxUseHeadCnt": null
+    },
+    "preRsvNecDiv": null,
+    "pyrlDedDiv": null,
+    "applTels": [
+      {
+        "applTelNm": "電話1",
+        "applTel": "11-1111-1111"
+      },
+      {
+        "applTelNm": "電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2電話2",
+        "applTel": "22-2222-2222"
+      }
+    ],
+    "applFax": null,
+    "applEmailAddr": null,
+    "applWebUrl": null,
+    "affiliateTypeId": null,
+    "lotteryId": null,
+    "lotteryInfo": {
+      "lotteryCode": "52d3855619410f518ca13bb961e2e2a0",
+      "lotteryNm": "【UAT/Z】抽選　複数希望【後日発送】東京公演",
+      "operationType": null,
+      "lotteryType": 3,
+      "repeatType": null,
+      "lotteryStartDate": "2022/03/01 00:00:00",
+      "lotteryEndDate": "2022/03/31 00:00:00",
+      "lotteryDate": "2022/04/09",
+      "winLotteryLimType": null,
+      "itemFlag": null,
+      "winLotteryLimDays": null,
+      "eventScope": "1"
+    },
+    "convenienceStores": null
+  },
+  "payeeDiv": "20",
+  "payMthdList": [
+    { "payMthdDiv": "10", "useFlag": "0" },
+    { "payMthdDiv": "20", "useFlag": "1" },
+    { "payMthdDiv": "30", "useFlag": "1" },
+    { "payMthdDiv": "40", "useFlag": "0" },
+    { "payMthdDiv": "50", "useFlag": "1" },
+    { "payMthdDiv": "55", "useFlag": "0" },
+    { "payMthdDiv": "60", "useFlag": "0" },
+    { "payMthdDiv": "61", "useFlag": "0" },
+    { "payMthdDiv": "70", "useFlag": "0" }
+  ],
+  "shoppingGuides": [
+    { "shoppingGuideNm": "送料", "shoppingGuideValue": "320円" },
+    {
+      "shoppingGuideNm": "商品等の引渡時期・サービスの提供時期",
+      "shoppingGuideValue": "＜ショッピングガイド　商品サービス引渡提供時期（テキスト）＞\nテスト"
+    },
+    {
+      "shoppingGuideNm": "お支払い方法",
+      "shoppingGuideValue": "ベネフィット・ワンにお支払いください。お申込みの前に＜お支払方法＞をご覧ください。\n【クレジット決済】"
+    },
+    {
+      "shoppingGuideNm": "返品・交換・キャンセル等",
+      "shoppingGuideValue": "会員様のご都合によるお申込み後のキャンセル・変更はお受けできません。\n＜ショッピングガイド　返品＞"
+    },
+    {
+      "shoppingGuideNm": "ご利用方法",
+      "shoppingGuideValue": "ベネフィット・ステーションに申込。"
+    },
+    { "shoppingGuideNm": "お申込み時の留意点", "shoppingGuideValue": null },
+    {
+      "shoppingGuideNm": "会員特典",
+      "shoppingGuideValue": "会員特典欄をご確認ください。"
+    },
+    { "shoppingGuideNm": "お申込み期間", "shoppingGuideValue": null },
+    { "shoppingGuideNm": "有効期限", "shoppingGuideValue": null },
+    {
+      "shoppingGuideNm": "特典・送料以外の費用",
+      "shoppingGuideValue": "＜ショッピングガイド　特典・送料以外の費用＞\nテスト"
+    }
+  ],
+  "planInfomation": [
+    {
+      "title": "＜会員向けインフォメーション　タイトル＞新型コロナウイルス感染症防止対策について",
+      "content": " \n■今回のワールドツアーのパフォーマンスは、新型コロナウイルス\nの\n感染予防を考慮した演出となります。\n　各会場におきましても、お客様が安全にショーを楽しんでいただ\nけ\nる様に十分な予防対策を講じます。\n　詳しくは、公式ホームページのご案内をご覧ください。",
+      "infoLev": "3",
+      "linkUrl": "https://www.blueman.jp/ ",
+      "linkNm": "公式ホームページはこちら"
+    }
+  ],
+  "canSubsidy": true,
+  "availableStockList": [
+    { "stockKey": "230354", "availableStockQty": 99999 },
+    { "stockKey": "230355", "availableStockQty": 99999 },
+    { "stockKey": "230356", "availableStockQty": 99999 }
+  ],
+  "orderCheck": null,
+  "ticketInfo": {
+    "performanceNm": "ブルーマングループ　ワールドツアー　IN JAPAN 2022",
+    "performer": "ブルーマン",
+    "perfBenefitContent": null,
+    "genres": null
+  },
+  "benepoReturnInfo": null
+}

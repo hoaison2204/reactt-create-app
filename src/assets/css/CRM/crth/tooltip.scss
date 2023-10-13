@@ -1,0 +1,74 @@
+/**
+ * ログイン ツールチップ
+ */
+.crth-a-login-tooltip {
+  background-color: #fff;
+  bottom: 125%;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+  font-size: 12px;
+  left: 100%;
+  margin-left: -135px;
+  padding: 0 0 10px;
+  position: absolute;
+  text-align: center;
+  width: 240px;
+  z-index: 1;
+
+  &__header {
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    position: relative;
+
+    &__close {
+      cursor: pointer;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 30px;
+
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  p {
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+  }
+
+  &::before,
+  &::after {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    left: 50%;
+    position: absolute;
+    pointer-events: none;
+    top: 100%;
+    width: 0;
+  }
+
+  &::before {
+    border-color: rgba(221, 221, 221, 0);
+    border-top-color: #ddd;
+    border-width: 11px;
+    margin-left: -11px;
+  }
+
+  &::after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+}

@@ -1,0 +1,136 @@
+.applicant-infor {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin: 0.5rem;
+      font-size: 18px;
+      font-weight: 700;
+      color: #222222;
+      line-height: 27px;
+    }
+    .paddingTop-20 {
+      padding-top: 1rem;
+    }
+    .main-infor {
+      padding-top: 1rem;
+      border: 1px solid #f2f2f2;
+      .infor-content {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+  
+        h2 {
+          padding-right: 0.5rem;
+          padding-bottom: 1rem;
+          font-size: 18px;
+          font-weight: 700;
+          color: #222222;
+          @media (max-width: 768px) {
+            font-size: 16px;
+          }
+        }
+  
+        p {
+          margin-right: 1rem;
+          font-size: 14px;
+          font-weight: 700;
+          color: #63666a;
+          white-space: nowrap;
+  
+          @media (max-width: 768px) {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            
+          }
+        }
+        span {
+          font-size: 16px;
+          color: #222222;
+          font-weight: 500;
+        }
+        .infor-address {
+          display: flex;
+          flex-direction: row;
+          @media (max-width:768px) {
+            display: flex;
+            flex-direction: column;
+          }
+          .address {
+            margin-right: 2rem;
+            display: flex;
+            flex-direction: row;
+            @media (max-width:768px) {
+              display: flex;
+              flex-direction: column;
+            }
+            .address-item {
+              display: flex;
+              flex-direction: column;
+            }
+            .width-40 {
+              width: 10rem;
+            }
+          }
+          .infor-company{
+            display: flex;
+            flex-direction: column;
+            .item-infor{
+              display: flex;
+              flex-direction: row;
+              @media (max-width:768px) {
+                display: flex;
+                flex-direction: column;
+              }
+            }
+  
+          }
+        }
+        .infor-contact{
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+          margin-top: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          @media (max-width:768px) {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 1rem;
+          }
+          .item-contact{
+            display: flex;
+            flex-direction: row;
+            @media (max-width:768px) {
+              display: flex;
+              flex-direction: column;
+            }
+            p{
+              width: 25%;
+              @media (max-width:768px) {
+                width: 100%;
+              }
+            }
+            span{
+              width: 75%;
+              @media (max-width:768px) {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .companyNm {
+    width: 24rem;
+    @media (max-width:768px) {
+      width: 100%;
+    };
+    display:inline;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    word-break: break-all; 
+    word-wrap: break-word;
+  }

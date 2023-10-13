@@ -1,0 +1,15 @@
+/**
+ * ログイン ガイド
+ */
+.crth-m-login-guide {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* PCオンリー */
+.crth-pc {
+  @include mq() {
+    display: none !important;
+  }
+}

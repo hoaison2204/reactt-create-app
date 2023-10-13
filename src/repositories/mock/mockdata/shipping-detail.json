@@ -1,0 +1,34 @@
+{
+    "shippingDetail": {
+         "acptDlvry": {
+              "acptDlvryKey": 17,
+              "acptPrticKey": 5304,
+              "acptPrticNo": 1,
+              "dlvryZipCd": "100-0004",
+              "dlvryPrefectureCd": null,
+              "dlvryPrefectureCdNm": null,
+              "dlvryAddr1": "東京都千代田区大手町",
+              "dlvryAddr2": "",
+              "dlvryAddrNm": "0",
+              "dlvryTel": "08035826187",
+              "email": null,
+              "cnt": 1
+         },
+         "arnge": {
+              "arngeKey": 17,
+              "orderTo": null,
+              "dlvryDatetime": null,
+              "dlvrySlipNo": null,
+              "arngeSts": "1",
+              "arngeStsNm": "手配待ち",
+              "arngeStsCancelRsn": null,
+              "shipDatetime": null,
+              "shipCancelHndlDate": null,
+              "ptDlvryDatetime": null,
+              "sendItemTypeDiv": "3",
+              "sendItemTypeDivNm": "利用券",
+              "sendWay": null,
+              "sendWayNm": null
+         }
+    }
+}

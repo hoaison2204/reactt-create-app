@@ -1,0 +1,11 @@
+/**
+ * ログイン 顧客名
+ */
+.crth-a-login-customer {
+  font-size: 18px;
+  font-weight: bold;
+
+  @include mq() {
+    font-size: 16px;
+  }
+}

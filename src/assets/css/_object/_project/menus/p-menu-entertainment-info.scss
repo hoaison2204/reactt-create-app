@@ -1,0 +1,25 @@
+/**
+ * プラン詳細興行 興行情報
+ */
+.p-menu-entertainment-info {
+  position: relative;
+  &__table {
+    border-collapse: collapse;
+    border: solid 1px $CoolGray3;
+    &__row {
+      border: solid 1px $CoolGray3;
+      &__label {
+        background-color: $CoolGray5;
+        white-space: nowrap;
+        text-align: left;
+        padding: 1rem;
+      }
+      &__name {
+        text-align: left;
+        padding: 1rem;
+        overflow-wrap: normal;
+        width: 100%;
+      }
+    }
+  }
+}

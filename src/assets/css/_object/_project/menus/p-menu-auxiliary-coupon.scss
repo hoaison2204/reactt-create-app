@@ -1,0 +1,62 @@
+.p-menu-auxiliary-coupon {
+  &__list {
+    margin-bottom: 2rem;
+    LI {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 4px;
+      background-color: $CoolGray6;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &__label {
+      max-width: 8rem;
+      text-align: center;
+      font-weight: bold;
+      border-right: 1px solid $CoolGray4;
+      padding-right: 1rem;
+      margin-right: 1rem;
+      .c-icon {
+        fill: $Red;
+        width: 3rem;
+        height: 3rem;
+      }
+      @include mq() {
+        max-width: 6.4rem;
+        font-size: .875rem;
+      }
+    }
+    &__body {
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: center;
+      width: calc(100% - 170px);
+      @include mq() {
+        width: 100%;
+      }
+    }
+    &__text {
+      font-size: .75rem;
+      font-weight: normal;
+      margin-bottom: .5rem;
+      &--bold {
+        font-weight: bold;
+      }
+    }
+    &__benefits {
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+      &--red {
+        color: $Red;
+        font-size: 1.2rem;
+      }
+      @include mq() {
+        width: 100%;
+        font-size: .75rem;
+      }
+    }
+  }
+}

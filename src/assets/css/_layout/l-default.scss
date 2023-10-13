@@ -1,0 +1,95 @@
+.l-default {
+  min-width: 320px;
+  &.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.content {
+    width: 100%;
+  }
+
+  &__container {
+    overflow-x: hidden;
+
+    &--maintenance {
+      background-color: #fff;
+      .l-main {
+        margin-top: 10rem;
+        @include mq() {
+          margin-top: 6rem;
+        }
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  &__header {
+    &--map {
+      @include mq() {
+        display: none;
+      }
+      .l-header__top__inner {
+        max-width: 100% !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+      }
+    }
+    &--bottom {
+      &__inner {
+        @include displayWidth();
+      }
+    }
+    &--bottom-border {
+      border-bottom: 1px solid $CoolGray4;
+    }
+  }
+
+  &__footer {
+    &--map {
+      display: none;
+    }
+  }
+
+  // 将来的に削除する
+  .button--green,
+  .button--grey {
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: Arial;
+    font-size: 0.9em;
+    font-weight: normal;
+    background-color: white;
+    cursor: pointer;
+    width: 12em;
+    text-align: center;
+  }
+
+  .button--green {
+    border: 1px solid #3b8070;
+    color: #3b8070;
+  }
+
+  .button--green:hover {
+    color: #fff;
+    background-color: #3b8070;
+  }
+
+  .button--grey {
+    border: 1px solid #35495e;
+    color: #35495e;
+  }
+
+  .button--grey:hover {
+    color: #fff;
+    background-color: #35495e;
+  }
+}

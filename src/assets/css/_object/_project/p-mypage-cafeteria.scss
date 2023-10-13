@@ -1,0 +1,52 @@
+
+.p-mypage-cafeteria {
+  &__list {
+    padding: 1rem 0;
+    border-bottom: 1px solid #CDCDCD;
+  }
+  .list {
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    &__point {
+      font-weight: bold;
+      font-size: 1.5rem;
+      .unit {
+        font-size: 1rem;
+      }
+    }
+    &__period {
+      margin-bottom: 1rem;
+      .period__label {
+        background-color: #CDCDCD;
+        padding: .2rem .6rem;
+        font-size: .75rem;
+        border-radius: 2px;
+        margin-right: .5rem;
+      }
+    }
+  }
+  &__infomation {
+    P {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      background-color: #F2F2F2;
+      text-align: center;
+    }
+  }
+  &__management {
+    background-color: #CDCDCD;
+    margin-bottom: 1rem;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFF;
+  }
+  &__button {
+    text-align: center;
+  }
+}

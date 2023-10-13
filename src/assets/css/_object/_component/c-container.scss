@@ -1,0 +1,7 @@
+.c-container {
+  @include container;
+}
+
+.c-container__inner {
+  padding: 1.5rem;
+}

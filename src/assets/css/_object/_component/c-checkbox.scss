@@ -1,0 +1,87 @@
+.c-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  line-height: 1;
+}
+
+.c-checkbox__inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1.2;
+  input {
+    // display: none;
+    &:focus {
+      & + .c-checkbox__box {
+        border: 2px solid #004aa1;
+      }
+    }
+    &:checked {
+      & + .c-checkbox__box {
+        opacity: 1;
+        &::before {
+          opacity: 1;
+        }
+        & + .c-checkbox__label {
+          opacity: 1;
+        }
+      }
+    }
+    &:disabled {
+      & + .c-checkbox__box {
+        background-color: $CoolGray4;
+        border-color: $CoolGray4;
+        cursor: default;
+        & + .c-checkbox__label {
+          color: $CoolGray1;
+          cursor: default;
+        }
+      }
+    }
+  }
+}
+
+.c-checkbox__box {
+  position: relative;
+  background-color: #fff;
+  flex: 0 0 auto;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: solid 1px $CoolGray2;
+  border-radius: 0.125rem;
+  overflow: hidden;
+  cursor: pointer;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    color: $CoolBlack;
+    opacity: 0;
+    @include mq() {
+      font-size: 1.125rem;
+    }
+  }
+  &::before {
+    content: "\f00c";
+    font-weight: bold;
+  }
+  @include mq() {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.c-checkbox__label {
+  flex: 1 1 auto;
+  opacity: 1;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+}

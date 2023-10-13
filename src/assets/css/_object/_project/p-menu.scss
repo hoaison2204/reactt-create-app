@@ -1,0 +1,530 @@
+.p-menu {
+  &--displayPc {
+    @include mq() {
+      display: none;
+    }
+  }
+  &--displaySp {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+  }
+  &__paginator--none {
+    padding: 0.5rem 0 !important;
+    .c-paginator__wrap {
+      display: none;
+    }
+  }
+  .c-card {
+    margin-bottom: 0;
+  }
+
+  // =========== input ここから ==============
+
+  &__input {
+    padding-bottom: 1rem;
+    .c-input-box {
+      input {
+        background: #fff;
+        border: $CoolGray4 1px solid;
+        padding: 1rem 0.75rem;
+      }
+    }
+    .c-input__button {
+      span {
+        @include mq() {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // =========== options PC版のみ ここから ==============
+  &__side-menu {
+    display: block;
+    @include mq() {
+      display: none;
+    }
+  }
+
+  // =========== options SP版のみ ここから ==============
+
+  &__options {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+    &__label {
+    }
+    &__modal {
+      margin: 0.5rem 0;
+      &__button {
+        line-height: 1.25;
+        background: #fff;
+        border: 1px solid #cacccf;
+        border-radius: 4px;
+        width: 100%;
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          right: 2rem;
+          top: 50%;
+          width: 10px;
+          height: 10px;
+          border-top: 2px solid $CoolGray;
+          border-left: 2px solid $CoolGray;
+          transform: translateY(-50%) rotate(135deg);
+          font-size: 20px;
+          pointer-events: none;
+        }
+        button {
+          display: block;
+          width: 100%;
+          padding: 0.75rem 1rem;
+          background-color: #fff;
+          text-align: left;
+        }
+      }
+      &__body {
+        .c-modal__inner {
+          .c-modal__head {
+            padding: 1.5rem 1rem;
+            .c-modal__head__title {
+              text-align: left;
+            }
+          }
+        }
+        .c-modal__content {
+          padding: 0;
+        }
+      }
+      &__lists {
+        li {
+          border-top: 1px solid #CDCDCD;
+          .list__item__parent {
+            padding: 1rem;
+          }
+          .list__item__accordion__child {
+            margin-left: 1rem;
+            padding: 1rem;
+            border-bottom: 1px solid #CDCDCD;
+          }
+        }
+        .list__item__accordion {
+          .c-accordion__button {
+            padding: 1rem;
+            font-size: 1rem;
+            width: 100%;
+            text-align: left;
+            border-bottom: 1px solid #CDCDCD;
+          }
+        }
+      }
+    }
+    &__submit {
+      margin-top: 60px;
+      text-align: center;
+      &__button {
+        background-color: $CoolBlack;
+        padding: 1rem;
+        width: 200px;
+        border-radius: 8px;
+      }
+      &__label {
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  // =========== search ここから ==============
+
+  &__search {
+    margin-bottom: 0.5rem !important;
+    &__wrapper {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+  &__search__paginator {
+    position: relative;
+    &--top {
+      .c-paginator__wrap {
+        @include mq() {
+          display: none;
+          margin: 0;
+        }
+      }
+      .c-paginator__label {
+        @include mq() {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+  &__search__page-total {
+    font-size: 1.1rem;
+    font-weight: bold;
+    &-zero {
+      font-size: 14px;
+      color: #63666a;
+      margin-left: 0.2rem;
+    }
+  }
+
+  &__list-none {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0.625rem !important;
+    position: relative;
+    p {
+      width: 100%;
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: center;
+      word-wrap: break-word;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0 1.5rem;
+      @include mq() {
+        font-size: 1rem;
+      }
+    }
+  }
+  &__list__br {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+  }
+
+  // =========== list ここから ==============
+
+  &__list__content {
+  }
+  &__list__item {
+    position: relative;
+    margin-bottom: 0.625rem !important;
+    a {
+      color: $CoolBlack;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  &__list__item__inner {
+    padding: 1.5rem;
+    border-bottom: 1px solid $CoolGray3;
+  }
+  &__list__favorite {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+  &__list__category {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    .p-menu__list__menuCategory {
+      background-color: $CoolGray5;
+      color: $CoolBlack;
+      padding: 0.1rem 0.5rem;
+      margin-right: 1rem;
+    }
+    .p-menu__list__menuNum {
+      color: $CoolGray;
+      @include mq() {
+        display: block;
+      }
+    }
+  }
+  &__list__name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    @include mq() {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+  }
+  &__list__menu {
+    display: flex;
+    @include mq() {
+      display: block;
+      margin-bottom: 0;
+    }
+    &--displaySp {
+      @include mq() {
+        display: flex;
+        border-bottom: 1px solid $CoolGray3;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+  &__list__image {
+    width: 240px;
+    height: 180px;
+    margin-right: 1rem;
+    @include mq() {
+      display: flex;
+      width: 96px;
+      height: 96px;
+      margin-right: 0.5rem;
+    }
+    img {
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+  &__list__detail {
+    width: calc(100% - 256px);
+
+    @include mq() {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+  &__list__slogan-title {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    @include mq() {
+      letter-spacing: 0.75px;
+    }
+  }
+  &__list__summary-title {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  &__list__info {
+    .p-menu__list__info__head {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      font-size: 0.875rem;
+      @include mq() {
+        display: block;
+      }
+    }
+    .p-menu__list__info__favorites {
+      display: flex;
+      align-items: center;
+      width: 200px;
+      span {
+        margin: 0 0.5rem;
+      }
+      @include mq() {
+        display: block;
+      }
+    }
+    .p-menu__list__info__tags {
+      width: calc(100% - 200px);
+      @include mq() {
+        display: block;
+        width: 100%;
+      }
+      ul {
+        text-align: right;
+        @include mq() {
+          text-align: left;
+        }
+      }
+      li {
+        display: inline-block;
+        margin: 0.25rem;
+        padding: 0 0.2rem;
+        font-size: 0.75rem;
+        background-color: $CoolGray6;
+      }
+    }
+    .p-menu__list__info__address {
+      width: calc(100% - 100px);
+      @include mq() {
+        margin-bottom: 0.5rem;
+        width: 100%;
+      }
+      span {
+        margin: 0 0.5rem;
+      }
+    }
+    .p-menu__list__info__map {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      @include mq() {
+        text-align: left;
+        width: auto;
+      }
+      a {
+        border: 1px solid $CoolGray;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+      }
+    }
+    .p-menu__list__info__access {
+      font-size: 0.875rem;
+    }
+  }
+  .p-menu__list__item__coupon {
+    ul {
+    }
+    li {
+      border-bottom: 1px solid $CoolGray3;
+      padding-bottom: 1.5rem;
+      +li {
+        padding-top: 1.5rem;
+      }
+    }
+    .p-menu__list__item__coupon__head {
+      display: flex;
+      justify-content: center;
+      @include mq() {
+        display: block;
+      }
+      .coupon_head__badge {
+        width: calc(100% - 250px);
+        @include mq() {
+          width: 100%;
+        }
+        span {
+          display: inline-block;
+          margin: 0.25rem;
+          padding: 0 0.2rem;
+          font-size: 0.75rem;
+          background-color: $CoolGray6;
+        }
+        .kyutoku {
+          background-color: $Kyuutoku;
+          color: #fff;
+        }
+      }
+    }
+    .p-menu__list__item__coupon__period {
+      text-align: right;
+      width: 250px;
+      font-size: 0.875rem;
+      @include mq() {
+        padding-top: 1.5rem;
+        width: 100%;
+      }
+    }
+    .p-menu__list__item__coupon__title {
+      font-size: 1.12rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    .p-menu__list__item__coupon__body {
+      p {
+        .price-before {
+          font-weight: bold;
+        }
+        .price-after {
+          font-weight: bold;
+          color: $Red;
+        }
+      }
+    }
+  }
+  .p-menu__list__item__other {
+    text-align: right;
+    font-weight: bold;
+    @include mq() {
+      text-align: center;
+      display: block;
+      margin-top: 1.5rem;
+    }
+    a {
+      display: inline-block;
+      background-color: $CoolBlack;
+      color: #fff;
+      font-weight: bold;
+      width: 240px;
+      text-align: center;
+      padding: 14px;
+      border-radius: 4px;
+      margin-top: 1.5rem;
+      @include mq() {
+        margin-top: 1rem;
+      }
+    }
+  }
+  &__list__accordion {
+    .p-menu__list__accordion__button {
+      background-color: #FFFFFF;
+      width: 100%;
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      .p-menu__list__accordion__button__name {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .p-menu__list__accordion__button__icon {
+        margin: 0 0.5rem;
+      }
+    }
+    .p-menu__list__accordion__body {
+    }
+  }
+
+  // =========== 検索結果をもっと見る ここから ==============
+  &__more {
+    text-align: center;
+    margin-bottom: 0.5rem !important;
+    &__text {
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-block;
+      &:hover {
+        color: $Red;
+      }
+    }
+  }
+
+  // =========== footer ここから ==============
+
+  &__footer {
+    @include mq() {
+      display: block;
+    }
+    .c-paginator {
+      margin-bottom: 2rem;
+      @include mq() {
+        margin-bottom: 2rem;
+      }
+    }
+    .c-paginator__wrap {
+      padding-top: 0.3rem;
+    }
+    .c-paginator__wrap__label {
+      @include mq() {
+        position: relative;
+        transform: translateY(0%);
+        padding-bottom: 1rem;
+      }
+    }
+  }
+  &__footer__attention {
+    h3 {
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.75rem;
+      line-height: 1.5;
+      padding-left: 1em;
+      text-indent: -1em;
+    }
+  }
+}

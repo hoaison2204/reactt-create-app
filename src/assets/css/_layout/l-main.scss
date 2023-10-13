@@ -1,0 +1,48 @@
+.l-main {
+  @include displayWidth();
+  width: 100%;
+  margin-top: 2rem;
+  @include mq() {
+    margin-top: 1.5rem;
+  }
+  &__content{
+    margin-bottom: 1rem;
+  }
+
+  &--has-side {
+    display: flex;
+    justify-content: space-between;
+    .l-main__content {
+      width: $contentWidthS;
+      order: 2;
+    }
+    .l-side {
+      order: 1;
+    }
+    @include mq() {
+      flex-wrap: wrap;
+      .l-main__content {
+        order: 1;
+        width: 100%;
+      }
+      .l-side {
+        width: 100%;
+        order: 2;
+        margin: 1.5rem 0 1rem 0;
+      }
+    }
+  }
+
+  // SPでサイドバー非表示
+  &--type2 {
+    .l-side {
+      @include mq() {
+        display: none;
+      }
+    }
+  }
+
+  &--type3 {
+    margin-top: 1rem;
+  }
+}

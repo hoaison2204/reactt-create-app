@@ -1,0 +1,140 @@
+
+.p-mypage-order-cancel {
+  .order-cancel__detail{
+    border-top: 1px solid #CDCDCD;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    &__complete {
+      padding: 6rem;
+      background-color: #EEE;
+      P {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .order-cancel__info{
+    margin-bottom: 2rem;
+    H2 {
+      margin-bottom: 1rem;
+    }
+    &__contents {
+      .contents__headding {
+        font-size: 1.1rem;
+        background-color: #F2F2F2;
+        padding: .5rem 1.5rem;
+      }
+      .contents__inner {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        .contents__body {
+
+          &__table {
+            width: 100%;
+            border-collapse:  collapse;
+            TH, TD {
+              border: 1px solid #cdcdcd;
+              padding: 1rem;
+            }
+            TH {
+              width: 33%;
+              text-align: left;
+              font-weight: normal;
+              background-color: #F2F2F2;
+            }
+            &--payment-method {
+              TH, TD {
+                border: none;
+              }
+              TH {
+                text-align: center;
+              }
+              TD {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                SPAN {
+                  margin-right: 1rem;
+                }
+              }
+            }
+          }
+          
+          .cancel__info {
+            font-size: .875rem;
+            color: $CoolGray;
+            margin-bottom: 1rem;
+            &--headding {
+              font-weight: bold;
+              color: #000;
+            }
+            &--warning {
+              color: $Red;
+              white-space: normal;
+              line-height: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .order-cancel__payment {
+    margin-bottom: 3rem;
+    H2 {
+      margin-bottom: 1rem;
+    }
+    &__inner {
+      border: 1px solid #CDCDCD;
+      padding: 1.5rem 4rem;
+      font-size: .75rem;
+      margin-bottom: .5rem;
+      .payment__headding {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      UL {
+        margin-bottom: 1rem;
+        &.payment__total {
+          border-top: 1px solid #000;
+          padding-top: 1rem;
+        }
+        LI {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          line-height: 1.5rem;
+          &:not(.payment__headding) {
+            text-indent: 1rem;
+          }
+          .payment__discount {
+            font-size: 1rem;
+            font-weight: bold;
+            &--red {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+    .payment__cancel-fee {
+      font-size: 1.25rem;
+      text-align: center;
+      font-weight: bold;
+      padding: .5rem;
+      &--warning {
+        color: $Red;
+      }
+    }
+  }
+  .order-cancel__footer {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .order-cancel__footerNavi {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #CDCDCD;
+  }
+}

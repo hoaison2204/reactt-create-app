@@ -1,0 +1,14 @@
+
+{
+    "payeeNo": "442",
+    "payeeTelNum": "99-9999-9999",
+    "emailTo": "payment@newotani.co.jp",
+    "payeeEmailCc": "paymentcc@newotani.co.jp",
+    "payeeBankCd": "5",
+    "payeeBranchCd": "15",
+    "accountType": "普通",
+    "accountNo": "4282103",
+    "accountNmKana": "ｶ)ﾆﾕ-ｵ-ﾀﾆ",
+    "bankNm": "イオン銀行",
+    "bankBranchNm": "パール支店"
+  }

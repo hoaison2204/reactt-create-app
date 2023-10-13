@@ -1,0 +1,40 @@
+.p-menus-no-menu {
+  &__tabs {
+    margin-top: 2rem;
+    &.c-tabs {
+      border-bottom: 1px solid $CoolGray3;
+      .c-tab {
+        border-bottom: none;
+      }
+    }
+  }
+  &__lists {
+    padding: 1rem 2rem;
+    @include mq() {
+      padding: 1rem;
+      padding-bottom: unset;
+    }
+  }
+  &__list {
+    padding-bottom: 1.5rem;
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid $CoolGray4;
+    }
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-bottom: 0.875rem;
+      @include mq() {
+        display: block;
+      }
+      &--price {
+        font-size: 1.125rem;
+        @include mq() {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

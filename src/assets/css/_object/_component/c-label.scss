@@ -1,0 +1,44 @@
+.c-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .25rem .5rem;
+  background-color: $CoolGray6;
+  color: $Red;
+  font-size: .625rem;
+  line-height: 1.2;
+  border-radius: .125rem;
+  overflow: hidden;
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .c-icon {
+    margin-right: .25rem;
+    width: 1em;
+    height: 1em;
+  }
+
+  &--purchased {
+    background-color: #fff;
+    border: 1px solid $Blue;
+    color: $CoolGray;
+  }
+
+  &--sameDayPayment {
+    background-color: #fff;
+    border: 1px solid $Orange;
+    color: $CoolGray;
+  }
+
+  &--kyuutoku {
+    background-color: $Kyuutoku;
+    border: 1px solid $Kyuutoku;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  &--common {
+    background-color: $CoolGray5;
+    color: $CoolBlack;
+  }
+}

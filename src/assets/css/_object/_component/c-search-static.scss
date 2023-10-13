@@ -1,0 +1,27 @@
+.c-search-static {
+  position: relative;
+
+  &__inner {
+    padding-bottom: 0.25rem;
+  }
+
+  &__static {
+    position: static;
+    width: 100%;
+    background-color: #f4f5f6;
+    border-radius: 8px;
+    @include mq("lg", "min") {
+      display: block;
+    }
+    @include mq("lg") {
+      display: block;
+    }
+    @include mq() {
+      display: none;
+    }
+  }
+
+  .c-input__button {
+    width: 30%;
+  }
+}

@@ -1,0 +1,703 @@
+
+{
+  "menuRcEndDt": "2022/03/31 23:59:59",
+  "menuNo": "10170243",
+  "menuImages": [
+    {
+      "imageExplanation": null,
+      "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/676023_00147.jpg"
+    }
+  ],
+  "leadCopy": "みなとみらいの中心に位置し、緑あふれる公園と横浜港を見渡す横浜ベイホテル東急。みなとみらい駅から徒歩1分という都市ホテルの機能と利便性に加え、上質なやすらぎの空間、洗練された味覚、そして心を尽くしたおもてなしで皆様をお迎えいたします。",
+  "areaInfomation": {
+    "areaMidClassNm": "広島県",
+    "areaDtlClassNm": "迎え",
+    "areaMidClassCd": "hiroshima",
+    "areaDtlClassCd": "",
+    "areaLrgClassNm": "山陽・山陰",
+    "areaSmlClassNm": "広島",
+    "areatLrgClassCd": "region-10",
+    "areaSmlClassCd": "hiroshima",
+    "latitude": 33.283183,
+    "longitude": 131.475551
+  },
+  "menuRcSttDt": "2002/03/31 00:00:00",
+  "shopAreaDiv": "0",
+  "catchCopy": "最上のくつろぎを湛えた、「アーバンオアシス」と呼ばれるホテル",
+  "categoryInfomation": {
+    "catLrgClassCd": "001",
+    "catMidClassNm": "シティホテル",
+    "catLrgClassNm": "宿泊施設",
+    "catSmlClassCd": "000",
+    "catMidClassCd": "005",
+    "catSmlClassNm": "シティホテル"
+  },
+  "menuNmKana": "ヨコハマベイホテルトウキュウ",
+  "menuNm": "横浜ベイホテル東急",
+  "extSystemCd": null,
+  "srvicDiv": "A10",
+  "storeList": {
+    "pages": 1.0,
+    "facilities": [
+      {
+        "zipCode": "2208543",
+        "note": null,
+        "access": null,
+        "regularlyCloseds": null,
+        "areaMidClassNm": null,
+        "lastUpdateDate": "2021/03/31 17:25:16",
+        "latitude": 35.456879,
+        "facilityAddress": "横浜市西区みなとみらい２‐３‐７ ",
+        "facilityInqForm": null,
+        "facilityFax": null,
+        "longitude": 139.635206,
+        "areaLrgClassCd": null,
+        "areaSmlClassCd": null,
+        "facilityEmail": null,
+        "facilityUrl": null,
+        "areaMidClassCd": null,
+        "equipServices": null,
+        "facilityTelNo": "045-682-2222",
+        "snsOfclAccts": null,
+        "facilityNo": "8584",
+        "areaLrgClassNm": null,
+        "areaSmlClassNm": null,
+        "openingHours": null,
+        "facilityNm": "横浜ベイホテル東急"
+      }
+    ],
+    "pageSttCnt": 1.0,
+    "pageEndCnt": 1.0,
+    "counts": 1.0,
+    "pageNo": 1.0
+  },
+  "menuInformation": [
+    {
+      "linkUrl": null,
+      "infoLev": "1",
+      "title": "◇1/12より当面の間の館内施設 営業状況について◇（1/7現在）",
+      "content": null,
+      "linkNm": null
+    },
+    {
+      "linkUrl": null,
+      "infoLev": "3",
+      "title": null,
+      "content": "期間 : 2021年1月12日(火)より当面の間\n\n【ﾍﾞｲｸﾗﾌﾞﾗｳﾝｼﾞ（特別階）】\n7：00～20：00\nﾃｨｰﾀｲﾑ 14：00～17：00 / ｶｸﾃﾙﾀｲﾑ 17：30～19：00\n※朝食はﾚｽﾄﾗﾝにてﾌﾞｯﾌｪｽﾀｲﾙにてご用意\n\n【ﾙｰﾑｻｰﾋﾞｽ｢ｲﾝﾙｰﾑﾀﾞｲﾆﾝｸﾞ｣ 】\n7：00～10：00/17：00～20：00\n\n【朝食ﾌﾞｯﾌｪ｢ｶﾌｪ ﾄｽｶ｣または｢ｿﾏｰﾊｳｽ｣】\n【全日】7：00 ～ 10：00 L.O.\n\n【ｵｰﾙﾃﾞｲﾀﾞｲﾆﾝｸﾞ｢ｶﾌｪ ﾄｽｶ｣】\nﾗﾝﾁﾌﾞｯﾌｪ 【金～日･祝】11：30～15：30 L.O.\n※金曜日は14：30 L.O.\nﾃﾞｨﾅｰﾌﾞｯﾌｪ 【金～日･祝】17：00～20：00 CLOSE\nｽｲｰﾄｼﾞｬｰﾆｰ 【1/14･21･28･2/4･18･25】17：00～20：00 CLOSE\n※月～木のﾗﾝﾁ･ﾃﾞｨﾅｰは営業休止\n※ﾗﾝﾁ･ﾃﾞｨﾅｰはｱﾗｶﾙﾄもご用意\n\n【ﾌﾗﾝｽ料理｢ｸｲｰﾝ･ｱﾘｽ｣】\nﾗﾝﾁ 【全日】11：30～/13：40～※2部制\nﾃﾞｨﾅｰ 【土日祝】17： 30 ～ 20：00 CLOSE\n※平日のﾃﾞｨﾅｰは営業休止\n\n【日本料理｢大志満｣】\n11：30～18：00L.O. 20：00 CLOSE\n【 日曜日（1/17･24･31） 】 11：30～14：30 L.O. 15：00 CLOSE\n\n【ﾗｳﾝｼﾞ｢ｿﾏｰﾊｳｽ｣】\n【月～木】11：30～13：30 L.O. 14：00 CLOSE\n※ｱﾌﾀﾇｰﾝﾃｨｰｾｯﾄあり（金･土･日･祝日は14：00～16：00L.O. ｢ｶﾌｪﾄｽｶ｣にて）\n\n【ﾊﾞｰ｢ｼﾞｬｯｸｽ｣】\n一時休業\n\n【ﾌﾞﾗｲﾀﾞﾙｻﾛﾝ】\n【平日】11：00～17：00 （お問い合わせ / 10：00～18：00） ※ 火曜定休\n【土日祝】9：00～17：00 （お問い合わせ/ 9：00～18：00）\n\n【ﾌｫﾄｽﾀｼﾞｵ】\n【平日】11：00～17：00 ※火曜 定休/【土日祝】10：00～17：00\n\n【ﾍｱﾒｲｸｻﾛﾝ】\n11：00～17：00 ※火曜定休\n\n【ｺｽﾁｭｰﾑｻﾛﾝ】\n【平日】11：00～17：00 ※ 火曜定休\n【土日祝】10：00～17：00\n\n【ﾎﾃﾙｼｮｯﾌﾟ｢ｱﾋﾞｽﾃ｣】\n10：00～18：30\n\n【ﾌﾗﾜｰｼｮｯﾌﾟ｢日比谷花壇 ﾊｰﾓﾆｰ｣】\n11：00～16：00\n\n【ｴｽﾃﾃｨｯｸ＆ｽﾊﾟ｢ﾋﾞｭｰﾃｨ ｱﾍﾞﾆｭｰ ｿｼｴ｣】\n【月～土】10：00～19：0 0\n【日祝】10：00～18：00 （※ﾋﾞｭｰﾃｨｽﾎﾟｰﾂは18：00まで）\n※ﾌﾟｰﾙ 営業休止\n\n※官公庁の要請により､19時以降の酒類の提供は控えさせていただきます｡また全てのﾚｽﾄﾗﾝ営業を20時終了とさせていただきます｡\n※ﾚｽﾄﾗﾝ予約の受付時間は､10：00～18：00となります\n※状況により変更が生じる可能性がございます｡あらかじめご了承ください",
+      "linkNm": null
+    },
+    {
+      "linkUrl": null,
+      "infoLev": "1",
+      "title": "◇ お知らせ（デポジット） ◇",
+      "content": null,
+      "linkNm": null
+    },
+    {
+      "infoLev": "3",
+      "title": null,
+      "content": "\n　チェックインの際にデポジット（現金またはクレジットカードのプリント）をお預かりしております。\n　あらかじめご了承ください。\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n",
+      "linkUrl": "https://google.com",
+      "linkNm": "リンクが入りますリンクが入ります。"
+    }
+  ],
+  "equipmentServices": [
+    {
+      "equipServTitleCd": "setsubi_service_syousai",
+      "equipServTitleNm": "設備・サービス詳細",
+      "equipServNote": null,
+      "equipServDetail1": [
+        {
+          "equipServCd1": "onsen",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServValue2": "×",
+              "equipServCd2": "A100000101",
+              "equipServNm2": "温泉"
+            },
+            {
+              "equipServCd2": "A10000100001",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "天然温泉"
+            },
+            {
+              "equipServCd2": "A10000100002",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "天然温泉掛け流し"
+            },
+            {
+              "equipServCd2": "A10000100003",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "にごり湯"
+            },
+            {
+              "equipServCd2": "A10000100010",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "露天風呂"
+            },
+            {
+              "equipServCd2": "A10000100020",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "貸切風呂"
+            },
+            {
+              "equipServCd2": "A10000100030",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "サウナ"
+            },
+            {
+              "equipServCd2": "A10000100040",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "大浴場"
+            },
+            {
+              "equipServCd2": "A10000100045",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "風呂利用条件"
+            },
+            {
+              "equipServCd2": "A100000107",
+              "equipServValues2": null,
+              "equipServValue2": "",
+              "equipServNm2": "入湯税"
+            },
+            {
+              "equipServCd2": "A100000108",
+              "equipServValues2": null,
+              "equipServValue2": "null",
+              "equipServNm2": "入湯税発生対象"
+            }
+          ],
+          "equipServNm1": "温泉",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "amenity",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A10000200050",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "タオル"
+            },
+            {
+              "equipServCd2": "A10000200060",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "歯磨きセット"
+            },
+            {
+              "equipServCd2": "A10000200070",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "バスタオル"
+            },
+            {
+              "equipServCd2": "A10000200080",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "シャンプー"
+            },
+            {
+              "equipServCd2": "A10000200090",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "リンス"
+            },
+            {
+              "equipServCd2": "A10000200100",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "石鹸・ボディソープ"
+            },
+            {
+              "equipServCd2": "A10000200110",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "浴衣・パジャマ"
+            },
+            {
+              "equipServCd2": "A10000200120",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "バスローブ"
+            },
+            {
+              "equipServCd2": "A10000200130",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "ドライヤー"
+            },
+            {
+              "equipServCd2": "A10000200140",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "髭剃り"
+            },
+            {
+              "equipServCd2": "A10000200150",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "くし・ブラシ"
+            },
+            {
+              "equipServCd2": "A10000200160",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "シャワートイレ"
+            }
+          ],
+          "equipServNm1": "アメニティ",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "heya_setsubi",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A100000301",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "冷暖房"
+            },
+            {
+              "equipServCd2": "A100000301",
+              "equipServValues2": null,
+              "equipServValue2": "○(飲食付き)",
+              "equipServNm2": "冷蔵庫"
+            }
+          ],
+          "equipServNm1": "部屋設備",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "internet",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A100000401",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "回線：有線"
+            },
+            {
+              "equipServCd2": "A100000402",
+              "equipServValues2": null,
+              "equipServValue2": "○ 全館",
+              "equipServNm2": "回線：無線（Wifi）"
+            },
+            {
+              "equipServCd2": "A100000403",
+              "equipServValues2": [
+                "×"
+              ],
+              "equipServValue2": null,
+              "equipServNm2": "PC貸出"
+            }
+          ],
+          "equipServNm1": "インターネット回線",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "futai_shisetsu",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A10000300170",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料）",
+              "equipServNm2": "フィットネス"
+            },
+            {
+              "equipServCd2": "A10000300180",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "体育館"
+            },
+            {
+              "equipServCd2": "A10000300190",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "グラウンド"
+            },
+            {
+              "equipServCd2": "A10000300200",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "テニス"
+            },
+            {
+              "equipServCd2": "A10000300210",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料）",
+              "equipServNm2": "プール（屋内）"
+            },
+            {
+              "equipServCd2": "A10000300220",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "プール（屋外）"
+            },
+            {
+              "equipServCd2": "A10000300230",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "卓球"
+            },
+            {
+              "equipServCd2": "A10000300240",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "ボウリング"
+            },
+            {
+              "equipServCd2": "A10000300250",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "カラオケ"
+            },
+            {
+              "equipServCd2": "A10000300260",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料）",
+              "equipServNm2": "宴会場"
+            },
+            {
+              "equipServCd2": "A10000300270",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "バーベキュー"
+            },
+            {
+              "equipServCd2": "A10000300280",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "製氷機"
+            },
+            {
+              "equipServCd2": "A10000300290",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料）",
+              "equipServNm2": "研修室"
+            },
+            {
+              "equipServCd2": "A10000300300",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料）",
+              "equipServNm2": "会議室"
+            }
+          ],
+          "equipServNm1": "付帯施設",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "service",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A10000400310",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "ルームサービス"
+            },
+            {
+              "equipServCd2": "A10000400320",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "クリーニングサービス"
+            },
+            {
+              "equipServCd2": "A10000400330",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "朝刊サービス"
+            },
+            {
+              "equipServCd2": "A10000400340",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料） 予約不可",
+              "equipServNm2": "エステ"
+            },
+            {
+              "equipServCd2": "A10000400350",
+              "equipServValues2": null,
+              "equipServValue2": "○ （有料） 予約可",
+              "equipServNm2": "マッサージ"
+            },
+            {
+              "equipServCd2": "A10000400560",
+              "equipServValues2": null,
+              "equipServValue2": "",
+              "equipServNm2": "離乳食サービス"
+            },
+            {
+              "equipServCd2": "A10000400600",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "対応言語"
+            },
+            {
+              "equipServCd2": "A10000400601",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "日本語"
+            },
+            {
+              "equipServCd2": "A10000400602",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "英語"
+            },
+            {
+              "equipServCd2": "A10000400603",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "中国語"
+            },
+            {
+              "equipServCd2": "A10000400604",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "韓国語"
+            },
+            {
+              "equipServCd2": "A10000400605",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "フランス語"
+            },
+            {
+              "equipServCd2": "A10000400606",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "ドイツ語"
+            },
+            {
+              "equipServCd2": "A10000400607",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "スペイン語"
+            },
+            {
+              "equipServCd2": "A10000400608",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "ロシア語"
+            },
+            {
+              "equipServCd2": "A10000400699",
+              "equipServValues2": null,
+              "equipServValue2": "×",
+              "equipServNm2": "その他"
+            }
+          ],
+          "equipServNm1": "サービス",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "pet",
+          "equipServValue1": "※詳細は現地へお問合わせください。",
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A100000701",
+              "equipServValues2": null,
+              "equipServValue2": "なし",
+              "equipServNm2": "ペット対応の部屋"
+            }
+          ],
+          "equipServNm1": "ペット",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "barrier_free",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A100000801",
+              "equipServValues2": null,
+              "equipServValue2": "○",
+              "equipServNm2": "バリアフリー対応"
+            },
+            {
+              "equipServCd2": "A100000802",
+              "equipServValues2": null,
+              "equipServValue2": "4",
+              "equipServNm2": "バリアフリー対応部屋数"
+            }
+          ],
+          "equipServNm1": "バリアフリー",
+          "equipServNote1": null
+        },
+        {
+          "equipServCd1": "credit",
+          "equipServValue1": null,
+          "equipServDetail2": [
+            {
+              "equipServCd2": "A100000901",
+              "equipServValues2": null,
+              "equipServValue2": "可",
+              "equipServNm2": "クレジットカードのご利用"
+            },
+            {
+              "equipServCd2": "A100000902",
+              "equipServValues2": null,
+              "equipServValue2": "JCB／VISA／MASTER／AMEX／ダイナース／UC(ユニオンクレジット)／DC(ダイヤモンドクレジット)／セゾン／NICOS(日本信販)",
+              "equipServNm2": "ご利用可能クレジットカード"
+            }
+          ],
+          "equipServNm1": "クレジットカードでのお支払いについて",
+          "equipServNote1": "※利用できない旨が明示された一部プランについては、カード決済がご利用いただけません。各プランの表示をご確認ください。"
+        }
+      ]
+    },
+    {
+      "equipServTitleCd": "kinrin_shisetsu",
+      "equipServTitleNm": "近隣施設",
+      "equipServNote": null,
+      "equipServDetail1": [
+        {
+          "equipServCd2": "A10000400360",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "貸しスキー"
+        },
+        {
+          "equipServCd2": "A10000400370",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "貸しボード"
+        },
+        {
+          "equipServCd2": "A10000400380",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "貸し自転車"
+        },
+        {
+          "equipServCd2": "A10000400390",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "将棋"
+        },
+        {
+          "equipServCd2": "A10000400400",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "囲碁"
+        },
+        {
+          "equipServCd2": "A10000400410",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "麻雀"
+        },
+        {
+          "equipServCd2": "A10000400420",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "体育館"
+        },
+        {
+          "equipServCd2": "A10000400430",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "グラウンド"
+        },
+        {
+          "equipServCd2": "A10000400440",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "テニス"
+        },
+        {
+          "equipServCd2": "A10000400450",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "ゴルフ"
+        },
+        {
+          "equipServCd2": "A10000400460",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "パターゴルフ"
+        },
+        {
+          "equipServCd2": "A10000400470",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "釣り"
+        },
+        {
+          "equipServCd2": "A10000400480",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "パラグライダー"
+        },
+        {
+          "equipServCd2": "A10000400490",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "乗馬"
+        },
+        {
+          "equipServCd2": "A10000400500",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "海水浴場"
+        },
+        {
+          "equipServCd2": "A10000400510",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "スキー場"
+        },
+        {
+          "equipServCd2": "A10000400512",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "カヌー"
+        },
+        {
+          "equipServCd2": "A10000400514",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "陶芸"
+        },
+        {
+          "equipServCd2": "A10000400520",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "デイユース"
+        },
+        {
+          "equipServCd2": "A10000400530",
+          "equipServValues2": null,
+          "equipServValue2": "○",
+          "equipServNm2": "コンビニ"
+        },
+        {
+          "equipServCd2": "A10000400540",
+          "equipServValues2": null,
+          "equipServValue2": "○",
+          "equipServNm2": "レストラン"
+        },
+        {
+          "equipServCd2": "A10000400550",
+          "equipServValues2": null,
+          "equipServValue2": "×",
+          "equipServNm2": "立ち寄り湯"
+        }
+      ]
+    }
+  ]
+}

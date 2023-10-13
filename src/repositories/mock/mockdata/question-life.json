@@ -1,0 +1,693 @@
+{
+    "menuBasicInfo": {
+      "menuNo": "10640398",
+      "menuNm": "すくすく倶楽部新規登録プラン",
+      "menuNmKana": "スクスククラブ",
+      "menuRcSttDt": "2006/03/31 00:00:00",
+      "menuRcEndDt": "2099/03/31 23:59:59",
+      "srvicDiv": "B40",
+      "shopAreaDiv": "1",
+      "catchCopy": "子育てサポートコミュニティー「すくすく倶楽部」とは？",
+      "leadCopy": "すくすく倶楽部」とは、働くパパ・ママを応援する育児サポートコミュニティです。\\nご入会いただくと託児・ベビーシッターサービスの補助金制度がお使いいただけるほか、様々な特典が受けられます。\\n育児補助金をご利用される前に、まずはすく すく倶楽部にご入会ください。",
+      "extSystemCd": null,
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/640398.jpg",
+          "imageExplanation": null
+        }
+      ],
+      "areaInfomation": null,
+      "categoryInfomation": {
+        "catLrgClassCd": "024",
+        "catLrgClassNm": "育児",
+        "catMidClassCd": "003",
+        "catMidClassNm": "育児サービス",
+        "catSmlClassCd": "003",
+        "catSmlClassNm": "育児補助制度"
+      }
+    },
+    "planBasicInfo": {
+      "menuNo": "10640398",
+      "planId": "0011564989",
+      "planNm": "すくすく倶楽部新規登録プラン【ゴールドコース　※1日制限なし　30時間/月】",
+      "planLeadCopy": "「安心し 楽しい子育て」をモットーに、パパとママをサポート。安心して子育てができる環境づくりを目指します。\\n子育ての強い味方、育児補助「すくすくえいど」や各種セミナーの開催など、さまざま な特典もあります！",
+      "planRcSttDt": "2020/10/01 00:00:00",
+      "planRcEndDt": "2023/03/31 23:59:59",
+      "planImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/640398.jpg",
+          "imageExplanation": null
+        }
+      ]
+    },
+    "benepoReturnInfo": null,
+    "memberBenefits": null,
+    "noteMatters": null,
+    "shoppingGuideInfo": {
+      "shoppingGuideNote": null,
+      "shoppingGuides": [
+        {
+          "shoppingGuideNm": "返品・交換・キャンセル等",
+          "shoppingGuideCd": "0000001013",
+          "shoppingGuideValue": "会員様のご都合によるお申込み後のキャンセル・変更はお受けできません。",
+          "shoppingGuideValues": null,
+          "linkUrl": null,
+          "linkNm": null
+        }
+      ]
+    },
+    "planUsage": {
+      "usageDiv": "40",
+      "usageLoginBfrDispFlag": "0",
+      "applFlag": "1",
+      "usageDetail": {
+        "usageTxtGuidance": null,
+        "optinFlag": "1",
+        "ostiariesFlag": "0",
+        "receivableFlag": "0",
+        "ticketExclusionFlag": "0",
+        "buppanExclusionFlag": "0",
+        "famiExclusionFlag": "0"
+      },
+      "usageDetailLife": {
+        "couponLimits": null,
+        "preRsvNecDiv": "0",
+        "pyrlDedDiv": null,
+        "applTel": null,
+        "applFax": null,
+        "applEmailAddr": null,
+        "applWebUrl": null,
+        "affiliateTypeId": null,
+        "affiliateCoupons": null,
+        "lotteryInfo": null,
+        "convenienceStores": null
+      },
+      "usageDetailStay": null
+    },
+    "optins": [
+      {
+        "documentId": "sukusuku_normal-0005",
+        "documentNm": "個人情報の第三者提供等に関するご同意について",
+        "documentUrl": "https://bs.benefit-one.co.jp/BE-ONE/aply/bs.html",
+        "pubCondDiv": "00"
+      }
+    ],
+    "applInfo": {
+      "orderPatternDiv": "60",
+      "rsvReqPaperAutoSendFlag": "0",
+      "ccOperatorHandleFlag": "0",
+      "shippingFlag": "0",
+      "readOnlyFlag": "0",
+      "sendItemTypeDiv": null,
+      "sendWayTxt": null
+    },
+    "applLimits": null,
+    "payMthdInfo": {
+      "payeeDiv": "30",
+      "payeeNote": "お支払いはございません。",
+      "shipping": null,
+      "payMthdList": null,
+      "benepoUseFlag": "0",
+      "reducedTaxRateFlag": "0"
+    },
+    "questions": [
+      {
+        "qstnId": "0000000001",
+        "qstnCont": "（現在妊娠中の方）出産予定日",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "4",
+        "maxValue": 20990331,
+        "minValue": 20210225,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000002",
+        "qstnCont": "【登録1】お子様の氏名（全角）",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000003",
+        "qstnCont": "【登録1】お子様の氏名（全角ふりがな）",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000004",
+        "qstnCont": "【登録1】お子様の性別",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "男"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "女"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000005",
+        "qstnCont": "【登録1】お子様の年齢",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "5",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "0"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "1"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "2"
+          },
+          {
+            "altnvId": "4",
+            "altnvCont": "3"
+          },
+          {
+            "altnvId": "5",
+            "altnvCont": "4"
+          },
+          {
+            "altnvId": "6",
+            "altnvCont": "5"
+          },
+          {
+            "altnvId": "7",
+            "altnvCont": "6"
+          },
+          {
+            "altnvId": "8",
+            "altnvCont": "7"
+          },
+          {
+            "altnvId": "9",
+            "altnvCont": "8"
+          },
+          {
+            "altnvId": "10",
+            "altnvCont": "9"
+          },
+          {
+            "altnvId": "11",
+            "altnvCont": "10"
+          },
+          {
+            "altnvId": "12",
+            "altnvCont": "11"
+          },
+          {
+            "altnvId": "13",
+            "altnvCont": "12 歳"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000006",
+        "qstnCont": "【登録1】お子様の生年月日",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "4",
+        "maxValue": 20990331,
+        "minValue": 20080301,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000007",
+        "qstnCont": "【登録1】会員本人様との続柄(必須)※その他の場合、カスタマーセンターより確認の連絡をいたします",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "会員本人の子"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "会員本人の孫"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "その他"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000008",
+        "qstnCont": "【登録2】お子様の氏名（全角）",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000009",
+        "qstnCont": "【登録2】お子様の氏名（全角ふりがな）",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000010",
+        "qstnCont": "【登録2】お子様の性別",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "男"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "女"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000011",
+        "qstnCont": "【登録2】お子様の年齢",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "5",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "0"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "1"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "2"
+          },
+          {
+            "altnvId": "4",
+            "altnvCont": "3"
+          },
+          {
+            "altnvId": "5",
+            "altnvCont": "4"
+          },
+          {
+            "altnvId": "6",
+            "altnvCont": "5"
+          },
+          {
+            "altnvId": "7",
+            "altnvCont": "6"
+          },
+          {
+            "altnvId": "8",
+            "altnvCont": "7"
+          },
+          {
+            "altnvId": "9",
+            "altnvCont": "8"
+          },
+          {
+            "altnvId": "10",
+            "altnvCont": "9"
+          },
+          {
+            "altnvId": "11",
+            "altnvCont": "10"
+          },
+          {
+            "altnvId": "12",
+            "altnvCont": "11"
+          },
+          {
+            "altnvId": "13",
+            "altnvCont": "12 歳"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000012",
+        "qstnCont": "【登録2】お子様の生年月日",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "4",
+        "maxValue": 20990331,
+        "minValue": 20080301,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000013",
+        "qstnCont": "【登録2】会員本人様との続柄(必須)※その他の場合、カスタマーセンターより確認の連絡をいたします",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "会員本人の子"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "会員本人の孫"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "その他"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000014",
+        "qstnCont": "【登録3】お子様の氏名（全角）",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000015",
+        "qstnCont": "【登録3】お子様の氏名（全角ふりがな）",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "1",
+        "maxValue": 2000,
+        "minValue": null,
+        "regexp": "^.*$",
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000016",
+        "qstnCont": "【登録3】お子様の性別",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "男"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "女"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000017",
+        "qstnCont": "【登録3】お子様の年齢",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "5",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "0"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "1"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "2"
+          },
+          {
+            "altnvId": "4",
+            "altnvCont": "3"
+          },
+          {
+            "altnvId": "5",
+            "altnvCont": "4"
+          },
+          {
+            "altnvId": "6",
+            "altnvCont": "5"
+          },
+          {
+            "altnvId": "7",
+            "altnvCont": "6"
+          },
+          {
+            "altnvId": "8",
+            "altnvCont": "7"
+          },
+          {
+            "altnvId": "9",
+            "altnvCont": "8"
+          },
+          {
+            "altnvId": "10",
+            "altnvCont": "9"
+          },
+          {
+            "altnvId": "11",
+            "altnvCont": "10"
+          },
+          {
+            "altnvId": "12",
+            "altnvCont": "11"
+          },
+          {
+            "altnvId": "13",
+            "altnvCont": "12 歳"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000018",
+        "qstnCont": "【登録3】お子様の生年月日",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "4",
+        "maxValue": 20990331,
+        "minValue": 20080301,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000019",
+        "qstnCont": "【登録3】会員本人様との続柄(必須)※その他の場合、カスタマーセンターより確認の連絡をいたします",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "会員本人の子"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "会員本人の孫"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "その他"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000020",
+        "qstnCont": "ベネフィット・ステーションの提携施設かつ、すくすく倶楽部のアイコンおよびすくすくmonthlyのアイコンがついている施設が各補助の対象となります。それ以外の施設は補助対象外となります。 すくすくえいどを利用されるメニューがお決まりの方は、入会後に発行されるすくすく倶楽部番号を確認の後、メニューNo.640471すくすく倶楽部　登録内容変更 より登録のお手続きをお願いたします。",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "同意する"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000026",
+        "qstnCont": "ご利用される特典をご選択ください。（複数選択可）",
+        "antonCont": "※①の場合は、手帳発行を以て入会完了となります。 ※②③のみの場合は、すくすく倶楽部会員番号のメール案内を以て入会完了となります。",
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "7",
+        "maxValue": 3,
+        "minValue": 1,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "①すくすくえいど（一時保育補助）/手帳発行のみ"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "②すくすくmonthly（月極保育補助）/すくすくメール案内のみ"
+          },
+          {
+            "altnvId": "3",
+            "altnvCont": "③すくすくファミリーサポート（育児）/すくすくメール案内のみ"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000027",
+        "qstnCont": "すくすく倶楽部メールマガジンの配信（次の申込者情報入力ページにてPCアドレスをご入力いただいた方に限って配信させていただきます）",
+        "antonCont": null,
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "6",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "すくすくえいど　すくすくmonthly　すくすくファミリーサポート　モニタープランへの申込"
+          },
+          {
+            "altnvId": "1",
+            "altnvCont": "希望する"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "希望しない"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000028",
+        "qstnCont": "すくすく倶楽部事務局への証明書の送付方法",
+        "antonCont": "【郵送先】〒790-0035　愛媛県松山市藤原2-8-8 株式会社ベネフィット・ワ ン　カスタマーセンター内　すくすく倶楽部事務局宛",
+        "replyIdpsbFlag": "1",
+        "replyMthdDiv": "7",
+        "maxValue": 1,
+        "minValue": 1,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": [
+          {
+            "altnvId": "1",
+            "altnvCont": "郵送"
+          },
+          {
+            "altnvId": "2",
+            "altnvCont": "WEB添付"
+          }
+        ]
+      },
+      {
+        "qstnId": "0000000029",
+        "qstnCont": "【登録1】お子様の証明書類アップロード",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "8",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000030",
+        "qstnCont": "【登録2】お子様の証明書類アップロード",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "8",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      },
+      {
+        "qstnId": "0000000031",
+        "qstnCont": "【登録3】お子様の証明書類アップロード",
+        "antonCont": null,
+        "replyIdpsbFlag": "0",
+        "replyMthdDiv": "8",
+        "maxValue": null,
+        "minValue": null,
+        "regexp": null,
+        "asgCd": null,
+        "altnvList": null
+      }
+    ],
+    "cautions": null
+  }

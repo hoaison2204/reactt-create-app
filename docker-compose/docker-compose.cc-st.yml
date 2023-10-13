@@ -1,0 +1,5 @@
+services:
+  web:
+    image: 960908872440.dkr.ecr.ap-northeast-1.amazonaws.com/bo01-dev-bsff-frontend-ecr:latest
+    build:
+      dockerfile: ./dockerfile_st

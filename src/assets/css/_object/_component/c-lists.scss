@@ -1,0 +1,106 @@
+.c-lists {
+  width: 100%;
+  margin-bottom: 1rem;
+  &__list {
+    display: flex;
+    align-items: baseline;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+    @include mq() {
+      display: block;
+    }
+    &__label {
+      min-width: 120px;
+      font-size: 0.875rem;
+      text-align: center;
+      padding: 4px;
+      margin-right: 1.5rem;
+      background-color: $CoolGray5;
+      @include mq("md", min) {
+        max-width: 120px;
+        white-space: break-spaces;
+      }
+      &--wide {
+        min-width: 210px;
+        @include mq("md", min) {
+          max-width: 210px;
+        }
+      }
+      @include mq() {
+        margin-right: initial;
+        margin-bottom: 0.5rem;
+        text-align: left;
+        padding: 0.25rem 0.5rem;
+      }
+    }
+    &__text {
+      white-space: break-spaces;
+    }
+    &__inquiry {
+      display: flex;
+      align-items: center;
+      &--link {
+        position: relative;
+        .c-icon {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-45%);
+          margin-left: 5px;
+        }
+      }
+    }
+    &__url {
+      align-items: center;
+      &--link {
+        color: $CoolBlack;
+      }
+    }
+    &__group {
+      display: flex;
+      flex-wrap: wrap;
+      &__item {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+    &__item {
+      display: flex;
+      align-items: baseline;
+      &__label {
+        width: 3rem;
+        min-width: 3rem;
+        margin-right: 1rem;
+      }
+    }
+    &__sns {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      :not(:last-child) {
+        margin-right: 1.25rem;
+      }
+      &--link {
+        position: relative;
+        margin-right: 1rem;
+        img {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    &__budget {
+      display: flex;
+      &__item {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+        .c-icon {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}

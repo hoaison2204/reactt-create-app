@@ -1,0 +1,110 @@
+.c-order-list-block {
+  // ========== heading 部分 ============
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  &__heading__date {
+    display: flex;
+    @include mq() {
+      display: block;
+    }
+    li {
+      margin-right: 1rem;
+    }
+  }
+  &__heading__status__label {
+    color: $CoolGray;
+    font-size: 0.625rem;
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #259bee;
+    border-radius: 2px;
+  }
+
+  // ========== main 部分 ============
+
+  &__main {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  &__main__image {
+    width: 96px;
+    height: 140px;
+  }
+  &__main__detail {
+    padding-left: 1rem;
+  }
+  &__main__category {
+    font-size: 0.875rem;
+    color: $CoolGray;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    display: flex;
+    @include mq() {
+      font-size: 0.75rem;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+  }
+  &__main__category__label {
+    margin-right: 1rem;
+    @include mq() {
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__main__menu {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    @include mq() {
+      margin-bottom: 0.25rem;
+    }
+  }
+  &__main__plan {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    @include mq() {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__main__summaries {
+    display: flex;
+    @include mq() {
+      display: block;
+    }
+  }
+  &__main__summary {
+    font-size: 0.75rem;
+    &:not(:last-child) {
+      margin-right: 2rem;
+      @include mq() {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+
+  // ========== bottom 部分 ============
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include mq() {
+      display: block;
+    }
+  }
+  &__bottom__right {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: auto;
+    @include mq() {
+      margin-top: 1rem;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "stayPlanCancelList": [
+    {
+      "acptDtlNo": "220817011916",
+      "cancelSeq": 1,
+      "cancelTitle": "キャンセル規定",
+      "cancelNote1": "【チェーンホテル特集】 昼までのんびり12時レイトチェックアウト／食事なしのキャンセル規定は下記となっております。キャンセル料発生該当前日の 18:00 以降はキャンセル料発生該当日の扱いとなりますので、ご了承願います。",
+      "cancelNote2": "※平日18:00、休日18:00以降のお申込みは翌日(平日10:00～、休日10:00～)の処理となります。",
+      "webCancelAvailDiv": "0",
+      "cancelTaxExcChargeFlag": "1",
+      "groupCancelPolicyFlag": "0",
+      "stayPlanCancelPrticList": [
+        {
+          "stayPlanCancelPrticKey": 13165,
+          "cancelCond": "料金の20%",
+          "cancelRule": "7日前～4日前",
+          "cancelPolicySttDay": 7,
+          "cancelPolicyEndDay": 4,
+          "cancelPolicyTm": null,
+          "noneContactFlag": "0",
+          "cancelChargeDiv": "0",
+          "cancelCharge": 0,
+          "cancelChargeRate": 20,
+          "cancelChargeOth": 0
+        },
+        {
+          "stayPlanCancelPrticKey": 13166,
+          "cancelCond": "料金の50%",
+          "cancelRule": "3日前～2日前",
+          "cancelPolicySttDay": 3,
+          "cancelPolicyEndDay": 2,
+          "cancelPolicyTm": null,
+          "noneContactFlag": "0",
+          "cancelChargeDiv": "0",
+          "cancelCharge": 0,
+          "cancelChargeRate": 50,
+          "cancelChargeOth": 0
+        },
+        {
+          "stayPlanCancelPrticKey": 13167,
+          "cancelCond": "18時まで80％、18時以降100％",
+          "cancelRule": "前日～前日",
+          "cancelPolicySttDay": 1,
+          "cancelPolicyEndDay": 1,
+          "cancelPolicyTm": null,
+          "noneContactFlag": "0",
+          "cancelChargeDiv": "2",
+          "cancelCharge": 0,
+          "cancelChargeRate": 80,
+          "cancelChargeOth": 0
+        },
+        {
+          "stayPlanCancelPrticKey": 13168,
+          "cancelCond": "料金の100%",
+          "cancelRule": "当日～当日",
+          "cancelPolicySttDay": 0,
+          "cancelPolicyEndDay": 0,
+          "cancelPolicyTm": null,
+          "noneContactFlag": "0",
+          "cancelChargeDiv": "0",
+          "cancelCharge": 0,
+          "cancelChargeRate": 100,
+          "cancelChargeOth": 0
+        }
+      ]
+    }
+  ]
+}

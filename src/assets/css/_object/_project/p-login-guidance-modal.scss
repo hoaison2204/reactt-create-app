@@ -1,0 +1,10 @@
+.p-login-guidance-modal {
+  &__title {
+    text-align: center;
+  }
+  &__button {
+    .c-buttons2__inner {
+      padding: 0;
+    }
+  }
+}

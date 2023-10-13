@@ -1,0 +1,639 @@
+.p-order {
+  &__out-line {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 8px rgba(31, 32, 33, 0.08);
+    border-radius: 8px;
+    margin-top: 2rem;
+    @include mq() {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__heading {
+    border-bottom: 1px solid $CoolGray4;
+    padding: 2rem;
+    @include mq() {
+      padding: 1rem;
+    }
+  }
+
+  &__inner {
+    padding: 2rem;
+    border-bottom: 1px solid $CoolGray4;
+    @include mq() {
+      padding: 1rem;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__block {
+    margin-bottom: 1rem;
+  }
+  &__block--border {
+    border-bottom: 1px solid $CoolGray4;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    @include mq() {
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .c-modal__content {
+    height: auto !important;
+  }
+  &__modal-block {
+    padding: 2.5rem 2rem 0 2rem;
+    position: relative;
+    @include mq() {
+      padding: 1rem;
+    }
+    &-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      @include mq() {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &-margin {
+      margin-bottom: 2rem;
+      @include mq() {
+        margin-bottom: calc(100vh / 3.1);
+      }
+    }
+    &--border {
+      border-bottom: 1px solid $CoolGray4;
+    }
+    &__auxiliary {
+      padding: 1rem;
+      background-color: $Blue;
+      color: #fff;
+      border-radius: 4px;
+      &__title {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        margin-bottom: 4px;
+      }
+      &__text {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+      }
+    }
+    &--error {
+      @include mq() {
+        height: calc(100vh - 80px);
+        padding-top: 4rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 0;
+      }
+    }
+  }
+  &__list {
+    &__item {
+      margin-bottom: 2.5rem;
+      &--flex {
+        display: flex;
+        @include mq() {
+          display: block;
+        }
+      }
+      &--label {
+        min-width: 9.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.75rem;
+        color: $CoolGray;
+        font-weight: bold;
+      }
+      &--form-label {
+        display: inline-block;
+        min-width: 11rem;
+        margin-right: 6.5rem;
+        margin-bottom: 0.75rem;
+        color: $CoolGray;
+        font-weight: bold;
+        @include mq() {
+          margin-right: initial;
+        }
+      }
+      &--required {
+        position: relative;
+        @include mq() {
+          width: initial;
+          min-width: initial;
+        }
+        &::after {
+          content: "必須";
+          position: absolute;
+          top: 3px;
+          right: -3rem;
+          font-size: 10px;
+          color: #fff;
+          border-radius: 2px;
+          padding: 4px 8px;
+          background-color: $Error;
+        }
+      }
+      &__block {
+        display: block;
+        margin-bottom: 1rem;
+        &--required {
+          position: relative;
+          @include mq() {
+            width: initial;
+            min-width: initial;
+          }
+          &::after {
+            content: "必須";
+            position: absolute;
+            top: -2rem;
+            left: 0;
+            font-size: 10px;
+            color: #fff;
+            border-radius: 2px;
+            padding: 4px 8px;
+            background-color: $Error;
+          }
+        }
+      }
+      &--annotation {
+        font-size: 0.75rem;
+      }
+    }
+    &__note {
+      margin-bottom: 3rem;
+    }
+    &__annotation {
+      color: $Red;
+      border: 1px solid $Red;
+      border-radius: 4px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1rem;
+      // margin-bottom: 2.5rem;
+      @include mq() {
+        padding: 1rem 0.5rem;
+      }
+
+      .c-lead3 {
+        & > * {
+          font-size: 1rem;
+          display: block;
+        }
+        .p-order__list__annotation--title {
+          font-weight: bold;
+        }
+      }
+    }
+    &__form {
+      width: 100%;
+      &__content {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &__form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      &--space {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        @include mq() {
+          margin-left: 0.2rem;
+          margin-right: 0.2rem;
+        }
+      }
+      .c-buttonWrap {
+        margin-left: 1.5rem;
+        @include mq() {
+          margin-left: 0.75rem;
+        }
+      }
+    }
+  }
+  &__confirm-list {
+    margin-bottom: 1rem;
+    &__item {
+      border: 1px solid $CoolGray4;
+      border-top: none;
+      &:nth-child(1) {
+        border-top: 1px solid $CoolGray4;
+        // @include mq() {
+        //   border: none;
+        // }
+      }
+      &--label {
+        width: 100%;
+        padding: 1rem;
+        background-color: $CoolGray6;
+      }
+      &--text {
+        width: 100%;
+        padding: 1rem;
+        border-top: 1px solid $CoolGray4;
+      }
+    }
+  }
+  &__table-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    &__item {
+      width: 100%;
+      display: flex;
+      border: 1px solid $CoolGray4;
+      border-top: none;
+      @include mq() {
+        display: block;
+        // border: none;
+      }
+      &:nth-child(1) {
+        border-top: 1px solid $CoolGray4;
+        @include mq() {
+          // border: none;
+        }
+      }
+      &--label {
+        width: 215px;
+        padding: 1rem;
+        background-color: $CoolGray6;
+        @include mq() {
+          width: 100%;
+          padding: 8px;
+        }
+      }
+      &--text {
+        width: calc(100% - 215px);
+        padding: 1rem;
+        @include mq() {
+          width: 100%;
+          border-top: 1px solid $CoolGray4;
+          padding: 8px;
+        }
+      }
+    }
+  }
+  &__pos-right {
+    position: relative;
+    text-align: right;
+    .c-buttonWrap {
+      margin-top: 0.75rem;
+    }
+  }
+  &__auxiliary {
+    font-weight: bold;
+    &__label {
+      color: $CoolGray;
+    }
+    &__price {
+      margin-left: 1rem;
+      font-size: 18px;
+    }
+    &__button {
+      &::before {
+        content: "利用できる補助クーポンがあります";
+        position: absolute;
+        bottom: -20%;
+        right: -34px;
+        transform: translate(-50%, -50%);
+        padding: 6px 16px;
+        font-size: 0.875rem;
+        color: #fff;
+        border-radius: 4px;
+        background-color: #259bee;
+        text-align: center;
+        @include mq() {
+          width: 158px;
+          bottom: -50%;
+          right: 15px;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -4%;
+        right: 69px;
+        transform: translate(-50%, -50%);
+        width: 0px;
+        height: 0px;
+        margin: auto;
+        border-style: solid;
+        border-color: transparent transparent transparent #259bee;
+        border-width: 10px 10px 10px 10px;
+      }
+    }
+  }
+  &__summary {
+    text-align: right;
+    &__lists {
+      margin-bottom: 1rem;
+    }
+    &__list {
+      &--price {
+        display: inline-block;
+        min-width: 10rem;
+        @include mq() {
+          min-width: 8rem;
+        }
+      }
+    }
+    &__amount {
+      font-weight: bold;
+      margin-top: 1rem;
+      .p-order__summary__list--label {
+        color: $CoolGray;
+      }
+      .p-order__summary__list--label2 {
+        color: $CoolGray;
+        font-size: 18px;
+      }
+
+      .p-order__summary__list--price {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .p-order__summary__list--price1 {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      .p-order__summary__list--price2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+    &__sub-amount {
+      font-size: 14px;
+    }
+    &__benepo {
+      font-size: 14px;
+      margin-top: 0.75rem;
+      .p-order__summary__list--label {
+        font-weight: bold;
+        color: $CoolGray;
+      }
+    }
+  }
+  &__news-check-list {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    @include mq() {
+      display: block;
+      width: 100%;
+    }
+    &--item {
+      @include mq() {
+        &:not(:last-child) {
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+    &--annotation {
+      font-size: 0.875rem;
+    }
+  }
+  &__footer {
+    padding: 3rem 3rem 0 3rem;
+    @include mq() {
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #dcdee0;
+    }
+    &__title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      &__text {
+        color: $CoolGray;
+      }
+    }
+    &__check-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      @include mq {
+        margin-bottom: 0;
+      }
+      &--item {
+        margin-left: 4rem;
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+        @include mq() {
+          margin-left: initial;
+        }
+        .c-text-button2 {
+          margin-left: 0.5rem;
+          text-align: initial;
+          @include mq() {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    &__button {
+      @include mq() {
+        padding: 2rem 1rem 0 1rem;
+        &--first {
+          order: 0;
+        }
+        &--second {
+          order: 1;
+        }
+      }
+    }
+    &__cancel {
+      margin-top: 2rem;
+      padding-bottom: 2rem;
+      text-align: center;
+      @include mq {
+        margin-top: 0;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+  &__complete-heading {
+    padding: 2rem;
+    border-bottom: 1px solid $CoolGray4;
+    text-align: left;
+    @include mq() {
+      padding: 1rem;
+      text-align: left;
+    }
+    &__title {
+      font-size: 28px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      @include mq() {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+    &__reception {
+      width: 100%;
+      border: 1px solid $CoolBlack;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      &--number {
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+      }
+      &--completed-text {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+    }
+    .later-date-lottery > *{
+      text-align: center;
+    }
+  }
+  &__contact {
+    padding: 2rem;
+    @include mq() {
+      padding: 1rem;
+    }
+    &__list {
+      display: flex;
+      @include mq() {
+        display: block;
+        text-align: center;
+      }
+    }
+    &__item {
+      &:first-child {
+        padding-right: 2rem;
+        margin-right: 2rem;
+        border-right: 1px solid $CoolGray4;
+        @include mq() {
+          padding-right: initial;
+          margin-right: initial;
+          margin-bottom: 1rem;
+          border: none;
+        }
+      }
+    }
+    &__font-b {
+      font-weight: bold;
+    }
+    &__call-link {
+      font-weight: bold;
+      @include mq() {
+        margin-bottom: 4px;
+      }
+      a {
+        color: $CoolBlack;
+      }
+    }
+  }
+  &__error-btn {
+    text-align: center;
+  }
+  .c-buttons__inner {
+    @include mq() {
+      width: 100%;
+      padding-right: initial;
+      padding-left: initial;
+      margin-bottom: 1rem;
+    }
+  }
+  .c-modal__content {
+    padding: initial;
+    padding-bottom: 2rem;
+    .c-buttons {
+      @include mq() {
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+    }
+  }
+  &-error__agree-margin {
+    margin-bottom: 2rem !important;
+    @include mq() {
+      margin-top: 1rem;
+      margin-bottom: 0 !important;
+    }
+  }
+  &-error__agree-margin_top {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  &--padding-bottom {
+    padding-bottom: 2rem;
+  }
+
+  &__required-label {
+    position: relative;
+    padding-right: 4rem;
+    &::after {
+      content: '必須';
+      display: inline-block;
+      position: absolute;
+      top: 1.2rem;
+      right: 1rem;
+      background-color: $CoolGray-1;
+      color: $CoolGray6;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.75rem;
+      text-align: center;
+      @include mq() {
+        top: 10px;
+        right: 10px;
+      }
+    }
+  }
+
+  // ========== 確認画面/申請者情報・配送先情報 ============
+  &__user-info {
+    &--kana-label {
+
+    }
+    &--name-label {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    &__block {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      @include mq() {
+        width: 100%;
+      }
+
+      & > div {
+        @include mq() {
+          margin: 0.5rem 0;
+        }
+      }
+
+      &--label {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        word-break: break-all;
+        @include mq() {
+          width: 100%;
+
+          &.address-label {
+            display: none;
+          }
+        }
+      }
+      &--contents {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        word-break: break-all;
+        @include mq() {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

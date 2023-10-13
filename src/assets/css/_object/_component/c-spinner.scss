@@ -1,0 +1,65 @@
+.c-spinner {
+  position: relative;
+  width: 156px;
+  padding-top: 0.5rem;
+  @include mq() {
+    margin: 2rem auto 0 auto;
+  }
+  &--disabled {
+    color: $CoolGray;
+    text-align: center;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--disabled {
+      cursor: default;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  }
+  &__button {
+    cursor: pointer;
+    &--disabled {
+      cursor: default;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  }
+  &__window {
+    width: 6rem;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid $CoolGray3;
+    border-radius: 4px;
+    cursor: default;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+  }
+  &__error {
+    cursor: default;
+    .c-spinner__window {
+      border: 1px solid $Error;
+      background-color: $Error10;
+    }
+  }
+  &__alert {
+    position: absolute;
+    width: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.875rem;
+    color: $Error;
+    text-align: right;
+    margin-top: 0.5rem;
+    @include mq() {
+      text-align: center;
+    }
+    span {
+      margin-right: 0.5rem;
+    }
+  }
+}

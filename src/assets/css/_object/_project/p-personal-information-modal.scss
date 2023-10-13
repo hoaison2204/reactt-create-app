@@ -1,0 +1,86 @@
+.p-personal-information-modal {
+  padding-top: 2rem;
+  &__body {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  &__lists1 {
+    margin-bottom: 2rem;
+  }
+  &__lists1__item {
+    margin-bottom: 2rem;
+  }
+  &__subTitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  &__lists2__item {
+    display: flex;
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+    span {
+      line-height: 1.8;
+      display: block;
+      margin-right: 0.5rem;
+      margin-left: 1rem;
+      @include mq() {
+        margin-left: 0;
+      }
+    }
+  }
+  &__lists3__item {
+    display: flex;
+  }
+  &__text {
+    line-height: 1.8;
+    &--list1 {
+      margin-bottom: 2rem;
+    }
+  }
+  &__revision-date {
+    text-align: right;
+  }
+  &__mail-magazine {
+    margin-bottom: 3.125rem;
+    @include mq() {
+      margin-bottom: 2rem;
+    }
+    &__label {
+      color: $CoolGray;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+    &__info {
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .c-lead2 {
+      margin-bottom: 1rem;
+      &--red {
+        @include mq() {
+          margin-top: 1rem;
+        }
+      }
+    }
+    .c-text-button2 {
+      font-size: 0.75rem;
+    }
+  }
+  &__buttons {
+    .c-buttons4__inner--spOrder1 {
+      margin: 0;
+      @include mq() {
+        order: 1;
+      }
+    }
+    .c-buttons4__inner--spOrder0 {
+      @include mq() {
+        order: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

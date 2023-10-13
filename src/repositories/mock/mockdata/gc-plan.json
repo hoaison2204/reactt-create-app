@@ -1,0 +1,2426 @@
+{
+	"catLrgClassNm": "グルメ",
+	"menuNo": "2300001G",
+	"menuNm": "居酒屋　新宿西口本店",
+	"srvicDiv": "B35",
+	"areaLrgClassNm": "首都圏",
+	"areaMidClassNm": "東京都",
+	"areaSmlClassNm": "東京２３区内",
+	"facilities": [
+		{
+			"latitude": 35.6913457,
+			"longitude": 139.69369
+		}
+	],
+	"planNm": "０１Ｃプラン",
+	"planRcEndDt": "2025/12/31 12:00:00",
+	"planRcSttDt": "2023/04/01 12:00:00",
+	"imageUrl": [
+		"https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan3.png"
+	],
+	"planLeadCopy": "０１Ｃプラン プランの説明",
+	"planIcons": null,
+	"benepoReturnRate": null,
+	"benepoReturnDiv": null,
+	"benepoReturnFixed": null,
+	"usageDiv": null,
+	"applFlag": null,
+	"usageTxtGuidance": null,
+	"ostiariesFlag": null,
+	"receivableFlag": null,
+	"ticketExclusionFlag": null,
+	"buppanExclusionFlag": null,
+	"famiExclusionFlag": null,
+	"usageLimitCont": null,
+	"planId": "9000000003",
+	"memberBenefits": [
+		{
+			"benefitHeading": "０１Ｃプラン　1名様無料 20,000円 ",
+			"benefitContent": "1名様無料",
+			"price": null,
+			"applWinDispDiv": "9",
+			"memberBenefitsId": "7",
+			"benefitDiv": "3",
+			"stockKey": null,
+			"ticketHeading": null,
+			"pyrlDedPayeeDiv": null,
+			"generalPrice": 20000,
+			"alliancePrice": null,
+			"pyrlDedDiscount": null,
+			"boneSubsidy": null,
+			"bitesQty": 1
+		}
+	],
+	"benefitImportantPoints": null,
+	"usageDetailLife": null,
+	"payeeDiv": null,
+	"payMthdList": null,
+	"shoppingGuides": null,
+	"planInfomation": [
+		{
+			"title": "タイトル1_1",
+			"content": "居酒屋　新宿西口本店--01-内容１内容１内容１",
+			"infoLev": "0",
+			"linkUrl": "http://www.test.2300001G_3",
+			"linkNm": "居酒屋　新宿西口本店－リンクコメント"
+		},
+		{
+			"title": "タイトル1_2",
+			"content": "居酒屋　新宿西口本店--02-内容２内容２内容２",
+			"infoLev": "1",
+			"linkUrl": "http://www.test.2300001G_2",
+			"linkNm": "居酒屋　新宿西口本店－リンクコメント"
+		},
+		{
+			"title": "タイトル1_3",
+			"content": "居酒屋　新宿西口本店--03-内容３内容３内容３",
+			"infoLev": "1",
+			"linkUrl": "http://www.test.2300001G_1",
+			"linkNm": "居酒屋　新宿西口本店－リンクコメント"
+		}
+	],
+	"canSubsidy": null,
+	"availableStockList": null,
+	"orderCheck": null,
+	"ticketInfo": null,
+	"benepoReturnInfo": null,
+	"pointExchg": null,
+	"gourmetRequestCalendar": {
+		"headcntMin": "2",
+		"headcntMax": "5",
+		"seats": [
+			{
+				"seatKindNm": "テーブル"
+			},
+			{
+				"seatKindNm": "カウンター"
+			},
+			{
+				"seatKindNm": "個室"
+			},
+			{
+				"seatKindNm": "半個室"
+			}
+		],
+		"calendars": [
+			{
+				"calDate": "2023-08-15",
+				"calDow": "火曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-16",
+				"calDow": "水曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-17",
+				"calDow": "木曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-18",
+				"calDow": "金曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-19",
+				"calDow": "土曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "1",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-20",
+				"calDow": "日曜",
+				"calHoliday": "1",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-21",
+				"calDow": "月曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-22",
+				"calDow": "火曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-23",
+				"calDow": "水曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-24",
+				"calDow": "木曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-25",
+				"calDow": "金曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-26",
+				"calDow": "土曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "1",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-27",
+				"calDow": "日曜",
+				"calHoliday": "1",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-28",
+				"calDow": "月曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-29",
+				"calDow": "火曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-30",
+				"calDow": "水曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			},
+			{
+				"calDate": "2023-08-31",
+				"calDow": "木曜",
+				"calHoliday": "0",
+				"calPublicHoliday": "0",
+				"calDayBfrHoliday": "0",
+				"times": [
+					{
+						"requestAvailTime": "0800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "0930",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1100",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1130",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1200",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1230",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1300",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1330",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1400",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1430",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1500",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1530",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "1600",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1630",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1700",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1730",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1800",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1830",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1900",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "1930",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2000",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2030",
+						"requestAvailFlag": "1"
+					},
+					{
+						"requestAvailTime": "2100",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2130",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2200",
+						"requestAvailFlag": "0"
+					},
+					{
+						"requestAvailTime": "2230",
+						"requestAvailFlag": "0"
+					}
+				]
+			}
+		]
+	},
+	"gourmetCancelPolicy": [
+		{
+			"cancelPolicyId": 1,
+			"menuNo": "2300001G",
+			"planId": null,
+			"cancelPolicyGroupId": 1,
+			"cancelPolicyGroupNm": "グループ０１",
+			"cancelPolicySttDayDiv": "1",
+			"cancelPolicySttDayDivNm": "当日",
+			"cancelPolicySttDay": 0,
+			"cancelPolicyEndDayDiv": "1",
+			"cancelPolicyEndDayDivNm": "当日",
+			"cancelPolicyEndDay": 0,
+			"cancelPolicyTm": "2345",
+			"cancelChargeDiv": "2",
+			"cancelChargeDivNm": "その他",
+			"cancelChargeRate": 100,
+			"cancelPolicyDate": "当日"
+		},
+		{
+			"cancelPolicyId": 2,
+			"menuNo": "2300001G",
+			"planId": null,
+			"cancelPolicyGroupId": 1,
+			"cancelPolicyGroupNm": "グループ０１",
+			"cancelPolicySttDayDiv": "2",
+			"cancelPolicySttDayDivNm": "前日",
+			"cancelPolicySttDay": 1,
+			"cancelPolicyEndDayDiv": "3",
+			"cancelPolicyEndDayDivNm": "その他",
+			"cancelPolicyEndDay": 1,
+			"cancelPolicyTm": "2345",
+			"cancelChargeDiv": "2",
+			"cancelChargeDivNm": "その他",
+			"cancelChargeRate": 80,
+			"cancelPolicyDate": "前日"
+		},
+		{
+			"cancelPolicyId": 3,
+			"menuNo": "2300001G",
+			"planId": null,
+			"cancelPolicyGroupId": 1,
+			"cancelPolicyGroupNm": "グループ０１",
+			"cancelPolicySttDayDiv": "3",
+			"cancelPolicySttDayDivNm": "その他",
+			"cancelPolicySttDay": 2,
+			"cancelPolicyEndDayDiv": "3",
+			"cancelPolicyEndDayDivNm": "その他",
+			"cancelPolicyEndDay": 2,
+			"cancelPolicyTm": "2345",
+			"cancelChargeDiv": "2",
+			"cancelChargeDivNm": "その他",
+			"cancelChargeRate": 60,
+			"cancelPolicyDate": "2日前"
+		},
+		{
+			"cancelPolicyId": 4,
+			"menuNo": "2300001G",
+			"planId": null,
+			"cancelPolicyGroupId": 1,
+			"cancelPolicyGroupNm": "グループ０１",
+			"cancelPolicySttDayDiv": "3",
+			"cancelPolicySttDayDivNm": "その他",
+			"cancelPolicySttDay": 3,
+			"cancelPolicyEndDayDiv": "3",
+			"cancelPolicyEndDayDivNm": "その他",
+			"cancelPolicyEndDay": 3,
+			"cancelPolicyTm": "2345",
+			"cancelChargeDiv": "2",
+			"cancelChargeDivNm": "その他",
+			"cancelChargeRate": 50,
+			"cancelPolicyDate": "3日前"
+		},
+		{
+			"cancelPolicyId": 5,
+			"menuNo": "2300001G",
+			"planId": null,
+			"cancelPolicyGroupId": 1,
+			"cancelPolicyGroupNm": "グループ０１",
+			"cancelPolicySttDayDiv": "3",
+			"cancelPolicySttDayDivNm": "その他",
+			"cancelPolicySttDay": 5,
+			"cancelPolicyEndDayDiv": "3",
+			"cancelPolicyEndDayDivNm": "その他",
+			"cancelPolicyEndDay": 4,
+			"cancelPolicyTm": "2345",
+			"cancelChargeDiv": "2",
+			"cancelChargeDivNm": "その他",
+			"cancelChargeRate": 30,
+			"cancelPolicyDate": "5日前～4日前"
+		}
+	],
+	"gourmetReserveSetting": [
+		{
+			"menuNo": "2300001G",
+			"planId": "",
+			"requestReserveAvailFlag": "1",
+			"requestReserveSun": 1,
+			"requestReserveSunJ": 18,
+			"webReserveAvailFlag": "1",
+			"webCancelSun": 1,
+			"webCancelSunJ": 23,
+			"webReserveSun": 10,
+			"webReserveSunJ": 20
+		}
+	],
+	"gourmetPlanGourmetInfo": {
+		"saleDayStt": "2023/04/01 12:00:00",
+		"saleDayEnd": "2025/03/31 12:00:00",
+		"useDiv": "40",
+		"useDivNm": "ベネ申込・加盟店手配",
+		"headCntMin": 2,
+		"headCntMax": 5,
+		"blockOutDates": "年始年末",
+		"cautionCont": "０１Ｃプラン　注意事項テスト",
+		"facilRwquireTm": 150,
+		"passingTm": 30,
+		"tableReserveDiv": null,
+		"tableReserveDivNm": null,
+		"freeDrinkPlanDiv": null,
+		"freeDrinkPlanDivNm": null,
+		"planApplyDtStt": "2023/04/01 12:00:00",
+		"planApplyDtEnd": "2025/03/31 12:00:00",
+		"servPriceCharge": "サービス料：30％"
+	}
+}

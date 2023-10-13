@@ -1,0 +1,287 @@
+.p-mypage-orders {
+  .c-card {
+    margin-bottom: 0.5rem;
+  }
+  &__inner {
+    width: 100%;
+  }
+
+  // ========== search 部分 ============
+
+  &__search {
+    .c-tabs {
+      width: 100%;
+    }
+    .c-tab {
+      width: 100%;
+      a {
+        min-width: 372px;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        @include mq() {
+          min-width: 171px;
+        }
+      }
+    }
+  }
+  &__search__input {
+    margin-bottom: 1.125rem;
+  }
+  &__search__paginator {
+    margin-top: 1rem;
+    &--pc {
+      @include mq() {
+        display: none;
+      }
+    }
+    &--sp {
+      display: none;
+      .c-paginator__wrap {
+        display: none;
+      }
+      @include mq() {
+        display: block;
+      }
+    }
+  }
+  &__search__filter {
+    display: flex;
+    @include mq() {
+      display: block;
+      padding-top: 0;
+    }
+  }
+  &__search__checklist {
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: no-wrap;
+    @include mq() {
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+    li {
+      margin-right: 0.5rem;
+    }
+  }
+  &__search__sortBtn {
+  }
+  &__search__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  // ========== list 部分 ============
+  &__lists {
+  }
+  &__lists__wrap {
+  }
+  &__list {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.item-cards {
+  .base-content-item {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      max-height: calc(100% / 12);
+      align-items: center;
+      @media only screen and (max-width: 639px) {
+        display: block;
+      }
+      .text-header {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: flex-start;
+        .text-header-date {
+          margin-right: 1rem;
+        }
+        @media only screen and (max-width: 639px) {
+          display: grid;
+        }
+      }
+      .tag-header {
+        display: flex;
+        .label {
+          span {
+            font-size: 0.8rem;
+            background-color: $CoolGray5;
+            padding: 0.1rem 0.5rem;
+            margin-left: 0.5rem;
+            @media only screen and (max-width: 639px) {
+              &:first-child {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &-detail {
+      display: flex;
+      padding: 1rem 0;
+      max-height: calc(100% * 9 / 12);
+      .left-content {
+        width: calc(100% * 1 / 4);
+        .thumbnail {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .right-content {
+        width: calc(100% * 3 / 4 - 1rem);
+        padding-left: 1rem;
+        .top {
+          margin-bottom: 0.5rem;
+          display: flex;
+          justify-content: flex-start;
+          @media only screen and (max-width: 639px) {
+            display: block;
+          }
+          .label {
+            display: inline-block;
+            background-color: $CoolGray5;
+            color: $Red;
+            padding: 0.1rem 0.5rem;
+            margin-right: 2rem;
+          }
+          .item-number {
+            align-self: center;
+            font-size: 0.7rem;
+            @media only screen and (max-width: 639px) {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .title {
+          font-size: 1.15rem;
+          font-weight: bold;
+          @media only screen and (max-width: 639px) {
+            display: none;
+          }
+          .text-epip {
+            font-size: 0.9rem;
+            display: block;
+            overflow: hidden;
+            word-break: keep-all;
+            text-overflow: ellipsis;
+            margin-bottom: 1rem;
+          }
+        }
+        .payment {
+          margin-top: 0.5rem;
+          display: flex;
+          flex-direction: row;
+          font-size: 0.8rem;
+          @media only screen and (max-width: 639px) {
+            display: grid;
+          }
+          .total-price {
+            margin-right: 1rem;
+          }
+        }
+        .text-epip {
+          line-height: 21px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .base-content-item-SP {
+      display: none;
+      @media only screen and (max-width: 639px) {
+        display: block;
+        .title {
+          font-size: 1.15rem;
+          font-weight: bold;
+        }
+        .text-epip {
+          font-size: 0.9rem;
+          display: block;
+          overflow: hidden;
+          word-break: keep-all;
+          text-overflow: ellipsis;
+          margin-bottom: 1rem;
+        }
+        .payment {
+          margin: 0.5rem 0;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+
+    &-footer {
+      flex-direction: row;
+      display: inline-flex;
+      justify-content: space-between;
+      width: 100%;
+      max-height: calc(100% * 3 / 12);
+      @media only screen and (max-width: 639px) {
+        display: block;
+      }
+      .action-response {
+        display: flex;
+        justify-content: flex-start;
+        width: calc(100% * 1 / 3);
+        align-self: end;
+      }
+      .action-view {
+        width: calc(100% * 2 / 3);
+        @media only screen and (max-width: 639px) {
+          display: block;
+          margin-top: 1rem;
+          width: 100%;
+        }
+        .action-view__message {
+          font-weight: bold;
+          text-align: center;
+          font-size: 0.8rem;
+          margin-bottom: 0.5rem;
+        }
+        .action-view__buttons {
+          display: flex;
+          .c-btn {
+            height: 3.5rem;
+            width: calc(100% / 2);
+            box-shadow: 0 2px 8px 0 #1F202129;
+            border-radius: 8px;
+            margin: 0 0.5rem;
+            @media only screen and (max-width: 639px) {
+              width: 100%;
+              margin-top: 0.5rem;
+            }
+            &.btn-white {
+              background-color: #fff;
+              color: $CoolBlack;
+            }
+            &.btn-black {
+              background-color: $CoolBlack;
+              color: #fff;
+            }
+            &.btn-grey {
+              background-color: $CoolGray3;
+              color: #FFFFFF;
+            }
+            span {
+              font-weight: bold;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.p-mypage-order-detail-l-container {
+    width: 1032px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(31, 32, 33, 0.08);
+    @media (min-width: 1024px) { 
+      overflow: hidden; 
+    }
+  
+    @media (max-width: 639px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  .p-mypage-order-detail {
+    display: flex;
+    padding-bottom: 20px;
+    @media (max-width: 768px) {
+      flex-direction: row-reverse;
+    }
+    .right-container {
+      width: 100%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .box-right {
+        border-radius: 8px;
+        background-color: white;
+        padding: 16px;
+        margin-left: 1rem; 
+        margin-right: 1rem;
+        box-shadow: 0px 1px 8px rgba(31, 32, 33, 0.08);
+        @media only screen and (max-width: 768px) {
+          @apply m-0 my-4;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+        .divider {
+          border-bottom: 1px solid #DCDEE0;
+        }
+        .card-menu {
+          margin-top: 1rem;
+        }
+        .p-mypage-order-detail-title {
+          h1 {
+            border-radius: 8px;
+            font-size: 24px;
+            font-weight: 700;
+  
+            color: rgba(34, 34, 34, 1);
+            line-height: 36px;
+          }
+          .divider {
+            border-bottom: 2px solid #DCDEE0;
+          }
+          .divider-title{
+            color: rgba(34, 34, 34, 1);
+          }
+        }
+        .back {
+          @apply my-4;
+          display: flex;
+          align-items: center;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+          .arrow_left{
+            align-self: center;
+            color: rgba(99, 102, 106, 1);
+            font-size: 8px;
+          }
+          .text-black{
+            font-size: 14px;
+            color: black;
+          }
+          a{
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+              text-decoration: none;
+              outline: 0;
+            }
+          }
+        }
+      }
+    }
+  }

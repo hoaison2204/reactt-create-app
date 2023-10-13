@@ -1,0 +1,24 @@
+.c-result-rating-rate {
+  display: flex;
+  align-items: flex-start;
+  &__star {
+    margin-right: .1rem;
+    &--full::before {
+      content: url('~@/assets/images/icon/rating_star_fill.svg');
+      display: inline-block;
+    }
+    &--half::before {
+      content: url('~@/assets/images/icon/rating_star_half.svg');
+      display: inline-block;
+    }
+    &--none::before {
+      content: url('~@/assets/images/icon/rating_star.svg');
+      display: inline-block;
+    }
+  }
+  .number_rating {
+    margin-left: .5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,72 @@
+/*
+ * ログアウトボタン
+ */
+
+@charset "UTF-8";
+.uic-a-link-logout {
+  background-color: $Red;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 4px;
+  padding: 0.4rem 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 83px;
+
+  img {
+    display: none;
+  }
+
+  &:hover {
+    background-color: #434547;
+    border-radius: 2px;
+    color: #fff;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &.disabled {
+    background-color: $CoolGray4;
+    border-radius: 2px;
+    color: $CoolGray2;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  @include mq() {
+    background: none;
+    height: 42px;
+    padding: 0;
+    width: 50px;
+    img {
+      display: inline-block;
+      height: 1.5rem;
+      vertical-align: middle;
+      width: 1.5rem;
+    }
+
+    &__label {
+      color: #000;
+      font-size: 10px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      background: none;
+      border-radius: 2px;
+      color: initial;
+      g {
+        fill: $Red;
+      }
+    }
+  }
+}

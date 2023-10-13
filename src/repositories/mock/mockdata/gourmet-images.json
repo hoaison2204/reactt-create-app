@@ -1,0 +1,20 @@
+{
+    "menuImages": [
+        {
+            "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu1.png",
+            "imageExplanation": "画像説明文ーメニュー①"
+        },
+        {
+            "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu2.png",
+            "imageExplanation": "画像説明文ーメニュー②"
+        },
+        {
+            "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu3.png",
+            "imageExplanation": "画像説明文ーメニュー③"
+        },
+        {
+            "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu4.png",
+            "imageExplanation": "画像説明文ーメニュー④"
+        }
+    ]
+}

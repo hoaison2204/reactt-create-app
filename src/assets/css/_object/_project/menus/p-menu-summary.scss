@@ -1,0 +1,20 @@
+.p-menu-summary {
+  &__title {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  &__description {
+    margin-bottom: 1rem;
+    white-space: break-spaces;
+  }
+  &__hash-tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    &__item {
+      font-size: 0.875rem;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+}

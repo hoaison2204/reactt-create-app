@@ -1,0 +1,846 @@
+.p-mypage-coupon-detail {
+  position: relative;
+  color: $CoolGray;
+  font-size: 0.875rem;
+  &__nowrap {
+    white-space: nowrap;
+  }
+}
+
+.p-mypage-coupon-detail__inner {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  @include mq() {
+    margin-bottom: 1rem;
+  }
+
+  @media print {
+    display: flex;
+    position: relative;
+  }
+}
+
+.p-mypage-coupon-detail__thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  min-width: 10rem;
+  overflow: hidden;
+  @include mq('md', 'min') {
+    width: 10rem;
+    height: 10rem;
+  }
+  @include mq() {
+    width: 4rem;
+    min-width: 4rem;
+    height: 4rem;
+  }
+  // Thumnailコンポーネントに置き換える時は消す
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media print {
+    width: 10rem;
+    height: 8rem;
+    min-width: 10rem;
+  }
+}
+
+.p-mypage-coupon-detail__content {
+  margin-right: 0.5rem;
+}
+
+.p-mypage-coupon-detail__logo-gourmet {
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+  margin-left: auto;
+  margin-right: 0;
+  img {
+    width: 6rem;
+    // height: 5rem;
+    @include mq() {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__coupons {
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1;
+  }
+}
+
+.p-mypage-coupon-detail__coupon {
+  &--used {
+    color: $CoolGray1;
+  }
+}
+
+.p-mypage-coupon-detail__coupon__checkbox {
+  flex: 1 0 0;
+}
+
+.p-mypage-coupon-detail__coupon__state {
+  flex: 0 0 5em;
+  padding-left: 0.5em;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.p-mypage-coupon-detail__alert {
+  margin-bottom: 1rem;
+  h3 {
+    text-align: center;
+    color: $Error;
+    font-size: 0.875rem;
+  }
+  span {
+    position: relative;
+  }
+}
+
+.p-mypage-coupon-detail__alert__icon {
+  position: absolute;
+  top: 50%;
+  left: -1.5rem;
+  transform: translateY(-50%);
+}
+
+.p-mypage-coupon-detail__code {
+  font-size: 0.875rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  :last-child {
+    margin-bottom: 0;
+  }
+  .c-card {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  ul {
+    > li {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+        .p-mypage-coupon-detail__code__delete {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+  &--show {
+    // margin-bottom: 3rem;
+  }
+}
+
+.p-mypage-coupon-detail__code__card {
+  .c-card__inner {
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  &--ticket {
+    // デジチケもぎり（単一・複数）もぎり前 PC
+    .c-card__inner {
+      z-index: 0;
+      &::after {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 8.25rem;
+        display: block;
+        content: '';
+        background-position: right top;
+        background-repeat: repeat-y;
+        background-size: 18px 18px;
+        width: 18px;
+        height: 100%;
+        @include mq() {
+          display: none;
+        }
+      }
+    }
+    .c-card--mogiri-gray {
+      //// デジチケもぎり後だけ適用
+      position: relative;
+      padding-bottom: 0.5rem;
+      box-shadow: none;
+      @include mq() {
+        padding-right: 0.5rem;
+        margin-bottom: -2rem;
+        margin-right: -0.5rem;
+      }
+    }
+    .p-mypage-coupon-detail__code__inner--multiple {
+      // デジチケもぎり（単一・複数）もぎり後 PC
+      &::after {
+        background-image: url('~@/assets/images/icon/singledot_gray.svg');
+      }
+    }
+    .p-mypage-coupon-detail__code__shadow--multiple {
+      // デジチケもぎり（複数）もぎり後 PC
+      .c-card__inner {
+        &::after {
+          background-image: url('~@/assets/images/icon/singledot_gray.svg');
+        }
+      }
+    }
+    .c-card--gray {
+      .c-card__inner {
+        z-index: 0;
+        &::before {
+          z-index: -1;
+          position: absolute;
+          display: block;
+          content: '';
+          background-color: #fff;
+        }
+        @include mq('md', 'min') {
+          &::before {
+            top: 0;
+            right: 0;
+            width: 8.75rem;
+            height: 100%;
+          }
+        }
+        @include mq() {
+          margin-bottom: 2rem;
+          &::before {
+            bottom: -40px;
+            right: 0;
+            width: 100%;
+            height: 4rem;
+          }
+        }
+      }
+      @include mq() {
+        margin-bottom: -4rem;
+      }
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__shadow {
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 667px;
+  height: calc(100% - 0.5rem);
+  background-color: $CoolGray6;
+  overflow: visible;
+  z-index: 0;
+  border-radius: 8px 0 0 8px;
+  &--multiple {
+    box-shadow: 8px 8px 0 0 $CoolGray5;
+    @include mq() {
+      box-shadow: 8px 16px 0 0 $CoolGray5;
+    }
+  }
+  @include mq() {
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 2rem);
+    border-radius: 8px 8px 0 0;
+  }
+  &::after {
+    z-index: -1;
+    position: absolute;
+    top: 0.5rem;
+    right: -1rem;
+    display: block;
+    content: '';
+    background-position: right top;
+    background-repeat: repeat-y;
+    background-size: 18px 18px;
+    width: 18px;
+    height: calc(100% - 0.5rem);
+    @include mq() {
+      top: auto;
+      bottom: -1.5rem;
+      left: 2rem;
+      right: auto;
+      margin-top: 1rem;
+      background-position: left bottom;
+      background-repeat: repeat-x;
+      width: calc(100% - 2.5rem);
+      height: 18px;
+    }
+    &--multiple {
+      &::after {
+        background-image: url('~@/assets/images/icon/singledot_gray.svg');
+      }
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__title {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.p-mypage-coupon-detail__code__title2 {
+  margin: 0 auto 0.75rem;
+  :last-child {
+    margin-bottom: 0;
+  }
+  > &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .c-title6 {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .c-title8 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40rem;
+    line-height: 1.8;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: $Error10;
+  border: 1px solid $Error;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  p {
+    color: $Error;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+  }
+  /* .c-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+ */
+}
+
+.p-mypage-coupon-detail__code__expiration {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.p-mypage-coupon-detail__code__usedIc {
+  .c-icon {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.p-mypage-coupon-detail__code__couponsIc {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  &--disabled {
+    .c-icon {
+      g {
+        fill: $CoolGray;
+      }
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__list {
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  .c-title8 {
+    @include mq() {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__textCode {
+  margin: 0 auto;
+  .c-input {
+    input {
+      padding: 0.25rem;
+      font-size: 1.75rem;
+      line-height: 1.5;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__copy {
+  margin-bottom: 1.5rem;
+}
+
+.p-mypage-coupon-detail__code__send {
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .c-buttonWrap3 {
+    margin-bottom: 1.5rem;
+  }
+  span {
+    margin-left: 0.5rem;
+  }
+}
+
+.p-mypage-coupon-detail__code__imgWrap {
+  position: relative;
+  // margin-bottom: 1rem;
+  // padding: 0.5rem 0 1rem 0;
+  line-height: 1;
+  .c-icon {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  &--ticket {
+    position: relative;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+}
+
+.p-mypage-coupon-detail__code__img {
+  .qr-code {
+    display: flex;
+    justify-content: center;
+  }
+  .coupon-barcode {
+    width: 320px;
+    height: 112px;
+    background-color: #fff;
+    padding: 0 1.5rem;
+    @include mq() {
+      width: 157px;
+      height: 55px;
+    }
+  }
+  &--ticket {
+    padding: 2rem 0;
+    @include mq() {
+      padding: 1.5rem 0;
+    }
+  }
+  &--digipon {
+    padding: 0.5rem 0 1.5rem 0;
+  }
+  &--member {
+    margin-top: -0.5rem;
+    padding-bottom: 3rem;
+    @include mq() {
+      padding-bottom: 2rem;
+    }
+
+    @media print {
+      padding-top: 1rem;
+      padding-bottom: 1.25rem;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__sub-code {
+  display: table;
+  font-size: 0.875rem;
+  margin: 0 auto 2rem;
+  overflow-wrap: anywhere;
+  p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+.p-mypage-coupon-detail__code__main-code {
+  color: $CoolGray;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.p-mypage-coupon-detail__code__used {
+  .c-buttonWrap,
+  .c-buttonWrap4 {
+    margin-top: 2rem;
+  }
+  &--mb {
+    .c-buttonWrap4 {
+      margin-bottom: 1rem;
+      @include mq() {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.p-mypage-coupon-detail__code__note {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  @include mq('md', 'min') {
+    margin-bottom: 2rem;
+  }
+  // デジチケもぎり（単数・複数） もぎり前 SP
+  @include mq() {
+    margin-bottom: 1.5rem;
+  }
+  // デジチケもぎり（複数） もぎり後 SP
+  &--multiple {
+    @include mq() {
+      &::after {
+        background-image: url('~@/assets/images/icon/singledot_gray.svg');
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////
+
+.p-mypage-coupon-membership {
+  &__user {
+    padding: 1.5rem;
+    text-align: center;
+    &__icon {
+      .c-icon {
+        fill: $RedPink;
+        width: 3.5rem;
+        height: 3.5rem;
+        @include mq() {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+    &__title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      @include mq() {
+        font-size: 1rem;
+      }
+    }
+    &__info {
+      font-size: 0.875rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      color: $CoolGray;
+      margin-bottom: 1rem;
+      @include mq() {
+        display: block;
+      }
+      @media print {
+        display: inline-flex;
+      }
+      p {
+        @include mq() {
+          margin-bottom: 1rem;
+        }
+        @media print {
+          margin-bottom: 0;
+        }
+      }
+      &__value {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        color: $CoolBlack;
+        font-weight: bold;
+        @include mq() {
+          display: block;
+        }
+        @media print {
+          display: inline-flex;
+        }
+      }
+    }
+  }
+  &__menu {
+    text-align: center;
+    padding-top: 1.5rem;
+    &__title {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
+      .menu__title__name {
+        font-size: 1.5rem;
+        @include mq() {
+          font-size: 1rem;
+        }
+      }
+      .menu__title__sub {
+        font-size: 0.875rem;
+      }
+    }
+    &__coupon-list {
+      margin-bottom: 1rem;
+      li {
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+        .menu__coupon__label {
+          position: relative;
+          font-weight: bold;
+          padding: 2rem 2rem 2rem 4rem;
+          border-right: 1px solid $CoolGray4;
+          @include mq() {
+            padding: 1rem;
+            border-right: none;
+          }
+          @media print {
+            padding: 2rem 2rem 2rem 4rem;
+            border-right: 1px solid $CoolGray4;
+          }
+          .c-icon {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            fill: $Red;
+            width: 3rem;
+            height: 3rem;
+            @include mq() {
+              position: relative;
+              top: 0;
+              left: 0;
+              transform: translateY(0);
+            }
+            @media print {
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 3rem;
+              height: 3rem;
+            }
+          }
+          span {
+            @include mq() {
+              display: block;
+            }
+            @media print {
+              display: flex;
+            }
+          }
+        }
+        .menu__coupon__body {
+          font-size: 1.125rem;
+          font-weight: bold;
+          text-align: center;
+          width: calc(100% - 170px);
+          padding: 0.5rem 2rem 0 2rem;
+          @include mq() {
+            width: 100%;
+            text-align: left;
+            padding: 1rem 1.5rem;
+          }
+          @media print {
+            text-align: center;
+            width: calc(100% - 170px);
+            padding: 0.5rem 2rem 0 2rem;
+          }
+          .menu__coupon__benefits {
+            color: $Red;
+            font-size: 2rem;
+            line-height: 1.5;
+          }
+        }
+        .c-card__inner {
+          display: flex;
+        }
+        @media print {
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    }
+
+    &__expiration {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      background-color: #fff;
+      strong {
+        font-size: 1.125rem;
+      }
+    }
+    &__notes {
+      font-size: 0.875rem;
+      text-align: left;
+      margin-bottom: 1.5rem;
+
+      @media print {
+        padding-top: 1rem;
+      }
+    }
+
+    &__usages {
+      display: flex;
+      @include mq() {
+        display: block;
+        margin-bottom: 1.5rem;
+      }
+      @media print {
+        display: flex;
+      }
+    }
+    &__usage {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: left;
+      width: 50%;
+      @include mq() {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+      @media print {
+        width: 50%;
+        margin-bottom: 0.5rem;
+      }
+      &__label {
+        padding-left: 2.5rem;
+      }
+    }
+    &__published {
+      text-align: left;
+      padding: 1.5rem;
+      background-color: $CoolGray6;
+    }
+  }
+  @media print {
+    -webkit-print-color-adjust: exact;
+  }
+  &__coupon-image {
+    margin: 0 auto 1rem;
+    text-align: center;
+    width: 55%;
+    img {
+      margin: auto;
+      max-width: 100%;
+    }
+
+    @include mq() {
+      width: 93%;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__info {
+  .c-card__inner4 {
+    @include mq() {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__modal {
+  .c-modal__head__title {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  .modal--reject {
+    margin-bottom: 0 !important;
+    input {
+      background-color: $Error10;
+      border: 1px solid $Error;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__modal__lead {
+  margin-bottom: 4rem;
+  text-align: center;
+  br {
+    display: none;
+    @include mq() {
+      display: inline;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__modal__input {
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+  }
+  .c-input {
+    width: 500px;
+    margin-left: 7rem;
+    input {
+      border-radius: 4px;
+    }
+  }
+  @include mq() {
+    display: block;
+    position: initial;
+    label {
+      position: initial;
+    }
+    .c-input {
+      width: 100%;
+      margin-top: 0.5rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.p-mypage-coupon-detail__modal__reject {
+  margin-top: 0.5rem;
+  margin-bottom: 7rem;
+  margin-left: 7rem;
+  color: $Error;
+  font-size: 0.875rem;
+  position: relative;
+  @include mq() {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  span {
+    margin-left: 1.5rem;
+  }
+  .c-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}

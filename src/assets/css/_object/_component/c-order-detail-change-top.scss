@@ -1,0 +1,82 @@
+.c-order-detail-change-top {
+  border-top: 1px solid #CDCDCD;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  &__headding {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: .875rem;
+    &__date {
+      LI {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    &__status {
+      display: flex;
+      LI {
+        margin-left: .5rem;
+        .status {
+          color: #222;
+          margin-bottom: .5rem;
+          &__label {
+            background-color: #CDCDCD;
+            padding: .2rem .6rem;
+            border-radius: 2px;
+            color: initial;
+          }
+        }
+      }
+    }
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    .c-order-detail-change-top__block {
+      display: flex;
+      margin-bottom: 1rem;
+      &__contents {
+        padding-left: 1rem;
+        .category {
+          color: #222;
+          margin-bottom: .5rem;
+          &__label {
+            background-color: #EEE;
+            padding: .2rem .6rem;
+            font-size: .75rem;
+            border-radius: 2px;
+            margin-right: .5rem;
+            color: initial;
+          }
+        }
+        .name {
+          margin-bottom: .5rem;
+          font-weight: bold;
+        }
+        .tel > I {
+          margin-right: 1rem;
+        }
+        .summary {
+          font-size: .875rem;
+        }
+      }
+    }
+  }
+  &__complete {
+    padding: 6rem;
+    background-color: #EEE;
+    P {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+} 

@@ -1,0 +1,53 @@
+.p-menu-digital-coupon-application {
+  &__title {
+    margin-bottom: 1.75rem;
+  }
+  &__forms {
+    display: flex;
+    align-items: center;
+
+    @include mq() {
+      display: block;
+    }
+
+    &--between {
+      justify-content: space-between;
+    }
+    &--right {
+      justify-content: flex-end;
+    }
+  }
+  &__formList {
+    display: flex;
+    align-items: center;
+
+    @include mq() {
+      flex-wrap: wrap;
+    }
+    &--calendar {
+      @include mq() {
+        // width: 280px;
+        width: 100%;
+        margin-right: initial;
+        margin-bottom: 1rem;
+      }
+    }
+    &--select {
+      @include mq() {
+        // width: 135px;
+        width: calc(50% - .25rem);
+        margin-bottom: 1rem;
+      }
+    }
+    LI {
+      @include mq('md', min) {
+        margin-right: 1rem;
+      }
+      @include mq() {
+        &:nth-child(2) {
+          margin-right: .5rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.c-toggle-switch {
+  display: table;
+  font-size: 2rem;
+  input {
+    display: none;
+    &:checked + .c-toggle-switch__label {
+      background-color: $CoolGray;
+      border:2px solid $CoolGray;
+      &::before {
+        left: calc(100% - 1em + 0.2em);
+      }
+    }
+  }
+  .c-toggle-switch__label {
+    display: block;
+    position: relative;
+    width: 1.5em;
+    height: .9em;
+    border-radius: 1em;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    border:2px solid $CoolGray;
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: -2px;
+      transform: translateY(-50%);
+      width: calc(1em - 0.15em);
+      height: calc(1em - 0.15em);
+      border-radius: calc(1em - 0.15em);
+      background-color: #fff;
+      border:2px solid $CoolGray;
+      transition: 0.2s;
+      content: "";
+    }
+  }
+}

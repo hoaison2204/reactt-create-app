@@ -1,0 +1,25 @@
+/**
+ * タイトル
+ */
+.crth-a-login-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: relative;
+
+  @include mq() {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0 12px;
+    background-color: #999;
+    line-height: 29px;
+    height: 29px;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  label {
+    cursor: text;
+  }
+}

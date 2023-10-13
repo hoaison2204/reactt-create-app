@@ -1,0 +1,57 @@
+
+.p-menu-personal-information-consent {
+  &__inner {
+    padding: 0 2rem;
+  }
+  &__notice-list {
+    list-style: disc;
+    line-height: 1.8rem;
+    border-bottom: 1px solid #CCC;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  &__description {
+    padding-bottom: 1.5rem;
+  }
+  &__paragraph {
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+  &__contents {
+    // list-style: decimal;
+    // padding-left: 1rem;
+    &__title {
+      margin-bottom: 0.5rem;
+    }
+    &__list {
+      margin-bottom: 1.5rem;
+    }
+    &__sub-list {
+      list-style: disc;
+      line-height: 1.8rem;
+      padding-left: 1.5rem;
+    }
+  }
+  .p-menus-no-plan-detail__application__button {
+    .c-buttonWrap3 {
+      width: auto;
+      @include mq() {
+        width: 100%;
+        flex-direction: column-reverse
+      }
+
+      .c-button {
+        width: auto;
+        min-width: 200px;
+        margin: 0 0.5rem;
+
+        @include mq() {
+          width: 100%;
+          min-width: 0;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "content": [
+      {
+          "id": 347,
+          "itemType": "viewed",
+          "menuNo": "10030023",
+          "customerNo": "102461000010445",
+          "dateAdded": "2022-05-18T11:04:32.090+00:00",
+          "menuDetailResponse": {
+              "menuRcEndDt": "2999/03/31 23:59:00",
+              "menuNo": "10030023",
+              "targetMenuNo": "10031153",
+              "menuImages": [
+                  {
+                      "imageExplanation": null,
+                      "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                  }
+              ],
+              "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+              "areaInfomation": {
+                  "areaMidClassNm": "北海道",
+                  "areaDtlClassNm": "札幌・新札幌・琴似",
+                  "areaMidClassCd": "hokkaido",
+                  "areaDtlClassCd": "A",
+                  "latitude": 43,
+                  "areaLrgClassNm": "北海道",
+                  "areaSmlClassNm": "札幌",
+                  "areaLrgClassCd": "region-1",
+                  "areaSmlClassCd": "sapporo",
+                  "longitude": 141
+              },
+              "menuRcSttDt": "2003/11/01 00:00:00",
+              "shopAreaDiv": "0",
+              "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+              "extSystemMenuId": null,
+              "categoryInfomation": {
+                  "catLrgClassCd": "101",
+                  "catMidClassNm": "国内の宿",
+                  "catLrgClassNm": "トラベル",
+                  "catSmlClassCd": "301",
+                  "catMidClassCd": "201",
+                  "catSmlClassNm": "ホテル"
+              },
+              "menuNmKana": "ホテルエミシアサッポロ",
+              "menuNm": "ホテルエミシア札幌",
+              "extSystemCd": null,
+              "srvicDiv": "A10"
+          },
+          "favourite": false,
+          "idFavourite": 12,
+          "serviceType": "stay"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": 13,
+        "serviceType": "life"
+    },
+    {
+        "id": 347,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": true,
+        "idFavourite": 16,
+        "serviceType": "stay"
+    },
+    {
+      "id": 348,
+      "itemType": "viewed",
+      "menuNo": "10030023",
+      "customerNo": "102461000010445",
+      "dateAdded": "2022-05-18T11:04:32.090+00:00",
+      "menuDetailResponse": {
+          "menuRcEndDt": "2999/03/31 23:59:00",
+          "menuNo": "10030023",
+          "targetMenuNo": "10031153",
+          "menuImages": [
+              {
+                  "imageExplanation": null,
+                  "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+              }
+          ],
+          "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+          "areaInfomation": {
+              "areaMidClassNm": "北海道",
+              "areaDtlClassNm": "札幌・新札幌・琴似",
+              "areaMidClassCd": "hokkaido",
+              "areaDtlClassCd": "A",
+              "latitude": 43,
+              "areaLrgClassNm": "北海道",
+              "areaSmlClassNm": "札幌",
+              "areaLrgClassCd": "region-1",
+              "areaSmlClassCd": "sapporo",
+              "longitude": 141
+          },
+          "menuRcSttDt": "2003/11/01 00:00:00",
+          "shopAreaDiv": "0",
+          "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+          "extSystemMenuId": null,
+          "categoryInfomation": {
+              "catLrgClassCd": "101",
+              "catMidClassNm": "国内の宿",
+              "catLrgClassNm": "トラベル",
+              "catSmlClassCd": "301",
+              "catMidClassCd": "201",
+              "catSmlClassNm": "ホテル"
+          },
+          "menuNmKana": "ホテルエミシアサッポロ",
+          "menuNm": "ホテルエミシア札幌",
+          "extSystemCd": null,
+          "srvicDiv": "A10"
+      },
+      "favourite": true,
+      "idFavourite": 19,
+      "serviceType": "life"
+    },
+    {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "stay"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      },
+      {
+        "id": 348,
+        "itemType": "viewed",
+        "menuNo": "10030023",
+        "customerNo": "102461000010445",
+        "dateAdded": "2022-05-18T11:04:32.090+00:00",
+        "menuDetailResponse": {
+            "menuRcEndDt": "2999/03/31 23:59:00",
+            "menuNo": "10030023",
+            "targetMenuNo": "10031153",
+            "menuImages": [
+                {
+                    "imageExplanation": null,
+                    "imageUrl": "https://mn.tst.boimg.jp/img/NOIMAGE.jpg"
+                }
+            ],
+            "leadCopy": "「まん延防止等重点措置」の適用に伴い、館内施設の営業時間を変更いたします。〇３１階　スカイレストラン「ハレアス」　朝食ブッフェ　１月３１日～２月２０日　時短営業　６：３０～９：００　※状況によって、時間毎の人数制限の設定や提供方法などを変更する場合がございます。　ランチ　　２月１日～２月２０日臨時休業　ディナー　１月２７日～２月２０日時短営業　１７：３０～２１：００（ラストオーダー／酒類の提供２０：００）〇Ｂ１階　リラクゼーション「スパ・アルパ」（大浴場）時短営業　ご入浴　　１月３１日～２月２０日１１：００～２２：００（最終受付２１：３０）　ラウンジ　１月２７日～２月２０日１１：００～２１：００（ラストオーダー／酒類の提供２０：００）　※各種リラクゼーションメニューの提供は休止しております。",
+            "areaInfomation": {
+                "areaMidClassNm": "北海道",
+                "areaDtlClassNm": "札幌・新札幌・琴似",
+                "areaMidClassCd": "hokkaido",
+                "areaDtlClassCd": "A",
+                "latitude": 43,
+                "areaLrgClassNm": "北海道",
+                "areaSmlClassNm": "札幌",
+                "areaLrgClassCd": "region-1",
+                "areaSmlClassCd": "sapporo",
+                "longitude": 141
+            },
+            "menuRcSttDt": "2003/11/01 00:00:00",
+            "shopAreaDiv": "0",
+            "catchCopy": "ＪＲ「新札幌駅」改札口より徒歩３分。地上３２階のランドマークタワー。",
+            "extSystemMenuId": null,
+            "categoryInfomation": {
+                "catLrgClassCd": "101",
+                "catMidClassNm": "国内の宿",
+                "catLrgClassNm": "トラベル",
+                "catSmlClassCd": "301",
+                "catMidClassCd": "201",
+                "catSmlClassNm": "ホテル"
+            },
+            "menuNmKana": "ホテルエミシアサッポロ",
+            "menuNm": "ホテルエミシア札幌",
+            "extSystemCd": null,
+            "srvicDiv": "A10"
+        },
+        "favourite": false,
+        "idFavourite": null,
+        "serviceType": "life"
+      }
+  ],
+  "pageable": "INSTANCE",
+  "last": true,
+  "totalElements": 50,
+  "totalPages": 1,
+  "number": 0,
+  "first": true,
+  "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+  },
+  "numberOfElements": 50,
+  "size": 1,
+  "empty": false
+}

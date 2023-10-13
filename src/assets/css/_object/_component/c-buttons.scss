@@ -1,0 +1,199 @@
+.c-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &--mb-sp {
+    @include mq() {
+      margin-bottom: 1.75rem;
+    }
+  }
+  &__inner {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 100%;
+    &:nth-child(odd) {
+      margin-left: auto;
+      padding-right: 0.5rem;
+    }
+    &:nth-child(even) {
+      margin-right: auto;
+      padding-left: 0.5rem;
+    }
+    @include mq() {
+      width: 50%;
+      .c-buttonWrap {
+        .c-button {
+          display: block;
+          width: 100%;
+        }
+      }
+      .c-button {
+        display: block;
+        width: 100%;
+      }
+    }
+    > * {
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.c-buttons2 {
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 100%;
+    @include mq("md", "min") {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+    @include mq() {
+      width: 100%;
+      &:nth-child(odd) {
+        margin-left: auto;
+        padding-right: 0.5rem;
+      }
+      &:nth-child(even) {
+        margin-right: auto;
+        padding-left: 0.5rem;
+      }
+      .c-buttonWrap {
+        .c-button {
+          display: block;
+          width: 100%;
+        }
+      }
+      .c-button {
+        display: block;
+        width: 100%;
+      }
+    }
+    > * {
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+  @include mq() {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+}
+
+.c-buttons3 {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &__inner {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 100%;
+    @include mq("md", "min") {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+    @include mq() {
+      width: 50%;
+      .c-buttonWrap {
+        .c-button {
+          display: block;
+          width: 100%;
+        }
+      }
+      .c-button {
+        display: block;
+        width: 100%;
+      }
+    }
+    > * {
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.c-buttons4 {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &__inner {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 100%;
+    @include mq("md", "min") {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+    @include mq() {
+      width: 100%;
+      .c-buttonWrap {
+        .c-button {
+          display: block;
+          width: 100%;
+        }
+      }
+      .c-button {
+        display: block;
+        width: 100%;
+      }
+    }
+    > * {
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media print {
+  .c-buttons4 {
+    width: 70%;
+    display: inline-flex;
+
+    &__inner {
+      width: 50%;
+      align-items: stretch;
+      animation: none !important;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+}

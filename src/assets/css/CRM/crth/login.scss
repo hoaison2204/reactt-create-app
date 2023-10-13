@@ -1,0 +1,12 @@
+.crth-main {
+  position: relative;
+
+  &__contents {
+    margin: auto;
+    width: 990px;
+
+    @include mq() {
+      width: 100%;
+    }
+  }
+}

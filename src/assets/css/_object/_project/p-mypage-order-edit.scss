@@ -1,0 +1,93 @@
+
+.p-mypage-order-edit {
+  .order-edit__detail{
+    border-top: 1px solid #CDCDCD;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    &__complete {
+      padding: 6rem;
+      border: 1px solid $CoolGray;
+      border-radius: 4px;
+      P {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .order-edit__info{
+    margin-bottom: 2rem;
+    H2 {
+      margin-bottom: 1rem;
+    }
+    &__contents {
+      .contents__headding {
+        font-size: 1.1rem;
+        background-color: #F2F2F2;
+        padding: .5rem 1.5rem;
+      }
+      .contents__inner {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        .contents__body {
+          &__plan{
+            white-space: pre-line;
+            word-wrap: break-word;
+            overflow: hidden;
+            height: 8rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: .875rem;
+            color: $CoolGray;
+            &.open {
+              height: auto;
+            }
+          }
+          &__toggleBtn {
+            text-align: right;
+            padding: 1rem;
+          }
+          &--notice {
+            margin-bottom: 1rem;
+            font-size: .875rem;
+          }
+          &__table {
+            width: 100%;
+            border-collapse:  collapse;
+            margin-bottom: 1rem;
+            TH, TD {
+              border: 1px solid #cdcdcd;
+              padding: 1rem;
+            }
+            TH {
+              width: 33%;
+              text-align: left;
+              font-weight: normal;
+              background-color: #F2F2F2;
+            }
+            TD {
+              .c-input-box {
+                display: inline-block;
+                margin-right: 1rem;
+              }
+              .c-select {
+                display: inline-block;
+                vertical-align: top;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .order-edit__footer {
+    text-align: center;
+    margin-bottom: 1rem;
+    &--amount {
+      color: #222;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

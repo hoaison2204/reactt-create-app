@@ -1,0 +1,93 @@
+.c-buttonWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  .c-button {
+    width: unset;
+  }
+}
+
+
+.c-buttonWrap2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  .c-button {
+    display: block;
+    width: 100%;
+  }
+  @include mq('md', 'min') {
+    min-width: 240px;
+    width: auto;
+    max-width: 320px;
+  }
+  @include mq() {
+    display: flex;
+  }
+}
+
+
+.c-buttonWrap3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  .c-button {
+    display: block;
+    width: 100%;
+  }
+  @include mq('md', 'min') {
+    width: 320px;
+  }
+  @include mq() {
+    display: flex;
+  }
+}
+
+
+.c-buttonWrap4 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  .c-button {
+    display: block;
+    width: 100%;
+  }
+  @include mq('md', 'min') {
+    width: 240px;
+  }
+  @include mq() {
+    display: flex;
+  }
+}
+
+
+.c-buttonWrap5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  .c-button {
+    display: block;
+    width: 100%;
+  }
+  @include mq('md', 'min') {
+    width: 160px;
+  }
+  @include mq() {
+    display: flex;
+  }
+}

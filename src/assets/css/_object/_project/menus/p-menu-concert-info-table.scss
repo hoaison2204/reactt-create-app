@@ -1,0 +1,30 @@
+.p-menus-no-detail__block {
+  background-color: #fff;
+  margin-top: 32px;
+  padding: 33px;
+  border-radius: 8px;
+}
+
+.info_table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    background-color: #EDEEF0;
+    font-weight: normal;
+    width: 229px;
+  }
+
+  th, td {
+    border: 1px solid #DCDEE0;
+    padding: 16px;
+
+    @include mq() {
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+      min-height: 53px;
+      display: block;
+    }
+  }
+}

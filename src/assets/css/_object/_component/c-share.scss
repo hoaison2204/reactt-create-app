@@ -1,0 +1,76 @@
+.b-share {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+    &-item {
+      padding-top: 8px;
+    }
+    &_inner {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      .icon{
+        font-size: 24px !important;
+      }
+      p {
+        font-size: 12px;
+        color:  #1F2021;
+        font-weight: 400;
+        @media (max-width: 768px) {
+          font-weight: 700;
+          margin-bottom: 4px;
+        }
+      }
+    }
+   .paddingTop6 {
+    padding-top: 8px;
+   } 
+    .link{
+      @media (min-width: 1024px) {
+        display: none;
+      }
+      @screen md {
+      }
+    }
+    .icon {
+      font-size: 18px;
+    }
+  
+    .item-action {
+      &:not(:last-of-type) {
+        margin-right: 18px;
+      }
+      .c-btn {
+        padding: 11px 15px;
+        text-align: center;
+        border-radius: 0.375rem;
+        font-weight: 700;
+        border-width: 1px;
+        border-style: solid;
+        transition: all 0.2s ease-in-out;
+        white-space: nowrap;
+        &.btn-white {
+          background-color: #fff;
+          color: #63666a;
+          cursor: pointer;
+          &:hover {
+            text-decoration: none;
+            outline: 0;
+            color: #2a2c2d;
+            border-color: #2a2c2d;
+          }
+        }
+        &.btn-sm {
+          font-size: 12px;
+          padding: 6px 12px;
+        }
+      }
+    }
+  }
+  .share{
+    color: #63666a;
+  }

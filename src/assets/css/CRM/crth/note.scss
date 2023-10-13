@@ -1,0 +1,33 @@
+/**
+ * ログイン ログインボタン注釈
+ */
+.crth-a-login-note {
+  margin: 0;
+  text-align: left;
+  width: auto;
+  font-size: 14px;
+
+  a {
+    color: #049de4;
+  }
+
+  span {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  @include mq() {
+    margin: 10px auto;
+  }
+}
+
+/* スマホオンリー */
+.crth-sp {
+  display: none;
+
+  @include mq() {
+    display: block;
+  }
+}

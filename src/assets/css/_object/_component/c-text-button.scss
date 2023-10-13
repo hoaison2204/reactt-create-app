@@ -1,0 +1,69 @@
+.c-text-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  user-select: none;
+  background-color: transparent;
+  color: $CoolBlack;
+  vertical-align: middle;
+  cursor: pointer;
+  &:active {
+    transform: translate(0, 1px);
+  }
+  &:hover {
+    color: $Red;
+    text-decoration: none;
+    @include mq() {
+      color: $CoolBlack;
+    }
+    g {
+      fill: $Red;
+    }
+  }
+  .c-icon {
+    &:first-of-type {
+      position: absolute;
+      top: 50%;
+      margin-top: -0.575em;
+      width: 1.325em;
+      height: 1.325em;
+    }
+    &:not(:first-of-type) {
+      margin-right: 0.25em;
+      margin-left: 0.25em;
+    }
+  }
+  &--sm {
+    font-size: 0.875rem;
+  }
+  &--right {
+    padding-right: 1.75em;
+    .c-icon {
+      right: 0;
+    }
+  }
+  &--left {
+    padding-left: 1.75em;
+    .c-icon {
+      left: 0;
+    }
+  }
+  &--color1 {
+    .c-icon {
+      fill: $Red;
+    }
+  }
+}
+
+.c-text-button2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  vertical-align: middle;
+  .c-icon {
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+  }
+}

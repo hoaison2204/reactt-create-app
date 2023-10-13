@@ -1,0 +1,282 @@
+@mixin listBlockTextButton {
+  .c-text-button {
+    @include mq("md", "min") {
+      font-size: 0.875rem;
+    }
+    @include mq() {
+      font-size: 0.75rem;
+    }
+    .c-icon {
+      margin-right: 0.25em;
+      &:first-of-type {
+        margin-top: -0.65em;
+      }
+    }
+  }
+}
+
+@mixin listBlockTextbuttonHover {
+  .c-text-button {
+    color: $Red;
+    .c-icon {
+      g {
+        fill: $Red;
+      }
+    }
+  }
+}
+
+.p-mypage-listBlock {
+  position: relative;
+  color: $CoolGray;
+  font-size: 0.875rem;
+  &--pc {
+    @include mq() {
+      display: none !important;
+    }
+    @media print {
+      display: flex !important;
+    }
+  }
+  &--sp {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+    .c-card__inner4 {
+      padding-top: 0;
+    }
+    @media print {
+      display: none;
+    }
+  }
+}
+
+.p-mypage-listBlock__inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .c-card__inner4 {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    &:hover {
+      cursor: pointer;
+      .p-mypage-listBlock__content__description {
+        color: $Red;
+      }
+      img {
+        opacity: 0.8;
+      }
+    }
+  }
+  // &--hasDelete {
+  //   .c-card__inner4 {
+  //     padding-bottom: 0.5rem;
+  //   }
+  // }
+  &--isEditable {
+    @include mq("md", "min") {
+      .p-mypage-listBlock__content {
+        width: 478px;
+      }
+    }
+  }
+}
+
+.p-mypage-listBlock__checkbox {
+  padding-left: 1.5rem;
+  @include mq() {
+    padding-left: 1rem;
+  }
+}
+
+.p-mypage-listBlock__delete {
+  @include listBlockTextButton;
+  &:hover {
+    @include listBlockTextbuttonHover;
+  }
+  // span {
+  //   display: block;
+  // }
+}
+
+.p-mypage-listBlock__thumbnail {
+  width: 10rem;
+  height: 10rem;
+  @include mq("md", "min") {
+    width: 10rem;
+    height: 10rem;
+  }
+  @include mq() {
+    width: 4rem;
+    min-width: 4rem;
+    height: 4rem;
+  }
+}
+
+.p-mypage-listBlock__content {
+  flex-grow: 1;
+  @include mq("md", "min") {
+    padding-left: 1.5rem;
+    // width: 520px;
+    width: 100%;
+  }
+  @include mq() {
+    padding-left: 1rem;
+    width: 100%;
+  }
+}
+
+.p-mypage-listBlock__content__header {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  > * {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  &__no {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.p-mypage-listBlock__content__gourmetLabel {
+  display: block;
+  &:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.p-mypage-listBlock__content__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  span {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  &--right {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.p-mypage-listBlock__content__footerNav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  @include listBlockTextButton;
+  > li {
+    &:nth-child(odd) {
+      padding-right: 1rem;
+      text-align: left;
+    }
+    &:nth-child(even) {
+      padding-left: 1rem;
+      text-align: right;
+    }
+    .c-text-button {
+      width: 100%;
+    }
+  }
+  @include mq("md", "min") {
+    > li {
+      .c-text-button {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+  @include mq() {
+    height: 2rem;
+    > li {
+      position: absolute;
+      bottom: 0.5rem;
+      &:hover {
+        @include listBlockTextbuttonHover;
+      }
+      &:nth-child(odd) {
+        left: 1rem;
+      }
+      &:nth-child(even) {
+        right: 1rem;
+      }
+      .c-text-button {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+.p-mypage-listBlock__content__name {
+  color: $CoolBlack;
+  font-size: inherit;
+  line-height: 1.3;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.p-mypage-listBlock__content__description {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: $CoolBlack;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  @include mq() {
+    font-size: 1.125rem;
+  }
+}
+
+.p-mypage-listBlock__content__location {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: $CoolBlack;
+  font-size: 0.875rem;
+  &:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+  .c-icon {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    g {
+      fill: $CoolBlack;
+    }
+  }
+}
+
+.p-mypage-listBlock__footer {
+  .c-card__inner4 {
+    @include listBlockTextButton;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 0;
+    margin-top: -0.5rem;
+    &:hover {
+      @include listBlockTextbuttonHover;
+    }
+  }
+}

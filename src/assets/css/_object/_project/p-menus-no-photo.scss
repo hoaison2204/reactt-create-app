@@ -1,0 +1,111 @@
+.p-menus-no-photo {
+  padding: 2rem;
+  &__menu-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    &__item {
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+      @include mq() {
+        margin-bottom: 1rem;
+      }
+      &:hover {
+        color: $Red;
+      }
+    }
+  }
+  &__lists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__list {
+    width: calc(100% / 4 - 12px);
+    margin-bottom: 2rem;
+    cursor: pointer;
+    IMG {
+      object-fit: contain;
+      width: 100%;
+    }
+    @include mq('md', min) {
+      &:not(:nth-child(4n)) {
+        margin-right: 1rem;
+      }
+    }
+    @include mq() {
+      width: calc(100% / 2 - 8px);
+      &:not(:nth-child(2n)) {
+        margin-right: 1rem;
+      }
+    }
+    &__description {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  }
+  &__modal {
+    &__heading {
+      margin-bottom: 1rem;
+      &__items {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      &__item {
+        border: 1px solid $CoolGray;
+        padding: 9.5px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.875rem;
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+        @include mq() {
+          margin-bottom: 1rem;
+        }
+        &--current {
+          color: #FFF;
+          background-color: $CoolGray-1;
+        }
+      }
+    }
+    &__block {
+      .swiper-container {
+        width: 100% !important;
+        position: relative;
+      }
+      .swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        background-color: #1F202199;
+        border-radius: 0px 4px 4px 0px;
+        &::after {
+          content: "";
+        }
+      }
+      .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+        background-color: #1F202199;
+        border-radius: 4px 0px 0px 4px;
+        &::after {
+          content: "";
+        }
+      }
+    }
+    &__image {
+      width: 100%;
+      IMG {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+}

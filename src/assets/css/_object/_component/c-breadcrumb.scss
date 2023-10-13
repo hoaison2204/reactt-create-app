@@ -1,0 +1,46 @@
+.c-breadcrumb {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 0.75rem;
+  list-style: none;
+  font-size: 0.75rem;
+  color: $CoolGray;
+  white-space: nowrap;
+  overflow: scroll;
+  -ms-overflow-style: none; // IE、Edge用バー非表示
+  scrollbar-width: none; //Firefox用バー非表示
+  &::-webkit-scrollbar {
+    display: none; // Chrome、Safari用バー非表示
+  }
+  &__item {
+    cursor: default;
+    &__icon {
+      display: none;
+    }
+    &__link {
+      color: $CoolBlack;
+      @include mq() {
+        font-size: 10px;
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+    &:not(:first-child) {
+      padding-left: 0.5rem;
+      @include mq() {
+        padding-left: 0.3rem;
+      }
+      .c-breadcrumb__item__link {
+        display: flex;
+        align-items: flex-start;
+      }
+      .c-breadcrumb__item__icon {
+        display: block;
+        margin-right: 0.4rem;
+        @include mq() {
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+}

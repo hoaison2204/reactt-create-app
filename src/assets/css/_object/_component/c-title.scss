@@ -1,0 +1,115 @@
+.c-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 1rem;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  &::before {
+    content: '';
+    border-left: 4px solid $Red;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  @include mq() {
+    font-size: 1.25rem;
+    &::before {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.c-title2 {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    display: inline-block;
+    background-color: $Red;
+    border-radius: 3px;
+    width: 0.75rem;
+    height: 0.25rem;
+    transform: translateY(-50%);
+  }
+}
+
+.c-title3 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.c-title4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  @include mq() {
+    font-size: 1.125rem;
+  }
+}
+
+.c-title5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  @include mq() {
+    font-size: 1rem;
+  }
+}
+
+.c-title6 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  @include mq() {
+    font-size: 0.875rem;
+  }
+}
+
+.c-title7 {
+  padding: 0.75rem;
+  background-color: $CoolGray6;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: center;
+  strong {
+    padding: 0 0.5em;
+  }
+}
+
+.c-title8 {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}

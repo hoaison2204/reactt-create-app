@@ -1,0 +1,20 @@
+$BgColor3: #F2F2F2;
+.c-textarea{
+  
+  TEXTAREA {
+    width: 100%;
+    height: 14rem;
+    resize: none;
+    padding: .5rem;
+    border: 1px solid $CoolGray4;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: $CoolGray6;
+    &:focus{
+      cursor: auto;
+      outline: none;
+      background-color: $LightYellow;
+    }
+  }
+}

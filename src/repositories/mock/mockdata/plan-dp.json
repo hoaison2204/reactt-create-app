@@ -1,0 +1,245 @@
+{
+    "planBasicInfo": {
+      "menuNo": "21000946",
+      "planNm": "【GOTOトラベル対象外】Web申込でツアー代金の1％分のベネポをプレゼント",
+      "planRcEndDt": "2030/03/31 23:59:59",
+      "extSystemMenuId": null,
+      "planRcSttDt": "2022/04/14 00:00:00",
+      "planId": "2000001120",
+      "extSystemPlanId": null,
+      "planImages": [
+        {
+          "imageExplanation": null,
+          "imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/plfe/vd_image_file/0019/1987.jpg"
+        }
+      ],
+      "planLeadCopy": "JAL国内線往復航空券＋日本全国の宿泊施設＋レンタカー・観光・体験\nなどオプションを自由に選んであなただけのオリジナルツアーを作る\nことができます。  インターネットで簡単予約。キャンセル待ちもな\nいから安心。JALのマイルもベネポもたまる！期間限定不定期開催のタ\nイムセールもお見逃しなく！"
+    },
+    "planIcons": [
+      {
+        "iconNm": "ベネポ貯まる",
+        "iconCd": "benepo_tamaru",
+        "iconSuppl": null
+      },
+      {
+        "iconNm": "ベネポ使える",
+        "iconCd": "benepo_tsukaeru",
+        "iconSuppl": null
+      }
+    ],
+    "planUsage": {
+      "applFlag": "1",
+      "usageDetailLife": {
+        "lotteryInfo": null,
+        "convenienceStores": null,
+        "preRsvNecDiv": null,
+        "applFax": null,
+        "couponLimits": null,
+        "applEmailAddr": null,
+        "applTel": null,
+        "applTels": null,
+        "pyrlDedDiv": null,
+        "affiliateCoupons": null,
+        "affiliateTypeId": null,
+        "applWebUrl": "https://isols-benefitstation.isol-tool.com/dp-mock/html/jal_tour/index.html"
+      },
+      "usageDetailStay": null,
+      "usageDetail": {
+        "usageTxtGuidance": null,
+        "famiExclusionFlag": "1",
+        "ticketExclusionFlag": "1",
+        "ostiariesFlag": "0",
+        "receivableFlag": "1",
+        "buppanExclusionFlag": "1",
+        "optinFlag": "1"
+      },
+      "usageDiv": "30",
+      "usageLoginBfrDispFlag": "1"
+    },
+    "memberBenefits": [
+      {
+        "stockTerms": null,
+        "stockKey": null,
+        "bitesQty": null,
+        "benefitDiv": "3",
+        "tixSendWay": null,
+        "applWinDispDiv": "2",
+        "pyrlDedPayeeDiv": null,
+        "generalPrice": null,
+        "saleStockTermFlag": null,
+        "benefitHeading": "ベネフィット・ステーションホームページ経由の申込みで",
+        "boneSubsidy": null,
+        "digiPonFreeSaleFlag": null,
+        "ticketHeading": null,
+        "memberBenefitsId": "105716251",
+        "alliancePrice": null,
+        "pyrlDedDiscount": null,
+        "price": null,
+        "benefitContent": "旅行代金の1％分のベネポを付与！",
+        "headlineBeneCont": "ベネフィット・ステーションホームページ経由の申込みで"
+      }
+    ],
+    "benefitImportantPoints": [
+      {
+        "linkUrl": null,
+        "infoLev": "3",
+        "title": "ログイン時の会員認証について",
+        "content": "ログイン後、ご利用方法・お申込み\n欄の「お申込みはこちら」ボタンか\nら専用サイトにて申込をしていれば\n不要",
+        "linkNm": null
+      }
+    ],
+    "planInfomation": null,
+    "shoppingGuideInfo": {
+      "shoppingGuideNote": null,
+      "shoppingGuides": [
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "会員特典",
+          "shoppingGuideCd": "000211",
+          "shoppingGuideValue": "会員特典欄をご確認ください。",
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "送料",
+          "shoppingGuideCd": "000202",
+          "shoppingGuideValue": "サービス提供企業の規定が適用となります。",
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": [
+            "～2030年03月31日 23時59分"
+          ],
+          "shoppingGuideNm": "お申込み期間",
+          "shoppingGuideCd": "000212",
+          "shoppingGuideValue": null,
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": [
+            "■特典適用方法",
+            "ログイン後、当サイト経由の予約がベネポプレゼント対象となります。",
+            "■注意事項",
+            "テスト",
+            "利備テスト"
+          ],
+          "shoppingGuideNm": "お申込み時の留意点",
+          "shoppingGuideCd": "000210",
+          "shoppingGuideValue": null,
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "商品等の引渡時期・サービスの提供時期",
+          "shoppingGuideCd": "000204",
+          "shoppingGuideValue": "サービス提供企業の規定が適用となります。",
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "ご利用方法",
+          "shoppingGuideCd": "000209",
+          "shoppingGuideValue": "サービス提供企業にお申し込みください。",
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "お支払い方法",
+          "shoppingGuideCd": "000205",
+          "shoppingGuideValue": "サービス提供企業にお支払いください。",
+          "linkNm": null
+        },
+        {
+          "linkUrl": null,
+          "shoppingGuideValues": null,
+          "shoppingGuideNm": "返品・交換・キャンセル等",
+          "shoppingGuideCd": "000206",
+          "shoppingGuideValue": "サービス提供企業のルールが適用となります。※ご不明点等はサービス提供企業へ直接お問い合わせください。",
+          "linkNm": null
+        }
+      ]
+    },
+    "optins": [
+      {
+        "pubCondDiv": "00",
+        "documentId": "GAIBUSENNI-1.0",
+        "documentNm": "PT申込遷移（外部サイト遷移）の同意",
+        "documentUrl": "https://bs.tst.benefit-one.inc/otherPage?other_id=kiyaku_pt.html"
+      }
+    ],
+    "applLimits": null,
+    "payMthdInfo": {
+      "payeeNote": null,
+      "payeeDiv": "10",
+      "reducedTaxRateFlag": 0,
+      "shipping": null,
+      "payMthdList": [
+        {
+          "useFlag": "0",
+          "payMthdDiv": "10"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "20"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "30"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "40"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "50"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "55"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "60"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "61"
+        },
+        {
+          "useFlag": "0",
+          "payMthdDiv": "70"
+        }
+      ],
+      "benepoUseFlag": "1"
+    },
+    "benepoReturnInfo": {
+      "grantReasonDivName": "サービス申込のため",
+      "pointSrcId": "10000000000",
+      "srcPtFlag": "1",
+      "uliCats": null,
+      "benepoReturnRate": 1,
+      "freeGrantFlag": "0",
+      "benepoGrantTypeDiv": "1",
+      "exclIden": null,
+      "uliUsages": null,
+      "uliMenus": null,
+      "benepoReturnFixed": null,
+      "qtyCntFlag": "0",
+      "uliPlans": null,
+      "benepoExDdtValue": null,
+      "grantLimDay": null,
+      "grantReasonDiv": "1",
+      "pointSrcIdName": "加盟店",
+      "benepoReturnDiv": "10",
+      "benepoExDdtDiv": "0",
+      "validSttDayDiv": null
+    }
+  }

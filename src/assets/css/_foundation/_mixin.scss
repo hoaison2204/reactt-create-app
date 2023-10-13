@@ -1,0 +1,35 @@
+$BgColor: #fff;
+
+@mixin mq($breakpoint: md, $rule: max) {
+  $breakpoint: map_get($breakpoints, $breakpoint);
+  @media print, screen and (#{$rule}-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin displayWidth() {
+  max-width: $contentWidth;
+  margin: 0 auto;
+  @include mq("lg") {
+    max-width: $contentWidthMd;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  @include mq() {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@mixin mypageInner() {
+  width: 100%;
+  background-color: $BgColor;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+@mixin container() {
+  background-color: $BgColor;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}

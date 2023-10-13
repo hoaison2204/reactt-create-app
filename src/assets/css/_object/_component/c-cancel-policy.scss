@@ -1,0 +1,61 @@
+
+.c-cancel-policy{
+  margin-bottom: 4rem;
+  H2 {
+    margin-bottom: 1rem;
+  }
+  &__contents {
+    .contents__headding {
+      font-size: 1.1rem;
+      background-color: #F2F2F2;
+      padding: .5rem 1.5rem;
+    }
+    .contents__inner {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      .contents__body {
+        padding: 1rem;
+
+        &__table {
+          width: 100%;
+          border-collapse:  collapse;
+          margin-bottom: 1.5rem;
+          TH, TD {
+            border: 1px solid #cdcdcd;
+            padding: 1rem;
+          }
+          TH {
+            width: 33%;
+            text-align: left;
+            font-weight: normal;
+            background-color: #F2F2F2;
+          }
+        }
+        
+        .cancel__info {
+          font-size: .875rem;
+          color: $CoolGray;
+          margin-bottom: 1rem;
+          &--headding {
+            font-weight: bold;
+            color: #000;
+          }
+          &--list {
+            list-style: initial;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            LI {
+              white-space: normal;
+              line-height: 1.5rem;
+            }
+          }
+          &--warning {
+            color: $Red;
+            white-space: normal;
+            line-height: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

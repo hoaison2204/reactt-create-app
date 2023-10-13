@@ -1,0 +1,81 @@
+.c-notify {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 0 .5rem;
+  padding: 1rem 1rem 1rem 1.25rem;
+  background-color: $Blue;
+  border-radius: .5rem;
+  box-shadow: 0 1px .5rem rgba($color: $CoolBlack, $alpha: .32);
+  max-width: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: .875rem;
+
+  &.info {
+    background-color: $Blue;
+  }
+
+  &.error {
+    background-color: $Error;
+  }
+}
+
+.c-notify__icon {
+  .c-icon {
+    margin-right: 1rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    g {
+      fill: #fff
+    }
+  }
+  @include mq(){
+    .c-icon {
+      margin-right: .75rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+
+.c-notify__content {
+  width: 100%;
+  > *:not(:last-child) {
+    margin-bottom: .125rem;
+  }
+}
+
+.c-notify__title {
+  padding-right: 2.125rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.c-notify__text {
+  font-size: .875rem;
+  line-height: 1.8;
+}
+
+.c-notify__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: transparent;
+  font-size: 0;
+  cursor: pointer;
+  transition: opacity .2s ease;
+  &:hover {
+    opacity: .7;
+  }
+  .c-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    g {
+      fill: #fff
+    }
+  }
+}

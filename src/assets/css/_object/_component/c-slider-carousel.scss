@@ -1,0 +1,52 @@
+.c-slider-carousel {
+  width: 100%;
+  .c-slider-carousel__wrap {
+    position: relative;
+    width: 100%;
+  }
+  .swiper-container {
+    height: 100%;
+    width: 90%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -1.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    &::after {
+      content: "";
+    }
+    &:hover {
+      .c-icon {
+        opacity: .8;
+      }
+    }
+    .c-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+  .swiper-button-prev {
+    margin-left: -2.5%;
+    @include mq() {
+      margin-left: 6%;
+    }
+  }
+  .swiper-button-next {
+    margin-right: -2.5%;
+    @include mq() {
+      margin-right: 6%;
+    }
+  }
+  .swiper-pagination-bullet {
+    background-color: $CoolGray3;
+    opacity: 1;
+    &.swiper-pagination-bullet-active {
+      background-color: $CoolBlack;
+    }
+  }
+}

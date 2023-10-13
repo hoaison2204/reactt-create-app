@@ -1,0 +1,31 @@
+.c-menu-tab {
+  &__name {
+    font-size: 0.75rem;
+  }
+  ul {
+    display: flex;
+    li {
+      border-top: 1px solid $CoolGray3;
+      border-bottom: 1px solid $CoolGray3;
+      background-color: $CoolGray5;
+      text-align: center;
+      width: 100%;
+      cursor: pointer;
+      a {
+        display: block;
+        padding: 0.75rem;
+        color: $CoolGray;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      &.is-active {
+        background-color: $Red;
+        pointer-events: none;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

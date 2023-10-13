@@ -1,0 +1,57 @@
+.p-order-error {
+  &__inner {
+    text-align: center;
+    border: 1px solid $Error;
+    border-radius: 4px;
+    background-color: $Error10;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    @include mq() {
+      padding: 1.5rem 1rem;
+    }
+  }
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__text {
+    color: $Error;
+    white-space: break-spaces;
+    margin-top: 0.5rem;
+  }
+  &__agree {
+    color: $Error;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 2.25rem;
+    &-left {
+      text-align: left;
+      margin: 1rem 0 0;
+    }
+    & svg {
+      vertical-align: text-top;
+      margin-right: 0.6rem;
+    }
+  }
+
+  &__alert {
+    font-size: 1rem;
+    color: $Error;
+    border: 1px solid $Error;
+    border-radius: 4px;
+    background-color: $Error10;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding: 1.125rem 1.125rem 1.125rem 3.5rem;
+    margin: 4rem 2rem 0 2rem;
+    @include mq() {
+      margin: 2rem 1rem 0 1rem;
+    }
+    span {
+      margin-right: 0rem;
+      position: absolute;
+      top: 50%;
+      left: 1.125rem;
+      transform: translateY(-50%);
+    }
+  }
+}

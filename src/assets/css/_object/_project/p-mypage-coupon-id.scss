@@ -1,0 +1,72 @@
+
+.p-mypage-coupon-id {
+  margin: 1rem;
+  width: 100%;
+  H4 {
+    background-color: #EEE;
+    padding:.5rem;
+  }
+  .searchArea {
+    UL {
+      display: flex;
+      LI {
+        &:not(:last-child) {
+          padding-right: 2em;
+        }
+        &:last-child {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  .detail {
+    border: 1px solid #AAA;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    .couponList {
+      margin-bottom: 1rem;
+      LI {
+        border-bottom: 1px solid #CCC;
+        padding-top:1rem;
+        padding-bottom:1rem;
+      }
+      &.used {
+        background-color: #EEE;
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+    .buttonGroup {
+      position: relative;
+      margin-bottom: 5rem;
+      &__use {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .couponOthers {
+    P {
+      padding: 1rem;
+    }
+  }
+  .returnButton {
+    text-align: center;
+  }
+}
+.c-page-print {
+  @media print {
+    header {
+      display: block;
+      .l-header__top__inner {
+        justify-content: center;
+        .l-header__top__logo {
+          width: 90px;
+        }
+      }
+    }
+  }
+}

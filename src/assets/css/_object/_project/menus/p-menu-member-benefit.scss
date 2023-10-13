@@ -1,0 +1,78 @@
+.p-menu-member-benefit {
+  margin-bottom: 1rem;
+  &__list {
+    background-color: $LightYellow;
+    border-radius: 4px;
+    padding: 1.5rem;
+  }
+  &__item {
+    display: flex;
+    position: relative;
+    &:not(:last-child) {
+      border-bottom: 1px solid $CoolGray4;
+      padding-bottom: 1rem;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+  }
+  &__description {
+    margin-right: 0.5rem;
+    @include mq() {
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__prices {
+    font-weight: bold;
+    &--space {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    &--discount-price {
+      color: $Red;
+    }
+  }
+  &__notes {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    white-space: break-spaces;
+  }
+
+  /* 利用不可 */
+  &__overlay {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+
+    &:before,
+    &:after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      width: 0;
+    }
+    &__msg {
+      color: #fff;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 0.75px;
+      line-height: 150%;
+      position: relative;
+      vertical-align: middle;
+      z-index: 100;
+    }
+
+    &__back {
+      background: rgba(137, 132, 132, 0.7);
+      bottom: 6px;
+      opacity: 0.7;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+}

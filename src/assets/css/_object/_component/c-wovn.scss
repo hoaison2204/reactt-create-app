@@ -1,0 +1,59 @@
+.c-wovn {
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    left: -1.2rem;
+    content: url("~@/assets/images/icon/Icon_lang.svg");
+  }
+  @include mq() {
+    &::before {
+      content: none;
+    }
+  }
+  .wovn-lang-list {
+    display: flex;
+    align-items: center;
+    @include mq() {
+      background-color: $CoolGray4;
+      padding: 4px;
+      border-radius: 8px;
+    }
+  }
+  .wovn-switch {
+    color: $CoolGray1;
+    cursor: pointer;
+    &:first-child {
+      margin-right: 6px;
+    }
+    &:last-child {
+      margin-left: 6px;
+    }
+    &:hover {
+      color: $Red;
+    }
+    @include mq() {
+      margin: initial;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      line-height: 20px;
+    }
+    &.selected {
+      color: $CoolBlack;
+      &:hover {
+        color: $Red;
+      }
+      @include mq() {
+        color: $CoolBlack;
+        border-bottom: none;
+        background-color: #fff;
+      }
+    }
+  }
+  &__spacer {
+    color: $CoolGray4;
+    cursor: default;
+  }
+}

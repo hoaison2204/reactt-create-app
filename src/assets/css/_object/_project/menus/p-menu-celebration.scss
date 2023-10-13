@@ -1,0 +1,38 @@
+/**
+ * プラン詳細ポイント交換
+ */
+.p-menu-celebration {
+  position: relative;
+
+  &__description {
+    border-right: 1px solid $CoolGray3;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 24px;
+    min-height: 56px;
+    padding-right: 24px;
+    vertical-align: top;
+    width: calc(100% - 264px);
+
+    @include mq() {
+      border-bottom: 1px solid $CoolGray3;
+      border-right: 0;
+      height: auto;
+      margin-bottom: 24px;
+      margin-right: 0;
+      padding-bottom: 24px;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+
+  &__btn-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+
+    @include mq() {
+      width: 100%;
+    }
+  }
+}

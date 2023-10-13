@@ -1,0 +1,56 @@
+.cms__error {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.cms__link-more {
+  text-align: right;
+  font-size: 0.875rem;
+}
+
+
+// blockContents-u align
+.cms__blockContents-u_align--left {
+  text-align: left;
+}
+.cms__blockContents-u_align--right {
+  text-align: right;
+}
+.cms__blockContents-u_align--center {
+  text-align: center;
+}
+
+//blockContents-u margin
+.cms__blockContents-u_margin--null {
+  margin-bottom: 0;
+}
+.cms__blockContents-u_margin--normal {
+  margin-bottom: 2rem;
+}
+.cms__blockContents-u_margin--big {
+  margin-bottom: 6rem;
+}
+.cms__blockContents-u_margin--medium {
+  margin-bottom: 4rem;
+}
+.cms__blockContents-u_margin--small {
+  margin-bottom: 1rem;
+}
+
+.cms__specialPageColumn {
+  ul {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+  }
+}
+.cms__specialPageColumn--2col {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.cms__specialPageColumn--3col {
+  ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

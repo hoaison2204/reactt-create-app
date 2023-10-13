@@ -1,0 +1,23 @@
+.c-tab {
+  ul {
+    display: flex;
+    li {
+      border-bottom: 1px solid $CoolGray3;
+      text-align: center;
+      width: 100%;
+      cursor: pointer;
+      a {
+        display: block;
+        padding: 1rem 1rem;
+        color: $CoolGray2;
+      }
+      &.is-active {
+        border-bottom: 4px solid $Red;
+        a {
+          color: $CoolBlack;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

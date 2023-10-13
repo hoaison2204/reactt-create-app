@@ -1,0 +1,145 @@
+.p-mypage-coupon {
+  &.p-mypage-coupon--list {
+    .p-mypage-coupon__header {
+      .c-card__inner4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+    .c-loading-content {
+      min-height: unset;
+      height: 80%;
+    }
+  }
+  &--show {
+    width: 856px;
+    margin: 0 auto;
+    @include mq() {
+      width: auto;
+    }
+  }
+  .c-modal__head {
+    @include mq("md", "min") {
+      padding-bottom: 0rem;
+    }
+    @include mq() {
+      padding-bottom: 0rem;
+    }
+  }
+}
+.p-mypage-coupon__old__textLink {
+  text-align: right;
+  margin-bottom: 1rem;
+
+
+  &__reverse {
+    display: flex;
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.p-mypage-coupon__header {
+  position: relative;
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .c-paginator__wrap {
+    @include mq() {
+      display: none;
+    }
+  }
+}
+
+.p-mypage-coupon__footer {
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .c-card__inner4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  &__prev {
+    margin-top: 2rem;
+  }
+}
+
+.p-mypage-coupon__tabs {
+  .c-tabs {
+    .c-tab {
+      width: 50%;
+      a {
+        width: 100%;
+        min-width: 7rem;
+      }
+    }
+  }
+}
+
+.p-mypage-coupon__menus {
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  > li {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.p-mypage-coupon__editModeBtn {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 6rem;
+  @include mq() {
+    bottom: 3.375rem;
+    right: 1rem;
+  }
+}
+
+.p-mypage-coupon__editModeNav {
+  @include mq("md", "min") {
+    .c-card__inner4 {
+      padding-top: 0;
+    }
+  }
+
+  @include mq() {
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($color: $CoolBlack, $alpha: 0.64);
+    width: 100%;
+    color: #fff;
+  }
+}
+
+.p-mypage-coupon__editModeNav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  > * {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    &:not(:last-child) {
+      padding-right: 1rem;
+    }
+    > * {
+      &:not(:last-child) {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.p-mypage-coupon__description {
+  white-space: pre-wrap;
+}

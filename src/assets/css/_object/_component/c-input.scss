@@ -1,0 +1,188 @@
+$radiusSizeSm: 0.25rem;
+$radiusSizeMd: 0.5rem;
+
+.c-input {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  > * {
+    height: 100%;
+  }
+  input[type="text"]:focus {
+    outline: none;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="search"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  textarea,
+  select {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid $CoolGray3;
+    border-radius: $radiusSizeSm;
+    color: $CoolBlack;
+    line-height: 1.8;
+    overflow: hidden;
+    &::placeholder {
+      color: $CoolGray3;
+    }
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  textarea {
+    background-color: #fff;
+  }
+
+  textarea {
+    min-height: 8rem;
+    resize: vertical;
+  }
+
+  .c-input__selectLabel {
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: $radiusSizeSm;
+    overflow: hidden;
+
+    select {
+      position: relative;
+      z-index: 2;
+      padding-right: 2rem;
+      background-color: transparent;
+    }
+  }
+
+  .c-input__selectLabel__arrow {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &__searchlabel {
+    @include mq("lg", "min") {
+      display: block;
+    }
+    @include mq("lg") {
+      display: block;
+    }
+    @include mq() {
+      display: none;
+    }
+  }
+
+  &.c-input--group {
+    input[type="text"],
+    input[type="password"],
+    input[type="search"],
+    input[type="email"],
+    input[type="url"],
+    input[type="tel"],
+    input[type="number"] {
+      padding: 0.75rem 1rem;
+    }
+
+    .c-input__text {
+      &:first-child {
+        height: 3rem;
+        border-radius: $radiusSizeMd 0 0 $radiusSizeMd;
+        input[type="text"],
+        input[type="password"],
+        input[type="search"],
+        input[type="email"],
+        input[type="url"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+          border-radius: $radiusSizeMd 0 0 $radiusSizeMd;
+        }
+      }
+      &:last-child {
+        border-radius: 0 $radiusSizeMd $radiusSizeMd 0;
+        input[type="text"],
+        input[type="password"],
+        input[type="search"],
+        input[type="email"],
+        input[type="url"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+          border-radius: 0 $radiusSizeMd $radiusSizeMd 0;
+        }
+      }
+    }
+    .c-input__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem;
+      background-color: $CoolBlack;
+      color: #fff;
+      height: 3rem;
+      .c-icon {
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+        g {
+          fill: #fff;
+        }
+      }
+      &:hover {
+        background-color: $CoolGray-1;
+        color: #fff;
+        cursor: pointer;
+      }
+      &:first-child {
+        border-radius: $radiusSizeMd 0 0 $radiusSizeMd;
+      }
+      &:last-child {
+        border-radius: 0 $radiusSizeMd $radiusSizeMd 0;
+      }
+      @include mq("md", "min") {
+        min-width: 5em;
+      }
+      @include mq() {
+        min-width: 3em;
+      }
+    }
+  }
+
+  &.c-input--transparent {
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="url"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+      background-color: transparent;
+      border: none;
+    }
+  }
+  &__background {
+    background: $CoolGray6 !important;
+    &--error {
+      background: $ErrorBg !important;
+    }
+  }
+}

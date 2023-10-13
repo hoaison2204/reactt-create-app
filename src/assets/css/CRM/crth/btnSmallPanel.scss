@@ -1,0 +1,21 @@
+/**
+ * ログイン ログインボタンパネル
+ */
+.crth-m-login-btn-small-panel {
+  display: inline;
+
+  &__inner {
+    display: inline-block;
+    padding: 0 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 294px;
+  }
+
+  @include mq() {
+    &__inner {
+      padding: 0 10px;
+      width: auto;
+    }
+  }
+}

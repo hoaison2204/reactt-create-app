@@ -1,0 +1,16 @@
+/**
+ * ログイン プランB 
+ */
+.crth-o-login-plan-b {
+  box-sizing: border-box;
+  padding: 0 4%;
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+
+  @include mq() {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+}

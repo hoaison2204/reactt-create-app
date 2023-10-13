@@ -1,0 +1,69 @@
+/**
+ * 補助クーポン
+ **/
+.p-menu-subsidy-coupon-list {
+  padding: 1rem;
+  position: relative;
+  background-color: #edeef0;
+
+  &__title {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: top;
+    width: 94px;
+
+    &__icon {
+      text-align: center;
+    }
+  }
+
+  &__list {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: calc(100% - 100px);
+  }
+  &__more {
+    text-align: center;
+    &--disabled {
+      display: none;
+    }
+  }
+  &__detail {
+    margin-bottom: 30px;
+  }
+  .plist {
+    &__detail-menu-subsidy-coupon-list {
+      &__detail {
+        .top_space {
+          display: inline-block;
+        }
+        .number_owned {
+          color: #da291c;
+          font-weight: bold;
+        }
+        p span {
+          font-weight: bold;
+          display: inline-block;
+        }
+        p.color_red_main {
+          color: #da291c;
+          font-weight: bold;
+          display: inline-block;
+          margin-left: 10px;
+        }
+        p.color_red {
+          color: #da291c;
+          font-weight: bold;
+          display: inline-block;
+        }
+
+        p.planDetail {
+          color: #63666a;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

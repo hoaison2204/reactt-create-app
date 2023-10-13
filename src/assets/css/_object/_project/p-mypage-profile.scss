@@ -1,0 +1,228 @@
+.p-mypage-profile {
+  &__inner {
+    .c-card__inner {
+      padding-bottom: 0 !important;
+    }
+  }
+  &__block {
+    .apply {
+      text-align: center;
+    }
+  }
+  &__wrap {
+    border-bottom: 1px solid $CoolGray4;
+    padding-bottom: 2rem;
+    @include mq() {
+      padding-bottom: 1.5rem;
+    }
+    &--noborder {
+      border: none;
+    }
+  }
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--mb {
+      margin-bottom: 1.5rem;
+      @include mq() {
+        margin-bottom: 1rem;
+      }
+    }
+    .c-title2 {
+      margin-bottom: 0;
+    }
+  }
+  &__lists {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  &__list {
+    display: flex;
+    justify-content: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.5rem;
+    @include mq() {
+      display: block;
+    }
+    &--wide {
+      position: relative;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+  }
+  &__list__label {
+    width: 12rem;
+    padding-left: 1.5rem;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: $CoolGray1;
+    vertical-align: top;
+    @include mq() {
+      margin-bottom: 0.25rem;
+    }
+  }
+  &__list__value {
+    font-size: 1rem;
+    @include mq() {
+      padding-left: 1.5rem;
+    }
+    &--narrow {
+      width: 400px;
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+  &__list__button {
+    position: absolute;
+    right: 0;
+    top: 0.55rem;
+  }
+
+  &__newsletter {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+  &__bottom {
+    margin-top: 0.75rem;
+    p {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      padding-left: 1.5rem;
+    }
+    a:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  // =========== モーダル部分 ここから ===========
+
+  .c-modal__head {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include mq() {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+  .c-modal__inner {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &__modal {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 0 auto;
+    width: calc(100vw - 90px);
+    max-width: 640px;
+    @include mq() {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+    }
+  }
+  &__modal__favorite {
+  }
+  &__modal__favorite__inner {
+    width: 240px;
+    margin: 0 auto;
+    @include mq() {
+      width: 100%;
+    }
+  }
+  &__modal__favorite__title {
+    text-align: center;
+    margin-bottom: 1rem;
+    @include mq() {
+      text-align: center;
+      padding: 0 2rem;
+    }
+  }
+  &__modal__favorite__selectList {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  &__modal__favorite__button {
+    margin: 1.5rem auto 0;
+    text-align: center;
+    .c-btn_sm {
+      width: 100%;
+    }
+    @include mq() {
+      margin: 40vh auto 0;
+    }
+  }
+
+  &__modal__interested {
+    padding: 0;
+  }
+  &__modal__interested__list {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    @include mq() {
+      margin-left: -1.5rem;
+      margin-right: -1.5rem;
+    }
+  }
+  &__modal__interested__list__item {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid $CoolGray4;
+    cursor: pointer;
+    &:first-child {
+      border-top: 1px solid $CoolGray4;
+    }
+    &--active {
+      background: $CoolGray6;
+    }
+  }
+  &__modal__interested__list__name {
+    position: relative;
+    font-weight: bold;
+  }
+  &__modal__interested__list__arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  &__modal__interested__list__inner {
+    padding-top: 1rem;
+    display: flex;
+  }
+  &__modal__interested__list__checkblockList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  &__modal__interested__list__checkblock {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid $CoolGray2;
+    border-radius: 4px;
+    background-color: #fff;
+    &--selected {
+      color: #fff;
+      background-color: $CoolGray;
+      border: none;
+    }
+  }
+  &__modal__interested__button {
+    width: 255px;
+    text-align: center;
+    margin: 1.5rem auto 0;
+    @include mq() {
+      width: 100%;
+    }
+    a {
+      width: 100%;
+    }
+  }
+}

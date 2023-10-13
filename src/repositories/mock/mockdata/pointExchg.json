@@ -1,0 +1,267 @@
+{
+  "menuBasicInfo": {
+      "menuRcEndDt": "2999/03/31 23:59:00",
+      "menuNo": "10653994",
+      "targetMenuNo": null,
+      "menuImages": [
+          {
+              "imageExplanation": null,
+              "imageUrl": "https://mn.boimg.jp/img/000281/28120.jpg"
+          }
+      ],
+      "leadCopy": "ベネポのnanacoポイントへの交換がスタートしました！！■お客様お問合せ先：①0570-071-555　②0422-71-2266",
+      "areaInfomation": null,
+      "menuRcSttDt": "2014/12/02 00:00:00",
+      "shopAreaDiv": "1",
+      "catchCopy": "ベネポがnanacoポイントへ交換できる！！",
+      "extSystemMenuId": null,
+      "categoryInfomation": {
+          "catLrgClassCd": "117",
+          "catMidClassNm": "ポイント交換",
+          "catLrgClassNm": "ポイント交換",
+          "catSmlClassCd": "302",
+          "catMidClassCd": "201",
+          "catSmlClassNm": "提携サイト"
+      },
+      "menuNmKana": "ﾅﾅｺﾎﾟｲﾝﾄ",
+      "menuNm": "nanacoポイント",
+      "extSystemCd": null,
+      "srvicDiv": "B40"
+  },
+  "planBasicInfo": {
+      "menuNo": "10653994",
+      "planNm": "Web申込で100ベネポが100nanacoポイントへ交換",
+      "planRcEndDt": "2999/03/31 23:59:00",
+      "extSystemMenuId": null,
+      "planRcSttDt": "2017/04/01 00:00:00",
+      "planId": "0009978822",
+      "extSystemPlanId": null,
+      "planImages": [
+          {
+              "imageExplanation": null,
+              "imageUrl": "https://mn.boimg.jp/img/000281/28120.jpg"
+          }
+      ],
+      "planLeadCopy": "\"100ベネポが100nanacoポイントへ交換できます。\","
+  },
+  "shoppingGuideInfo": {
+      "shoppingGuideNote": null,
+      "shoppingGuides": [
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": null,
+              "shoppingGuideNm": "会員特典",
+              "shoppingGuideCd": "000211",
+              "shoppingGuideValue": "会員特典欄をご確認ください。",
+              "linkNm": null
+          },
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": null,
+              "shoppingGuideNm": "送料",
+              "shoppingGuideCd": "000202",
+              "shoppingGuideValue": "なし",
+              "linkNm": null
+          },
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": [
+                  "～2999年3月31日 23時59分"
+              ],
+              "shoppingGuideNm": "お申込み期間",
+              "shoppingGuideCd": "000212",
+              "shoppingGuideValue": null,
+              "linkNm": null
+          },
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": null,
+              "shoppingGuideNm": "ご利用方法",
+              "shoppingGuideCd": "000209",
+              "shoppingGuideValue": "ベネフィット・ステーションにお申し込みください。",
+              "linkNm": null
+          },
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": null,
+              "shoppingGuideNm": "お支払い方法",
+              "shoppingGuideCd": "000205",
+              "shoppingGuideValue": "ベネポでの支払い（交換）のみとなります。",
+              "linkNm": null
+          },
+          {
+              "linkUrl": null,
+              "shoppingGuideValues": null,
+              "shoppingGuideNm": "返品・交換・キャンセル等",
+              "shoppingGuideCd": "000206",
+              "shoppingGuideValue": "会員様のご都合によるお申込み後の返品・交換・キャンセルはお受けできません。",
+              "linkNm": null
+          }
+      ]
+  },
+  "planUsage": {
+      "applFlag": "1",
+      "usageDetailLife": {
+          "lotteryInfo": null,
+          "convenienceStores": null,
+          "preRsvNecDiv": null,
+          "applFax": null,
+          "couponLimits": null,
+          "applEmailAddr": null,
+          "applTel": null,
+          "applTels": null,
+          "pyrlDedDiv": null,
+          "affiliateCoupons": null,
+          "affiliateTypeId": null,
+          "applWebUrl": null
+      },
+      "usageDetailStay": null,
+      "usageDetail": {
+          "usageTxtGuidance": null,
+          "famiExclusionFlag": "1",
+          "ticketExclusionFlag": "1",
+          "ostiariesFlag": "0",
+          "receivableFlag": "0",
+          "buppanExclusionFlag": "1",
+          "optinFlag": "1"
+      },
+      "usageDiv": "70",
+      "usageLoginBfrDispFlag": "1"
+  },
+  "applInfo": {
+      "ccOperatorHandleFlag": null,
+      "shippingFlag": "0",
+      "sendItemTypeDiv": null,
+      "rsvReqPaperAutoSendFlag": "0",
+      "readOnlyFlag": "",
+      "sendWayTxt": null,
+      "orderPatternDiv": "53"
+  },
+  "pointExchg": {
+      "minPointNum": 100,
+      "pointUnit": 100,
+      "pointRate2": 100,
+      "pointType": "05",
+      "pointRate1": 100,
+      "params": [
+          {
+              "paramId": "pic",
+              "paramValue": "BNE268"
+          },
+          {
+              "paramId": "pcd",
+              "paramValue": "240063"
+          },
+          {
+              "paramId": "phc",
+              "paramValue": "f4gijThSUEdRnvErOUGDU2Vh1K1Rho8VjAnsjVl1DqLSw6tNRg"
+          }
+      ],
+      "pointExchgTxtGuidance": "1口100ベネポから100nanacoポイントへ交換できます。"
+  },
+  "benepoReturnInfo": {
+      "srcPtFlag": null,
+      "uliCats": null,
+      "benepoReturnRate": null,
+      "freeGrantFlag": "0",
+      "benepoGrantTypeDiv": null,
+      "exclIden": null,
+      "uliUsages": null,
+      "uliMenus": null,
+      "benepoReturnFixed": 0,
+      "qtyCntFlag": "0",
+      "uliPlans": null,
+      "benepoExDdtValue": null,
+      "grantLimDay": "1",
+      "grantReasonDiv": "1",
+      "benepoReturnDiv": "20",
+      "benepoExDdtDiv": "0",
+      "validSttDayDiv": null
+  },
+  "memberBenefits": [
+      {
+          "stockTerms": null,
+          "stockKey": null,
+          "bitesQty": null,
+          "benefitDiv": "3",
+          "tixSendWay": null,
+          "applWinDispDiv": "9",
+          "pyrlDedPayeeDiv": null,
+          "generalPrice": null,
+          "saleStockTermFlag": null,
+          "benefitHeading": "100ベネポが",
+          "boneSubsidy": null,
+          "digiPonFreeSaleFlag": null,
+          "ticketHeading": null,
+          "memberBenefitsId": "574247",
+          "alliancePrice": null,
+          "pyrlDedDiscount": null,
+          "price": null,
+          "benefitContent": "100nanacoポイントへ交換できます。"
+      }
+  ],
+  "noteMatters": [
+      {
+          "linkUrl": null,
+          "infoLev": "3",
+          "title": null,
+          "content": "●100ベネポ単位で100ベネポから申し込みが可能です。\n●ポイント交換については原則2～3日かかります。\n●お申し込みにはnanaco番号が必要になります。\n●お申し込み後のキャンセルは出来ません。あらかじめご了承ください。 \n●お申し込み1回当たり50000ベネポの交換が上限となっております。",
+          "linkNm": null
+      }
+  ],
+  "applLimits": null,
+  "optins": [
+      {
+          "pubCondDiv": "00",
+          "documentId": "xxxxx-2.2",
+          "documentNm": "個人情報の第三者提供等に関する同意",
+          "documentUrl": "https://111"
+      }
+  ],
+  "payMthdInfo": {
+      "payeeNote": "ベネポ交換",
+      "payeeDiv": "30",
+      "reducedTaxRateFlag": 0,
+      "shipping": null,
+      "payMthdList": [
+          {
+              "useFlag": "0",
+              "payMthdDiv": "10"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "20"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "30"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "40"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "50"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "55"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "60"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "61"
+          },
+          {
+              "useFlag": "0",
+              "payMthdDiv": "70"
+          }
+      ],
+      "benepoUseFlag": "1"
+  },
+  "cautions": null
+}

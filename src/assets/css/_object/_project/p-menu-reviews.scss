@@ -1,0 +1,99 @@
+
+
+.p-menu-reviews {
+  &__return {
+    margin-bottom: 1rem;
+  }
+  &__inner {
+    @include mypageInner();
+    padding: 1.5rem;
+  }
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+    &__left {
+      display: flex;
+    }
+    &--label {
+      background-color: $CoolGray5;
+      padding: .2rem .6rem;
+      color: $CoolBlack;
+      font-size: .625rem;
+      border-radius: 2px;
+      margin-right: .5rem;
+    }
+    &--date {
+      color: $CoolGray;
+      font-size: .75rem;
+      margin-right: .5rem;
+    }
+    &--menuNo {
+      color: $CoolGray;
+      font-size: .75rem;
+    }
+    &__right {
+      .c-icon {
+        position: absolute;
+        top: 50%;
+        left: 4px;
+        transform: translateY(-50%);
+      }
+      .c-btn_sm {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+  &__category {
+    position: relative;
+    display: inline-block;
+    color: $CoolBlack;
+    font-size: .75rem;
+    margin-bottom: .5rem;
+    &--label {
+      background-color: $CoolGray5;
+      font-size: .625rem;
+      padding: .2rem .6rem;
+      border-radius: 2px;
+      margin-right: .5rem;
+    }
+    .c-icon {
+      position: absolute;
+      top: 50%;
+      right: -2rem;
+      transform: translateY(-50%);
+    }
+  }
+  &__checkbox {
+    display: flex;
+    align-items: flex-end;
+    gap: .5rem;
+    font-size: .875rem;
+    &__link {
+      color: $LinkText;
+      text-decoration: underline;
+    }
+  }
+  
+  &__confirm {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 1px solid $CoolGray5;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    &--noborder {
+      border: none;
+      .c-btn_la {
+        font-size: .875rem;
+        padding: 1rem;
+      }
+    }
+  }
+  &__complete {
+    text-align: center;
+    width: 450px;
+    margin: 4rem auto;
+  }
+}

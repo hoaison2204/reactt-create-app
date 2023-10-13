@@ -1,0 +1,32 @@
+.service_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 17px;
+
+  th {
+    background-color: #EDEEF0;
+    font-weight: normal;
+    width: 188px;
+  }
+
+  td {
+    width: 337px;
+  }
+
+  th, td {
+    border: 1px solid #DCDEE0;
+    padding: 16px;
+
+    @include mq() {
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+      height: 53px;
+      display: block;
+    }
+  }
+
+  & + span {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,53 @@
+.c-menu-block {
+  cursor: pointer;
+  height: 100%;
+  &:hover {
+    .c-menu-block__image {
+      opacity: 0.8;
+    }
+    .c-menu-block__description {
+      color: $Red;
+    }
+  }
+
+  &__image {
+    width: 208px;
+    height: 156px;
+    margin-bottom: 1rem;
+    @include mq() {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__par {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  &__name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  &__menuInfo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    &__menuNo {
+      font-size: 0.875rem;
+      color: $CoolGray1;
+    }
+  }
+  &__description {
+    font-weight: bold;
+  }
+  &__expirationDate {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: $CoolGray;
+    &__label {
+      margin-right: 0.5rem;
+    }
+  }
+}

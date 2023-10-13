@@ -1,0 +1,50 @@
+/**
+ * メニュー詳細コンビニ
+ */
+.p-menu-convenience-store {
+  position: relative;
+  $element: #{&};
+
+  &__btn-wrapper {
+    display: none;
+  }
+
+  &__button {
+    width: 300px;
+
+    @include mq() {
+      width: 100%;
+    }
+  }
+
+  /* ファミマの場合 */
+  &__10 {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 300px);
+
+    @include mq() {
+      width: 100%;
+    }
+
+    & + #{$element}__btn-wrapper {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      @include mq() {
+        width: 100%;
+      }
+    }
+
+  }
+
+  /* セブンイレブンの場合 */
+  &__20 {
+    width: 100%;
+  }
+
+  /* ローソンの場合 */
+  &__30 {
+    width: 100%;
+  }
+}

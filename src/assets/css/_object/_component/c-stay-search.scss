@@ -1,0 +1,202 @@
+.c-stay-search{
+  .c-stay-search__nav {
+    border-bottom: 1px solid #eeeeee;
+    background-color: $CoolGray6;
+    border-radius: 4px 4px 0 0;
+    .list__item {
+      display: inline-block;
+      padding: 1rem 2rem;
+      margin-bottom: -1px;
+      font-size: 12px;
+      cursor: pointer;
+      &.is-active {
+        font-weight: bold;
+        color: $CoolBlack;
+        border-bottom: 3px solid $Red;
+      }
+      a {
+        color: $CoolBlack;
+        i img {
+          width: 10px;
+          margin-left: 0.2rem;
+        }
+      }
+    }
+  }
+  .c-stay-search__main {
+    .c-stay-search__main__row {
+      &+.c-stay-search__main__row{
+        margin-top: 1rem;
+      }
+    }
+    .c-stay-search__main__keyword {
+      flex-grow: 1;
+      padding-right: 1.5rem;
+      width: 88%;
+      display: inline-block;
+      @include mq() {
+        width: 80%;
+      }
+      @media screen and (max-width: 735px) {
+        width: 75%;
+      }
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 1rem;
+      }
+      .c-input {
+        input[type="text"].c-input__text {
+          border-radius: 0.5rem;
+        }
+        button[type="submit"].c-input__button {
+          border-radius: 0.5rem;
+          width: 110px;
+          font-size: 0.875rem;
+          padding: 0.5rem 1rem;
+          margin-left: 1.5rem;
+          flex-shrink: 0;
+          @include mq() {
+            width: 110px;
+            .c-input__searchlabel {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .c-stay-search__main__map {
+      font-size: 0.875rem;
+      text-align: right;
+      display: inline-block;
+      @media screen and (max-width: 500px) {
+        display: block;
+      }
+      .c-stay-search__main__map-search {
+        width: 110px;
+        height: 46px;
+        padding: 0.5rem 1rem 0.5rem 2rem;
+        font-size: 0.875rem;
+        font-weight: bold;
+        border: 1px solid $CoolGray2;
+        border-radius: 6px;
+        .c-icon {
+          width: 1.125rem !important;
+          height: 1.125rem !important;
+          left: 0.5rem;
+        }
+      }
+    }
+    .c-stay-search__main__areaSelector {
+      display: flex;
+      flex-wrap: wrap;
+      .c-select {
+        width: calc(100% / 3 - 0.5rem);
+        margin-right: 0.5rem;
+        .c-select__control {
+          cursor: pointer;
+        }
+      }
+    }
+    //.p-toppage__search__main__genreSelect {
+    //  display: flex;
+    //  flex-wrap: wrap;
+    //  align-items: center;
+    //  .c-select {
+    //    width: calc(100% / 3 - 0.5rem);
+    //    margin-right: 0.5rem;
+    //    .c-select__control {
+    //      cursor: pointer;
+    //    }
+    //  }
+    //}
+    //.p-toppage__search__main__genreTags {
+    //  display: inline-block;
+    //  margin-left: 2%;
+    //  @include mq('md') {
+    //    margin-top: 0.5rem;
+    //  }
+    //  button {
+    //    width: 20px;
+    //    border-radius: 10px;
+    //    margin: 0 10px 0 5px;
+    //  }
+    //}
+    .c-stay-search__main__dateSelector {
+      .datePicker__wrap {
+        position: relative;
+        display: inline-block;
+        .datePicker__input {
+          font-size: 1rem;
+          background: #fff;
+          margin: 0 1rem;
+          input[type="text"] {
+            border: 1px solid #CACCCF;
+            border-radius: 4px;
+            padding: 0.375rem 2rem 0.375rem 0.5rem;
+            width: 170px;
+            height: 2.5rem;
+            cursor: pointer;
+            text-align: right;
+          }
+        }
+        svg {
+          position: absolute;
+          right: 1.5rem;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+    }
+    .c-stay-search__main__stayConditions {
+      .c-stay-search__select__control:first-child {
+        margin-left: 0;
+      }
+    }
+    .c-stay-search__accordion {
+      &__title {
+      }
+      &__content {
+        margin-top: 1rem;
+        .other_conditions {
+          display: flex;
+          .other_conditions_radio {
+            display: inline-flex;
+            .c-radio__box::before {
+              background-color: #1f2021;
+            }
+          }
+        }
+      }
+    }
+  }
+  .c-stay-search__select__control {
+    display: inline-block;
+    margin: 0 1rem;
+    select {
+      font-size: 1rem;
+      background: #fff;
+      border: 1px solid #CACCCF;
+      border-radius: 4px;
+      padding: 0.375rem 0.5rem;
+      width: 70px;
+      cursor: pointer;
+      text-align: center;
+      height: 40px;
+    }
+    button {
+      width: 25px;
+      height: 25px;
+      margin: 0 0.25rem;
+      border-radius: 20px;
+      display: inline-block;
+      background-color: $CoolGray1;
+      color: #FFFFFF;
+      cursor: pointer;
+      &:disabled {
+        background-color: $CoolGray5;
+      }
+    }
+  }
+}

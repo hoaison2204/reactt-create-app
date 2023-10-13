@@ -1,0 +1,80 @@
+.p-menu-plan-entertainment {
+  &__schedule {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    @include mq() {
+      display: block;
+    }
+    &__item {
+      width: calc(100% / 3);
+      max-width: 286px;
+      @include mq() {
+        width: 100%;
+        max-width: initial;
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+      &--title {
+        font-weight: bold;
+        color: $CoolGray;
+      }
+      &--isSale {
+        color: $Blue;
+      }
+    }
+  }
+  &__benefit {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    @include mq() {
+      display: block;
+    }
+  }
+  &__courses {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 1.5rem;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: $CoolGray6;
+    &--kyutoku {
+      background-color: #FFF;
+    }
+    @include mq() {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    &__item {
+      width: 50%;
+      text-align: center;
+      @include mq() {
+        width: 100%;
+      }
+      &:first-child{
+        border-right: 1px solid $CoolGray4;
+        @include mq() {
+          border-right: none;
+          border-bottom: 1px solid $CoolGray4;
+          padding-bottom: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      &--title {
+        font-weight: bold;
+      }
+      &--note {
+        white-space: break-spaces;
+      }
+    }
+  }
+  &__buttons {
+    margin-left: auto;
+    @include mq() {
+      width: initial;
+    }
+  }
+}

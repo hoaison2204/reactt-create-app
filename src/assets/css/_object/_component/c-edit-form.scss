@@ -1,0 +1,43 @@
+
+.c-edit-form{
+  UL {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    LI {
+      display: flex;
+      align-items: center;
+      font-size: .75rem;
+      color: $CoolGray;
+    }
+  }
+  .form__group {
+    margin-bottom: 1rem;
+  }
+  .form__item {
+    &--name {
+      width: 40%;
+      .form__label {
+        width: 8rem;
+      }
+    }
+    &--radio {
+      .form__label {
+        margin-right: 1rem;
+      }
+    }
+    &--select {
+      width: 30%;
+      .form__label {
+        width: 8rem;
+      }
+    }
+    &--age {
+      width: 20%;
+      .form__label {
+        width: 4rem;
+      }
+    }
+  }
+}

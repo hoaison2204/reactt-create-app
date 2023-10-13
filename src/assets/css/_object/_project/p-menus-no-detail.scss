@@ -1,0 +1,118 @@
+.p-menus-no-detail {
+  padding: 1rem 2rem;
+  @include mq() {
+    // padding: 1rem 1rem .01rem;
+    padding: 1rem;
+  }
+  &__header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    @include mq() {
+      display: block;
+    }
+    &__bene-status {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      @include mq() {
+        justify-content: flex-start;
+      }
+      li {
+        font-size: 0.6rem;
+        padding: 4px 8px;
+        background-color: $CoolGray5;
+        border-radius: 2px;
+        margin-bottom: 0.5rem;
+        &:not(:last-child) {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+  &__contents {
+    display: flex;
+    @include mq() {
+      display: block;
+    }
+    &__left {
+      width: 50%;
+      margin-right: 2rem;
+      @include mq() {
+        width: 100%;
+        margin-right: initial;
+        margin-bottom: 1rem;
+      }
+      &__inner {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        img {
+          width: 100%;
+          @include mq() {
+            margin: 1.3%;
+          }
+        }
+      }
+    }
+    &__right {
+      width: 50%;
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+
+  &__block {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    &__title {
+      margin-bottom: 1rem;
+    }
+    &__link {
+      text-align: right;
+      margin-top: 1rem;
+    }
+  }
+
+  &__attention {
+    font-size: 0.875rem;
+    color: $CoolGray;
+    margin-bottom: 1rem;
+  }
+  &__updateDate {
+    font-size: 0.875rem;
+    text-align: right;
+  }
+
+  &__slide-carousel {
+    display: flex;
+    margin-bottom: 1rem;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &__item {
+      width: calc(100% / 4);
+      min-width: 192px;
+      &:not(:last-child) {
+        margin-right: 0.5rem;
+      }
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 148px;
+      }
+      &:only-child {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

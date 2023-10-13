@@ -1,0 +1,148 @@
+.p-information {
+  &__inner {
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    @include mq() {
+    }
+  }
+  // お知らせのリスト表示の部分 ここから
+  &__list {
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+    // height: 84px;
+    @include mq() {
+      height: auto;
+    }
+    &__wrap {
+      padding: 1rem 1.5rem;
+      display: block;
+      color: $CoolBlack;
+      &:hover {
+        text-decoration: none;
+      }
+      @include mq() {
+        padding: 1rem;
+      }
+    }
+    &__tags {
+      display: flex;
+      margin-bottom: 0.25rem;
+    }
+    &__date {
+      font-size: 0.75rem;
+      line-height: 1.5;
+      padding: 0.2rem 0;
+      margin-right: 0.5rem;
+    }
+    &__tag {
+      color: $CoolBlack;
+      font-size: 0.63rem;
+      line-height: 1.2;
+      background-color: #eaeaea;
+      padding: 0.4rem 0.5rem;
+      border-radius: 2px;
+      margin-right: 0.5rem;
+    }
+    &__title {
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+  }
+  &__no__list {
+    border-bottom: 1px solid #dddddd;
+    padding: 11.5rem 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    @include mq() {
+      padding: 11.7rem 0;
+    }
+  }
+  // お知らせのリスト表示の部分 ここまで
+
+  &__paginator {
+    width: 100%;
+    height: auto;
+    padding: 1.3rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    @include mq() {
+      height: auto;
+      padding: 1.3rem 1rem;
+    }
+    &__title {
+      border-bottom: 1px solid #222222;
+      padding-bottom: 8px;
+    }
+    .c-paginator {
+      &__wrap {
+        padding-top: 0.3rem;
+      }
+      @include mq() {
+        display: block;
+        &__label {
+          position: relative;
+          transform: translateY(0%);
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    &_sp-none {
+      @include mq() {
+        padding: 0;
+      }
+    }
+    &_sp-padding {
+      @include mq() {
+        padding: 2.125rem 0;
+      }
+    }
+  }
+
+  &__button__none {
+    @include mq() {
+      display: none;
+    }
+  }
+  &__back__button {
+    margin-right: 1.1rem;
+  }
+  &__next__button {
+    margin-left: 1.1rem;
+  }
+  &__button__disabled {
+    pointer-events: none;
+    color: $CoolGray2 !important;
+    .c-icon g {
+      fill: $CoolGray2;
+    }
+  }
+
+  &__paginator--separate {
+    border-bottom: 1px solid #dddddd;
+    @include mq() {
+      border-bottom: none;
+    }
+    .c-paginator__label {
+      @include mq() {
+        padding: 0;
+      }
+    }
+    .c-paginator__wrap {
+      @include mq() {
+        display: none;
+        margin: 0;
+      }
+    }
+  }
+  & a {
+    color: #1f2021;
+    font-size: 16px;
+    &:hover {
+      text-decoration: none;
+      color: $Red1;
+    }
+  }
+}

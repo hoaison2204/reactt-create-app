@@ -1,0 +1,152 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2021;
+    padding-bottom: 2rem;
+  }
+  .description1,
+  .description2,
+  .description3 {
+    width: 100%;
+    font-size: 1rem;
+    color: #1f2021;
+    text-align: center;
+  }
+  .description2{
+    text-align: center;
+    display: none;
+    @screen sm {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .description3 {
+    padding-bottom: 1.25rem;
+    @media (min-width: 640px) {
+      display: flex;
+    }
+  }
+  .description1{
+    @media (min-width: 640px) {
+      display: none;
+      padding-bottom: 1.25rem;
+    }
+    font-size: 16px;
+  }
+  .icon-bor-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .input1 {
+    margin: 0 auto;
+    display: block;
+    height: 2rem;
+    @media (min-width: 640px) {
+      display: none;
+    }
+    margin-top: 0.5rem;
+    width: 87%;
+    outline: none;
+  }
+  .input2 {
+    display: none;
+    @media (min-width: 640px) {
+      display: block;
+    }
+    margin-top: 0.5rem;
+  }
+  .submit-btn {
+    background-color: #1f2021;
+    box-shadow: 0px 2px 8px 0px #1F202152;
+    border-radius: 8px;
+
+    @media (min-width: 640px) {
+      width: 100%;
+    }
+
+    left: 33.333333%;
+    width: 33.333333%;
+    margin-top: 2rem;
+
+    .title-btn {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+  }
+  ::v-deep .ant-modal{
+    width: unset !important;
+    max-width: 600px !important;
+    @screen sm {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100% !important;
+      height: 93vh;
+      margin: 0 !important;
+    }
+  }
+  ::v-deep .ant-modal-content{
+    @media (min-width: 640px) {
+      height: 100%;
+    }
+    @media (min-width: 768px) {
+      height: 100%;
+    }
+  }
+  ::v-deep .ant-card-body{
+    padding: 0 !important;
+  }
+  ::v-deep .ant-modal-body{
+    padding: 2rem;
+    @media (min-width: 640px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  @screen sm {
+    .submit-btn {
+      position: fixed;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+  }
+
+  .description5 {
+    text-align: left pt-5;
+    display: none;
+    @screen sm {
+      padding-bottom: 0.75rem;
+      padding-left: 40px;
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+
+  .description4 {
+    text-align: center;
+    display: none;
+    @screen sm {
+      padding-bottom: 0.75rem;
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .description6{
+    padding-top: 0.75rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+  }

@@ -1,0 +1,172 @@
+.p-menu-merchant-application {
+  &__alert-top {
+    font-size: 1rem;
+    color: $Error;
+    border: 1px solid $Error;
+    border-radius: 4px;
+    background-color: $Error10;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding: 1.125rem 1.125rem 1.125rem 3.5rem;
+    span {
+      margin-right: 0rem;
+      position: absolute;
+      top: 50%;
+      left: 1.125rem;
+      transform: translateY(-50%);
+      svg {
+        vertical-align: bottom;
+      }
+    }
+  }
+
+  &__contents {
+    border-top: 1px solid $CoolGray4;
+    padding-top: 1.5rem;
+
+    &__left {
+      display: inline-block;
+      vertical-align: top;
+      border-right: 1px solid $CoolGray4;
+      padding-right: 1.5rem;
+      @include mq() {
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 1px solid $CoolGray4;
+        padding-bottom: 1rem;
+      }
+    }
+    &__right {
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 1.5rem;
+      @include mq() {
+        padding-left: 0;
+        padding-top: 1rem;
+      }
+    }
+  }
+  &__contents-affiliate {
+    .p-menu-merchant-application__contents__left {
+      width: 70%;
+      @include mq() {
+        width: 100%;
+      }
+    }
+    .p-menu-merchant-application__contents__right {
+      width: 30%;
+      @include mq() {
+        width: 100%;
+      }
+    }
+    .c-buttonWrap2 {
+      width: 250px;
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+  // &__contents-no-affiliate {
+  //   .p-menu-merchant-application__contents__left {
+  //     width: 50%;
+  //     @include mq() {
+  //       width: 100%;
+  //     }
+  //   }
+  //   .p-menu-merchant-application__contents__right {
+  //     width: 50%;
+  //     @include mq() {
+  //       width: 100%;
+  //     }
+  //   }
+  //   .c-buttonWrap2 {
+  //     width: 100%;
+  //     min-width: unset;
+  //   }
+  // }
+  &__shopping-guide {
+    &--link {
+      display: inline;
+      color: $LinkText;
+      text-decoration: underline;
+    }
+  }
+  &__coupon-code {
+    padding-top: 1rem;
+
+    &--title {
+      padding: 0.5rem 0;
+      font-weight: bold;
+    }
+    &__code-area {
+      padding: 1rem 1.5rem;
+      background-color: $CoolGray5;
+      &--label {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: bold;
+        width: calc(100% - 180px);
+        font-size: 1.2rem;
+        word-break: break-all;
+        @include mq() {
+          width: 100%;
+          text-align: center;
+          padding-bottom: 0.5rem;
+        }
+      }
+      &--btn {
+        display: inline-block;
+        vertical-align: middle;
+        width: 180px;
+        text-align: right;
+
+        & > a {
+          padding: 8px 12px;
+        }
+        @include mq() {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+    &--description {
+      padding-top: 0.5rem;
+    }
+  }
+  &__no-affiliate-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-bottom: 1rem;
+    @include mq() {
+      width: 100%;
+    }
+
+    &:nth-child(odd){
+      padding-right: 0.5rem;
+      @include mq() {
+        padding-right: 0;
+      }
+    }
+    &:nth-child(even){
+      padding-left: 0.5rem;
+      @include mq() {
+        padding-left: 0;
+      }
+    }
+
+    &--label {
+      padding-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    &--tel-name {
+      font-weight: bold;
+      font-size: 0.75rem;
+    }
+    &--tel-number {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+  }
+}

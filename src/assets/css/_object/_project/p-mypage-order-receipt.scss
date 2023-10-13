@@ -1,0 +1,123 @@
+.p-mypage-order-receipt {
+  max-width: 642px;
+  margin: 0 auto;
+  @include mq() {
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: $CoolGray;
+  }
+  &__inner {
+    border: 1px solid $CoolGray4;
+    background-color: #fff;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    margin-bottom: 1.5rem;
+    > div {
+      margin-bottom: 1rem;
+    }
+    @include mq() {
+      padding: 1rem;
+    }
+  }
+  .receipt {
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__name {
+        text-decoration: underline;
+      }
+      &__number {
+        border: 1px solid #cdcdcd;
+        padding: 0.25rem 0.5rem;
+      }
+    }
+    &__company {
+      width: 230px;
+      position: relative;
+      margin-left: auto;
+      p {
+        position: relative;
+        z-index: 5;
+      }
+      &__logo,
+      &__sign {
+        width: 95px;
+        margin-left: auto;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: 2;
+        img {
+          object-fit: contain;
+          width: 100%;
+        }
+      }
+    }
+    &__body {
+      margin-top: 6rem;
+      .receipt__title {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 1.2rem;
+        padding: 1.25rem;
+      }
+      p {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+      .receipt__total-amount {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #f2f2f2;
+        text-align: center;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      &__table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        th,
+        td {
+          border: 1px solid #cdcdcd;
+          padding: 1rem;
+        }
+        th {
+          font-weight: bold;
+          background-color: #f2f2f2;
+        }
+        td {
+          position: relative;
+          p {
+            padding: 0;
+          }
+          .productName {
+            white-space: pre-line;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+  }
+  .footer-button {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .footer-button,
+  .pageTop {
+    display: none;
+  }
+}

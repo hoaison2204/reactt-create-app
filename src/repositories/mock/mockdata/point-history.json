@@ -1,0 +1,150 @@
+{
+  "totalPoint": 1469779,
+  "noUseLimitPoint": 1469779,
+  "useLimitPoint": 0,
+  " ": 0,
+  "expiredPoint": 23400,
+  "totalCount": 134,
+  "useLimitPointList": [],
+  "grantedPoint": 0,
+  "historyDataList": [
+      {
+          "pointCode": "69ef05dc04a8b98a1e36795fbb8a19a4",
+          "historyDate": "20220620T123652+0900",
+          "point": 100,
+          "reasonInternal": "test",
+          "reasonCustomer": "test",
+          "fundCode": "",
+          "fundDepartmentCode": "",
+          "menuNo": "",
+          "planId": "",
+          "payment": null,
+          "validFrom": null,
+          "validTo": "20220626T010101+0900",
+          "commandType": 1,
+          "systemCode": "test",
+          "operatorCode": "00000001",
+          "businessTypeCode": "",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      },
+      {
+          "pointCode": "5d157c92a482fe339ad18da6f72db0f7",
+          "historyDate": "20220620T114608+0900",
+          "point": 200,
+          "reasonInternal": "サービス利用の為",
+          "reasonCustomer": "サービス利用の為",
+          "fundCode": "",
+          "fundDepartmentCode": "",
+          "menuNo": "",
+          "planId": "",
+          "payment": null,
+          "validFrom": null,
+          "validTo": "20220629T010101+0900",
+          "commandType": 2,
+          "systemCode": "bsff",
+          "operatorCode": "449924000000001",
+          "businessTypeCode": "",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      },
+      {
+          "pointCode": "bc91233c65e26bd711729dd7119d0214",
+          "historyDate": "20220617T194327+0900",
+          "point": 300,
+          "reasonInternal": "test",
+          "reasonCustomer": "test",
+          "fundCode": "",
+          "fundDepartmentCode": "",
+          "menuNo": "",
+          "planId": "",
+          "payment": null,
+          "validFrom": null,
+          "validTo":"20220605T010101+0900",
+          "commandType": 3,
+          "systemCode": "test",
+          "operatorCode": "00000001",
+          "businessTypeCode": "",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      },
+      {
+          "pointCode": "af6cdede8c9909f0876f78393fc52d66",
+          "historyDate": "20220817T102618+0900",
+          "point": 100,
+          "reasonInternal": "サービス利用の為",
+          "reasonCustomer": "サービス利用の為",
+          "fundCode": "",
+          "fundDepartmentCode": "",
+          "menuNo": "",
+          "planId": "",
+          "payment": null,
+          "validFrom": null,
+          "validTo": "20240101T010101+0900",
+          "commandType": 2,
+          "systemCode": "bsff",
+          "operatorCode": "449924000000001",
+          "businessTypeCode": "",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      },
+      {
+          "pointCode": "74327d695b524c58f87cf704173579f2",
+          "historyDate": "20220225T151748+0900",
+          "point": 1900,
+          "reasonInternal": "test",
+          "reasonCustomer": "test",
+          "fundCode": "",
+          "fundDepartmentCode": "",
+          "menuNo": "",
+          "planId": "",
+          "payment": null,
+          "validFrom": null,
+          "validTo": "20240101T010101+0900",
+          "commandType": 2,
+          "systemCode": "test",
+          "operatorCode": "00000001",
+          "businessTypeCode": "",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      },
+      {
+          "pointCode": "de40e27453e85be7b90d7f761c2a013a",
+          "historyDate": "20220101T010101+0900",
+          "point": 1000000,
+          "reasonInternal": "内部向け理由TEST",
+          "reasonCustomer": "お客様向け理由TEST",
+          "fundCode": "01",
+          "fundDepartmentCode": "10",
+          "menuNo": "10625152",
+          "planId": "0011217258",
+          "payment": 1500000,
+          "validFrom": "20220101T010101+0900",
+          "validTo": "20240101T010101+0900",
+          "commandType": 1,
+          "systemCode": "tool",
+          "operatorCode": "admin",
+          "businessTypeCode": "test",
+          "useLimitCodeList": [
+              {
+                  "useLimitCode": ""
+              }
+          ]
+      }
+  ]
+}

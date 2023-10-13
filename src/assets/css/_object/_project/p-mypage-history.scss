@@ -1,0 +1,39 @@
+.p-mypage-history__header {
+  position: relative;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  &__filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -1rem;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+    @include mq() {
+      justify-content: space-between;
+    }
+    > li {
+      padding-left: 1rem;
+      @include mq() {
+        flex-grow: 1;
+        .c-button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+.p-mypage-history__menus {
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  > li {
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/**
+ * ログイン コンテンツ
+ */
+.crth-o-login-contents {
+  padding: 20px 0;
+  margin: 0 20px;
+  margin-bottom: 40px;
+  border: 1px solid #eee;
+  @include mq() {
+    padding: 0;
+    border: none;
+    margin: 0 5px;
+  }
+
+  &__message {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    @include mq() {
+      padding: 0 10px 10px 7px;
+      text-align: left;
+      font-weight: normal;
+    }
+
+    label {
+      cursor: text;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+
+    .text {
+      width: 252px;
+      margin: auto;
+      p {
+        margin: 0;
+        @include mq() {
+          margin: 10px 0;
+        }
+      }
+      @include mq() {
+        text-align: left;
+      }
+    }
+
+    @include mq() {
+      margin: 10px auto 0;
+    }
+  }
+
+  a {
+    color: #049de4;
+    display: initial;
+  }
+  .leftSp {
+    float: left;
+    @include mq() {
+      float: none;
+    }
+  }
+  .rightSp {
+    float: right;
+    @include mq() {
+      float: none;
+    }
+  }
+
+  .sp {
+    display: none;
+    @include mq() {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "data": [
+    {
+      "menuNo": "10471181",
+      "menuNm": "別府温泉　杉乃井ホテル",
+      "menuNmKana": "ベップオンセン　スギノイ",
+      "menuRcSttDt": "2017/03/07 00:00:00",
+      "menuRcEndDt": "2022/03/31 23:59:59",
+      "srvicDiv": "A10",
+      "shopAreaDiv": "0",
+      "leadCopy": "大展望露天風呂棚湯、水着で遊べる露天型温浴施設ザ　アクアガーデンご滞在中ご利用無料！",
+      "extSystemCd": "RakutenT",
+      "menuImages": [
+        {
+          "imageUrl": "https://img.travel.rakuten.co.jp/share/HOTEL/5547/5547.jpg"
+        }
+      ],
+      "areaInfomation": {
+        "areaLrgClassCd": "region-12",
+        "areaLrgClassNm": "九州",
+        "areaMidClassCd": "ooita",
+        "areaMidClassNm": "大分県",
+        "areaSmlClassCd": "beppu",
+        "areaSmlClassNm": "別府・日出"
+      },
+      "categoryInfomation": {
+        "catLrgClassCd": "001",
+        "catLrgClassNm": "宿泊施設",
+        "catMidClassCd": "002",
+        "catMidClassNm": "旅館",
+        "catSmlClassCd": "400",
+        "catSmlClassNm": "楽天"
+      }
+    },
+    {
+      "menuNo": "10530004",
+      "menuNm": "直営　おもてなしの宿　ベネフィット･ステーション箱根宮城野",
+      "menuNmKana": "オモテナシノヤド　ベネフィットステーションハコネミヤギノ",
+      "menuRcSttDt": "2003/03/29 00:00:00",
+      "menuRcEndDt": "2022/03/31 23:59:59",
+      "srvicDiv": "A10",
+      "shopAreaDiv": "0",
+      "catchCopy": "湯けむりと寛ぎの宿　～緑深い箱根の露天で、思う存分温泉に戯れる～",
+      "leadCopy": "【ベネフィット・ワン直営の宿】ベネフィット・ステーションが自信を持ってお届けする「おもてなしの宿」です。\n 天下の嶮と名高い箱根。早雲山の雄大な姿を間近に望み、早川が深い谷間を蛇行する宮城野は森の緑濃く、原始的な雰囲気が大地のエネルギーを感じさせます。そのような大地の奥深くから、満々と地球のエネルギーを含んだ温泉が湧き出で、宿のお風呂をいっぱいにしています。無色透明な湯から自然の滋養が体に染み入るのを感じるひととき、また食膳を飾る山海の恵みを味わうひととき、大自然に体が癒される幸せな時間を過ごしてみてはいかがでしょうか。",
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/530004_00042.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/530004_00012.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/530004_00100.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/530004_00071.jpg"
+        }
+      ],
+      "areaInfomation": {
+        "areaLrgClassCd": "region-4",
+        "areaLrgClassNm": "首都圏",
+        "areaMidClassCd": "kanagawa",
+        "areaMidClassNm": "神奈川県",
+        "areaSmlClassCd": "hakone",
+        "areaSmlClassNm": "箱根"
+      },
+      "categoryInfomation": {
+        "catLrgClassCd": "001",
+        "catLrgClassNm": "宿泊施設",
+        "catMidClassCd": "012",
+        "catMidClassNm": "直営保養所",
+        "catSmlClassCd": "001",
+        "catSmlClassNm": "直営保養所"
+      }
+    },
+    {
+      "menuNo": "10660565",
+      "menuNm": "大江戸温泉物語 浦安万華郷",
+      "menuNmKana": "オオエドオンセンモノガタリ　ウラヤスマンゲキョウ",
+      "menuRcSttDt": "2006/07/25 00:00:00",
+      "menuRcEndDt": "2099/03/31 23:59:59",
+      "srvicDiv": "B30",
+      "shopAreaDiv": "0",
+      "catchCopy": "天然温泉や水着露天風呂など38のお風呂が楽しめる千葉県最大級の温泉テーマパーク",
+      "leadCopy": "約1,400mの地下から湧き上がる天然温泉をはじめ、内湯、露天、家族やカップルで一緒に楽しめる水着露天風呂合わせて38のお風呂と温泉があり、極上のくつろぎの時間と癒しの空間を楽しめます。",
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/660565_00009.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/660565_00038.jpg"
+        }
+      ],
+      "categoryInfomation": {
+        "catLrgClassCd": "005",
+        "catLrgClassNm": "リラク・ビューティー",
+        "catMidClassCd": "012",
+        "catMidClassNm": "日帰り温泉・スパ",
+        "catSmlClassCd": "001",
+        "catSmlClassNm": "日帰り温泉・スパ"
+      }
+    },
+    {
+      "menuNo": "10769513",
+      "menuNm": "劇団四季『アナと雪の女王』",
+      "menuNmKana": "ゲキダンシキ（アナトユキノジョオウ）",
+      "menuRcSttDt": "2021/05/14 00:00:00",
+      "menuRcEndDt": "2022/01/29 23:59:59",
+      "srvicDiv": "B45",
+      "shopAreaDiv": "1",
+      "catchCopy": "国内史上最も愛されたウォルト・ディズニー・アニメーション・スタジオ映画がついに舞台化！真実の愛によって解き放たれる二人の姉妹の物語",
+      "leadCopy": "劇場版長編アニメーションを基に創作されたこの作品は、2018年3月、ブロードウェイ初演。\n全世界のアニメーション映画興行収入において当時歴代1位の記録を持つ名作の舞台化は、開幕するやいなや世界中で話題をさらいました。\nミュージカルでは、アニメーション版で監督も務めた脚本のジェニファー・リーが、アニメーションのストーリーラインを踏まえながら、キャラクター造形や心情描写、それぞれの関係性をより丁寧に描き、奥行きあるドラマへとさらに深化させました。\n作詞・作曲を手掛けるのは、「Let It Go」でアカデミー歌曲賞を受賞したロバート・ロペスとクリステン・アンダーソン＝ロペス夫妻。\n「生まれてはじめて」「雪だるまつくろう」などのオリジナル楽曲に加え、10曲以上もの新曲が追加されています。\n凍った世界を救う真実の愛とは──絆で結ばれた二人の姉妹が織りなす物語は、再び日本に愛と感動を届けてくれることでしょう。",
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/769513_00001.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/769513_00002.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/769513_00005.jpg"
+        }
+      ],
+      "categoryInfomation": {
+        "catLrgClassCd": "003",
+        "catLrgClassNm": "レジャー・エンタメ",
+        "catMidClassCd": "014",
+        "catMidClassNm": "チケット",
+        "catSmlClassCd": "001",
+        "catSmlClassNm": "演劇・舞台"
+      }
+    },
+    {
+      "menuNo": "10640183",
+      "menuNm": "リトルガーデン",
+      "menuNmKana": "リトルガーデン",
+      "menuRcSttDt": "2004/04/01 00:00:00",
+      "menuRcEndDt": "2099/03/31 23:59:59",
+      "srvicDiv": "B10",
+      "shopAreaDiv": "0",
+      "catchCopy": "「あなた」の大変をサポートします",
+      "leadCopy": "必要なときに必要な時間だけいつでも気軽にお預けできるサービスです。（要予約）2時間以上からお預けでき、保育園・幼稚園に通うまでに慣らし保育としてもご利用いただけます。",
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/640183_00001.jpg"
+        }
+      ],
+      "categoryInfomation": {
+        "catLrgClassCd": "024",
+        "catLrgClassNm": "育児",
+        "catMidClassCd": "004",
+        "catMidClassNm": "託児・ベビーシッター",
+        "catSmlClassCd": "001",
+        "catSmlClassNm": "育児施設・学童"
+      }
+    },
+    {
+      "menuNo": "10676023",
+      "menuNm": "横浜・八景島シーパラダイス",
+      "menuNmKana": "ヨコハマハッケイジマシーパラダイス",
+      "menuRcSttDt": "2001/04/01 00:00:00",
+      "menuRcEndDt": "2099/03/31 23:59:59",
+      "srvicDiv": "B30",
+      "shopAreaDiv": "0",
+      "catchCopy": "海のエンターテインメン島！横浜・八景島シーパラダイス",
+      "leadCopy": "海・島・生きもののテーマパーク！！ 4つの水族館とアトラクションで、恋人や家族と一日中楽しもう！！",
+      "menuImages": [
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/676023_00122.jpg"
+        },
+        {
+          "imageUrl": "https://d3ig3lhuz4sci5.cloudfront.net/img/676023_00147.jpg"
+        }
+      ],
+      "categoryInfomation": {
+        "catLrgClassCd": "003",
+        "catLrgClassNm": "レジャー・エンタメ",
+        "catMidClassCd": "015",
+        "catMidClassNm": "レジャー",
+        "catSmlClassCd": "001",
+        "catSmlClassNm": "レジャー"
+      },
+      "facilities": [
+        {
+          "lat": "35.69319488012081",
+          "lng": "139.75894201983357",
+          "facilityNm": "横浜・八景島シーパラダイス"
+        },
+        {
+          "lat": "35.69297348147671",
+          "lng": "139.75927945501454",
+          "facilityNm": "横浜・八景島シーパラダイス別館"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.c-displayPc {
+  @include mq("md", "min") {
+    display: block;
+  }
+  @include mq() {
+    display: none;
+  }
+
+  &--inline {
+    @include mq("md", "min") {
+      display: inline;
+    }
+  }
+
+  &--inlineFlex {
+    @include mq("md", "min") {
+      display: inline-flex;
+    }
+  }
+
+  &--flex {
+    @include mq("md", "min") {
+      display: flex;
+    }
+  }
+
+  @media print {
+    display: inline-flex;
+  }
+}

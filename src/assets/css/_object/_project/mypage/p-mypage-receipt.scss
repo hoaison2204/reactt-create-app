@@ -1,0 +1,202 @@
+.p-mypage-receipt-l-container {
+  width: 1032px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(31, 32, 33, 0.08);
+  @media (min-width: 1024px) {
+    overflow: hidden;
+  }
+
+  .main-container {
+    display: flex;
+
+    .back-link {
+      @apply flex items-center no-underline cursor-pointer hover:text-primary;
+      font-size: 15px;
+      @media (max-width: 768px) {
+        font-size: 13px;
+      }
+    }
+
+    .right-container {
+      width: 100%;
+
+      .box-right {
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0px 1px 8px #00000029;
+        margin: 1rem;
+        padding: 2rem 2.5rem;
+
+        @media only screen and (max-width: 768px) {
+          margin: 0px;
+          padding: 1rem;
+          font-size: 12px;
+        }
+
+        h1 {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 700;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+
+        .p-mypage-receipt-title {
+          justify-content: space-between;
+          display: flex;
+          .title2 {
+            border-bottom: 1px solid #cdcdcd;
+            margin-top: 20px;
+          }
+          .description {
+            border: 1px solid #cdcdcd;
+            padding: 2px;
+            margin-top: 20px;
+          }
+          .text-deco {
+            border-bottom: 1px solid #cdcdcd;
+          }
+
+          p {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            font-size: 12px;
+            font-weight: 400;
+          }
+
+          u {
+            padding-bottom: 2px;
+          }
+        }
+
+        .p-mypage-receipt-warning {
+            justify-content: space-between;
+            display: flex;
+            .description {
+              border: 1px solid red;
+              padding: 2px;
+              margin-top: 10px;
+              margin-left: 5px;
+              p {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+                font-size: 12px;
+                font-weight: 400;
+                color: red;
+              }
+            }
+          }
+
+        .image {
+          justify-content: flex-end;
+          display: flex;
+        }
+
+        .header {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 700;
+        }
+
+        .bs-receipt-table-spacing {
+          border-spacing: 0 8px;
+          tbody {
+            tr {
+              th, td {
+                padding-bottom: 8px;
+              }
+            }
+          }
+        }
+
+        .shop-receipt-table-spacing {
+          border-spacing: 0 0px;
+          tbody {
+            tr {
+              th, td {
+                padding-top: 2px;
+                padding-bottom: 2px;
+              }
+            }
+          }
+        }
+
+        table {
+          table-layout: fixed;
+          margin-top: 2rem;
+          width: 100%;
+          border-collapse: separate;
+          tbody {
+            tr {
+              font-weight: normal;
+              text-align: left;
+              font-size: 15px;
+
+              th, td {
+                border-bottom: solid 1px #cdcdcd;
+
+                @media (max-width: 768px) {
+                  font-size: 12px;
+                }
+              }
+
+              th {
+                color: #73767A;
+                width: 10rem;
+                font-weight: normal;
+
+                @media (max-width: 768px) {
+                  width: 5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .button {
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        height: 3.5rem;
+        justify-content: center;
+        display: flex;
+
+        .button-item {
+          height: 3rem;
+          align-items: center;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          width: 50%;
+
+          border-radius: 4px;
+          color: white;
+          @apply bg-primary;
+          font: bold 15px 'Noto Sans JP';
+          cursor: pointer;
+          &:hover {
+            text-decoration: none;
+            outline: 0;
+          }
+          @media (max-width: 768px) {
+            height: 2.3rem;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    ::v-deep .ant-btn > span {
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      font-weight: 700;
+    }
+  }
+}

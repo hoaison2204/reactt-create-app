@@ -1,0 +1,43 @@
+.p-menu-plan-life {
+  &__items {
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    &--benefit {
+      border: 1px solid $Red;
+      background-color: $LightYellow;
+      padding: 1rem 1.5rem;
+    }
+  }
+  &__item {
+    display: flex;
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+  }
+  &__prices {
+    font-weight: bold;
+    margin-left: 0.5rem;
+    @include mq() {
+      margin-left: 0.25rem;
+    }
+    &--space {
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    &--discount-price {
+      color: $Red;
+    }
+  }
+  &__expires {
+    font-size: 0.875rem;
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  &__buttons {
+    width: 340px;
+    margin-left: auto;
+    @include mq() {
+      width: initial;
+    }
+  }
+}

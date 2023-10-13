@@ -1,0 +1,11 @@
+/**
+ * その他: テキスト案内
+ **/
+.p-menu-other-text-guide {
+  position: relative;
+
+  &__description {
+    white-space: pre-line;
+    word-break: normal;
+  }
+}

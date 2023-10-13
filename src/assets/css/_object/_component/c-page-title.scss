@@ -1,0 +1,15 @@
+.c-page-title {
+  padding-top: 0;
+  padding-bottom: .5rem;
+  color: $CoolBlack;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight: bold;
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  @include mq () {
+    font-size: 1.5rem;
+  }
+}

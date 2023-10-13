@@ -1,0 +1,76 @@
+
+.p-mypage-point-estimate {
+  &__return {
+    margin-bottom: 1rem;
+    .c-icon {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      fill: $Red,
+    }
+  }
+  &__inner {
+    @include mypageInner();
+  }
+  &__list {
+    padding: 1.5rem;
+    border-bottom: 1px solid #CDCDCD;
+    &__benepo{
+      display: flex;
+      justify-content: space-between;
+      &__hedding {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+      &__unit {
+        font-weight: bold;
+        .unit__label {
+          font-weight: normal;
+          font-size: .875rem;
+          padding-right: .5rem;
+        }
+      }
+    }
+    &__points {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin: 0 1.5rem;
+      border-bottom: 1px solid $CoolGray4;
+      &:last-child {
+        border:none;
+      }
+      &__date {
+        min-width: 190px;
+        margin-right: 1rem;
+        font-size: .875rem;
+      }
+      &__title {
+        font-weight: bold;
+      }
+      &__value {
+        font-weight: bold;
+        &--plus {
+          color: $Blue;
+          &::before {
+            content: '＋'
+          }
+        }
+        &--minus {
+          color: $RedPink;
+          &::before {
+            content: '－'
+          }
+        }
+      }
+    }
+  }
+  &__to-menu {
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid $CoolGray4;
+  }
+}

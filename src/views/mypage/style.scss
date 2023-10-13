@@ -1,0 +1,215 @@
+@mixin text-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2rem;
+    color: #73767a;
+  }
+
+  @mixin text-content {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #1f2021;
+    line-height: 2rem;
+  }
+
+  @mixin text-epip {
+    line-height: 21px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .confirm-info {
+    @media only screen and (max-width: 768px) {
+      @apply w-full;
+    }
+    .main-content {
+      @apply flex gap-6;
+      @media only screen and (max-width: 768px) {
+        @apply flex flex-col flex-col-reverse;
+      }
+      .left-content {
+        @apply w-1/4;
+        @media only screen and (max-width: 768px) {
+          @apply w-auto mr-4;
+        }
+      }
+      .right-content {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 1px 8px 0px #1f202114;
+
+        @apply w-3/4 p-6 mb-4;
+        @media only screen and (max-width: 768px) {
+          @apply w-full mr-4;
+        }
+      }
+    }
+  }
+
+  .block-one-inform-title {
+    @apply w-full flex justify-between;
+  }
+  .inform-line {
+    @apply w-4/5 flex justify-between px-6 py-2 sm:block sm:w-full;
+    .inform-line-title {
+      @include text-title();
+      @apply text-left;
+      width: 160px;
+    }
+    .inform-line-content {
+      @include text-content();
+      @apply text-left sm:w-full pl-4 sm:pl-0;
+      width: calc(100% - 160px);
+      @media only screen and (max-width: 768px) {
+        @apply w-full;
+        @include text-epip();
+      }
+    }
+  }
+  .block-two-content-line {
+    @apply flex w-full justify-between py-2;
+    .block-two-content-right {
+      @apply flex px-6 w-2/3 justify-between sm:block sm:w-full;
+      .block-two-content-title {
+        @include text-title();
+        @apply text-left;
+      }
+      .block-two-content-content {
+        @include text-content();
+        @apply text-left w-7/12;
+      }
+    }
+  }
+  .block-three-anounce-title {
+    @apply w-full flex justify-between;
+  }
+  .block-three-anounce-content {
+    @apply flex w-2/3 justify-between px-6 sm:block sm:w-full;
+    .block-three-anounce-content-title {
+      @include text-title();
+    }
+    .block-three-anounce-content-content {
+      @include text-content();
+      @apply w-7/12 text-left sm:w-full;
+    }
+  }
+  .top-title{
+    h3{
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+  }
+
+  .title-modal {
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    @apply text-center;
+  }
+  .description-modal {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1f2021;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    @apply sm:px-6;
+  }
+  .btn-cms-modal {
+    @apply my-4;
+    text-align: center;
+  }
+  .mw-select-modal {
+    text-align: center;
+    min-width: 200px;
+  }
+  .c-btn-modal {
+    min-width: 250px;
+  }
+
+
+  .submit-btn {
+    background-color: #1F2021;
+    box-shadow: 0px 2px 8px 0px #1F202152;
+    border-radius: 8px ;
+    @apply sm:w-full w-1/3 left-1/3 mt-8;
+    .title-btn {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+  }
+
+  @mixin option_title {
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #1F2021;
+  }
+
+  .item-collapse {
+    overflow-y: scroll;
+    max-height: 350px;
+    @apply mb-8;
+    :deep() .n-collapse-item__header-main{
+      @apply w-full flex justify-between px-6;
+    }
+    ::v-deep .ant-collapse-header{
+      @include option_title();
+    }
+    ::v-deep .ant-collapse-content > .ant-collapse-content-box {
+      background-color: #F4F5F6;
+      @apply my-0 py-4 px-0;
+    }
+  }
+
+  .option-list{
+    @apply px-6 flex flex-wrap gap-2;
+  }
+
+  .option-btn{
+    background-color: #FFFFFF;
+    border: 1px solid #A8AAAD;
+    span{
+      font-size: 0.75rem;
+      color: #1F2021
+    }
+  }
+  .option_btn_active{
+    background-color: #63666A;
+    span{
+      color: #FFFFFF;
+    }
+  }
+
+  .item-collapse::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  ::v-deep .item-collapse {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  // @media (max-width: 639px) and (min-width: 320px) {
+
+  //   /deep/ .ant-modal {
+  //     margin: 0;
+  //     position: fixed;
+  //     bottom: 0;
+  //     left: 50%;
+  //     transform: translateX(-50%);
+  //     height: 90vh;
+
+  //   }
+  //   .item-collapse{
+  //     max-height: 450px;
+  //   }
+  // }

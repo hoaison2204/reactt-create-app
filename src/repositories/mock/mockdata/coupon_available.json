@@ -1,0 +1,3575 @@
+{
+  "availableDataList": [
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000348",
+            "dispSubsidyNm": "映画補助2",
+            "subsidyId": "B000000209",
+            "receptionDateFrom": "2021-10-22",
+            "receptionDateTo": "2021-12-09",
+            "applicableDateFrom": "2021-10-22",
+            "applicableDateTo": "2021-12-09",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": null,
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2021-11-08",
+            "requestUserId": "307",
+            "approvalDate": "2021-11-08",
+            "approvalUserId": "339",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000360",
+                    "subsidyDetailId": "D000000348",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2021-10-22",
+                    "limApplicableDateTo": "2021-11-25",
+                    "price": 200,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000504",
+            "dispSubsidyNm": "実費未満投入フラグ",
+            "subsidyId": "B000000298",
+            "receptionDateFrom": "2021-12-22",
+            "receptionDateTo": "2022-03-31",
+            "applicableDateFrom": "2021-12-22",
+            "applicableDateTo": "2022-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 2,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2022-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2021-12-22",
+            "requestUserId": "307",
+            "approvalDate": "2021-12-23",
+            "approvalUserId": "330",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000501",
+                    "subsidyDetailId": "D000000504",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2021-12-22",
+                    "limApplicableDateTo": "2022-03-31",
+                    "price": 10000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 2,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000505",
+            "dispSubsidyNm": "金額1",
+            "subsidyId": "B000000299",
+            "receptionDateFrom": "2021-12-22",
+            "receptionDateTo": "2022-03-31",
+            "applicableDateFrom": "2021-12-22",
+            "applicableDateTo": "2022-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 1,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2022-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2021-12-22",
+            "requestUserId": "307",
+            "approvalDate": "2021-12-23",
+            "approvalUserId": "330",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000502",
+                    "subsidyDetailId": "D000000505",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2021-12-22",
+                    "limApplicableDateTo": "2022-03-31",
+                    "price": 3000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 1,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000506",
+            "dispSubsidyNm": "金額2",
+            "subsidyId": "B000000300",
+            "receptionDateFrom": "2021-12-22",
+            "receptionDateTo": "2022-03-31",
+            "applicableDateFrom": "2021-12-22",
+            "applicableDateTo": "2022-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 1,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2022-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2021-12-22",
+            "requestUserId": "307",
+            "approvalDate": "2021-12-23",
+            "approvalUserId": "330",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000503",
+                    "subsidyDetailId": "D000000506",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2021-12-22",
+                    "limApplicableDateTo": "2022-03-31",
+                    "price": 3000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 1,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000653",
+            "dispSubsidyNm": "宿泊_任意_健保_1",
+            "subsidyId": "B000000385",
+            "receptionDateFrom": "2022-02-01",
+            "receptionDateTo": "2022-04-30",
+            "applicableDateFrom": "2022-02-01",
+            "applicableDateTo": "2022-04-30",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "02",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "02",
+            "usedMaxCnt": 1000,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-03-31",
+            "requestUserId": "456",
+            "approvalDate": "2022-03-31",
+            "approvalUserId": "454",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000631",
+                    "subsidyDetailId": "D000000653",
+                    "priceType": "本人",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000632",
+                    "subsidyDetailId": "D000000653",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 500,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000633",
+                    "subsidyDetailId": "D000000653",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 400,
+                    "ageType": "子供"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 998,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": "氏名（カタカナ）",
+                "isVisiable": "true"
+            },
+            "seiInput": {
+                "isVisiable": "true"
+            },
+            "meiInput": {
+                "isVisiable": "true"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "本人",
+                    "家族",
+                    "家族"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "本人:[大人|600|2022-02-01|2022-04-30]",
+                    "家族:[大人|500|2022-02-01|2022-04-30]",
+                    "家族:[子供|400|2022-02-01|2022-04-30]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000654",
+            "dispSubsidyNm": "宿泊_強制_健保_1",
+            "subsidyId": "B000000386",
+            "receptionDateFrom": "2022-02-01",
+            "receptionDateTo": "2022-04-30",
+            "applicableDateFrom": "2022-02-01",
+            "applicableDateTo": "2022-04-30",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "02",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "02",
+            "usedMaxCnt": 1000,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-03-31",
+            "requestUserId": "456",
+            "approvalDate": "2022-03-31",
+            "approvalUserId": "454",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000634",
+                    "subsidyDetailId": "D000000654",
+                    "priceType": "本人",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000635",
+                    "subsidyDetailId": "D000000654",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 500,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000636",
+                    "subsidyDetailId": "D000000654",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-02-01",
+                    "limApplicableDateTo": "2022-04-30",
+                    "price": 400,
+                    "ageType": "子供"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 957,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "本人",
+                    "家族",
+                    "家族"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "本人:[大人|600|2022-02-01|2022-04-30]",
+                    "家族:[大人|500|2022-02-01|2022-04-30]",
+                    "家族:[子供|400|2022-02-01|2022-04-30]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000816",
+            "dispSubsidyNm": "S1_任意/併用可/200円/4枚/預かり",
+            "subsidyId": "B000000519",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 4,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-20",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-20",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "0",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000751",
+                    "subsidyDetailId": "D000000816",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 200,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 4,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000817",
+            "dispSubsidyNm": "S2_任意/併用可/100円/2枚/実費",
+            "subsidyId": "B000000520",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 2,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-20",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-20",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000752",
+                    "subsidyDetailId": "D000000817",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 100,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 2,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000818",
+            "dispSubsidyNm": "S3_任意/併用不可/50円/3枚/営業",
+            "subsidyId": "B000000521",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": 0,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 3,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-20",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-20",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000753",
+                    "subsidyDetailId": "D000000818",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 50,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "1"
+        },
+        "remainingCount": 3,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000822",
+            "dispSubsidyNm": "S7_任意/併用可/80円/4枚/実費/大カテレジャー",
+            "subsidyId": "B000000525",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 4,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-20",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-20",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000757",
+                    "subsidyDetailId": "D000000822",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 80,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 4,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000830",
+            "dispSubsidyNm": "テーマパーク　テスト補助金_1000円４枚",
+            "subsidyId": "B000000533",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 4,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-21",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-21",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000767",
+                    "subsidyDetailId": "D000000830",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 1000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 4,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000831",
+            "dispSubsidyNm": "テーマパーク　テスト補助金（２）_1000円４枚",
+            "subsidyId": "B000000534",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 4,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-04-21",
+            "requestUserId": "313",
+            "approvalDate": "2022-04-21",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000768",
+                    "subsidyDetailId": "D000000831",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 1000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 4,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000839",
+            "dispSubsidyNm": "宿泊_任意_健保_1",
+            "subsidyId": "B000000540",
+            "receptionDateFrom": "2022-05-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-05-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "02",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "02",
+            "usedMaxCnt": 1000,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-09",
+            "requestUserId": "307",
+            "approvalDate": "2022-05-19",
+            "approvalUserId": "305",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000774",
+                    "subsidyDetailId": "D000000839",
+                    "priceType": "本人",
+                    "limApplicableDateFrom": "2022-05-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000775",
+                    "subsidyDetailId": "D000000839",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 500,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000776",
+                    "subsidyDetailId": "D000000839",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 400,
+                    "ageType": "子供"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 988,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": "氏名（カタカナ）",
+                "isVisiable": "true"
+            },
+            "seiInput": {
+                "isVisiable": "true"
+            },
+            "meiInput": {
+                "isVisiable": "true"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "本人",
+                    "家族",
+                    "家族"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "本人:[大人|600|2022-05-01|2022-07-31]",
+                    "家族:[大人|500|2022-05-01|2022-07-31]",
+                    "家族:[子供|400|2022-05-01|2022-07-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000842",
+            "dispSubsidyNm": "S9_強制/併用不可/500円/3枚/営業",
+            "subsidyId": "B000000543",
+            "receptionDateFrom": "2022-05-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-05-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": 111,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 3,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-11",
+            "requestUserId": "313",
+            "approvalDate": "2022-05-11",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000779",
+                    "subsidyDetailId": "D000000842",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-05-11",
+                    "limApplicableDateTo": "2022-05-11",
+                    "price": 500,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "1"
+        },
+        "remainingCount": 3,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000843",
+            "dispSubsidyNm": "S10_任意/併用可/10円/4枚/預かり/未来",
+            "subsidyId": "B000000544",
+            "receptionDateFrom": "2022-05-12",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-05-12",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 4,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-11",
+            "requestUserId": "313",
+            "approvalDate": "2022-05-11",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000780",
+                    "subsidyDetailId": "D000000843",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-05-12",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 10,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 4,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000863",
+            "dispSubsidyNm": "強制宿泊補助クーポン500円",
+            "subsidyId": "B000000553",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": null,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-20",
+            "requestUserId": "313",
+            "approvalDate": "2022-05-20",
+            "approvalUserId": "260",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000790",
+                    "subsidyDetailId": "D000000863",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 500,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": null,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|500|2022-04-01|2023-03-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000864",
+            "dispSubsidyNm": "任意_宿泊補助クーポン500円_100枚",
+            "subsidyId": "B000000554",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-24",
+            "requestUserId": "260",
+            "approvalDate": "2022-05-24",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000791",
+                    "subsidyDetailId": "D000000864",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 500,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 76,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|500|2022-04-01|2023-03-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000865",
+            "dispSubsidyNm": "強制_宿泊補助クーポン500円_100枚",
+            "subsidyId": "B000000555",
+            "receptionDateFrom": "2022-04-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-04-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-23",
+            "requestUserId": "260",
+            "approvalDate": "2022-05-23",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000792",
+                    "subsidyDetailId": "D000000865",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-04-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 500,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": -7,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|500|2022-04-01|2023-03-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000884",
+            "dispSubsidyNm": "【SHIFT専用】宿泊_健保補助金6",
+            "subsidyId": "B000000574",
+            "receptionDateFrom": "2022-05-13",
+            "receptionDateTo": "2022-08-13",
+            "applicableDateFrom": "2022-05-13",
+            "applicableDateTo": "2022-08-13",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "02",
+            "applicableDegreeCnt": 1,
+            "personAccompanyFlg": "1",
+            "minTgtAge": 12,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": 25000,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2022-08-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-26",
+            "requestUserId": "338",
+            "approvalDate": "2022-05-26",
+            "approvalUserId": "339",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "0",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000834",
+                    "subsidyDetailId": "D000000884",
+                    "priceType": "本人",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000835",
+                    "subsidyDetailId": "D000000884",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 500,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000836",
+                    "subsidyDetailId": "D000000884",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 400,
+                    "ageType": "子供"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "1"
+        },
+        "remainingCount": null,
+        "remainingAmount": 25000,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": "年齢",
+                "isVisiable": "true"
+            },
+            "ageInput": {
+                "isVisiable": "true"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "本人",
+                    "家族",
+                    "家族"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "本人:[大人|600|2022-05-13|2022-08-13]",
+                    "家族:[大人|500|2022-05-13|2022-08-13]",
+                    "家族:[子供|400|2022-05-13|2022-08-13]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000885",
+            "dispSubsidyNm": "【SHIFT専用】宿泊_企業補助金5",
+            "subsidyId": "B000000575",
+            "receptionDateFrom": "2022-05-13",
+            "receptionDateTo": "2022-08-13",
+            "applicableDateFrom": "2022-05-13",
+            "applicableDateTo": "2022-08-13",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 1,
+            "personAccompanyFlg": "0",
+            "minTgtAge": 13,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": null,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2022-08-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-05-26",
+            "requestUserId": "338",
+            "approvalDate": "2022-05-26",
+            "approvalUserId": "339",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000837",
+                    "subsidyDetailId": "D000000885",
+                    "priceType": "本人",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000838",
+                    "subsidyDetailId": "D000000885",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 600,
+                    "ageType": "大人"
+                },
+                {
+                    "subsidyPriceId": "P000000839",
+                    "subsidyDetailId": "D000000885",
+                    "priceType": "家族",
+                    "limApplicableDateFrom": "2022-05-13",
+                    "limApplicableDateTo": "2022-08-13",
+                    "price": 600,
+                    "ageType": "子供"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": null,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": "年齢",
+                "isVisiable": "true"
+            },
+            "ageInput": {
+                "isVisiable": "true"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "本人",
+                    "家族",
+                    "家族"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "本人:[大人|600|2022-05-13|2022-08-13]",
+                    "家族:[大人|600|2022-05-13|2022-08-13]",
+                    "家族:[子供|600|2022-05-13|2022-08-13]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000917",
+            "dispSubsidyNm": "任意_ライフ補助クーポン100円_100枚",
+            "subsidyId": "B000000598",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-06",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-06",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000872",
+                    "subsidyDetailId": "D000000917",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 100,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000918",
+            "dispSubsidyNm": "強制_ライフ補助クーポン1500円_100枚",
+            "subsidyId": "B000000599",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-20",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-20",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000873",
+                    "subsidyDetailId": "D000000918",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 50,
+                    "ageType": "一律"
+                },
+                {
+                    "subsidyPriceId": "P000000901",
+                    "subsidyDetailId": "D000000918",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-20",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 1500,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000919",
+            "dispSubsidyNm": "任意_BO負担宿泊補助クーポン1000円_100枚",
+            "subsidyId": "B000000600",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2023-03-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2023-03-31",
+            "subsidyType": "01",
+            "settlementNo": 1,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-06",
+            "requestUserId": "313",
+            "approvalDate": "2022-06-06",
+            "approvalUserId": "673",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000874",
+                    "subsidyDetailId": "D000000919",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2023-03-31",
+                    "price": 1000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 93,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|1000|2022-06-01|2023-03-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000942",
+            "dispSubsidyNm": "強制_PM負担宿泊補助クーポン1000円_100枚",
+            "subsidyId": "B000000618",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "01",
+            "settlementNo": 1,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-15",
+            "requestUserId": "313",
+            "approvalDate": "2022-06-15",
+            "approvalUserId": "673",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000895",
+                    "subsidyDetailId": "D000000942",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 1000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|1000|2022-06-01|2022-07-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000943",
+            "dispSubsidyNm": "強制_その他_宿泊補助クーポン2000円_100枚",
+            "subsidyId": "B000000619",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "1",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-17",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-17",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000896",
+                    "subsidyDetailId": "D000000943",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 2000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 66,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|2000|2022-06-01|2022-07-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000952",
+            "dispSubsidyNm": "T1_任意_ライフ50円_100枚",
+            "subsidyId": "B000000622",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "1",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-17",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-17",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000899",
+                    "subsidyDetailId": "D000000952",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 50,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000953",
+            "dispSubsidyNm": "T2_強制_ライフ30円_100枚",
+            "subsidyId": "B000000623",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "02",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "1",
+            "minTgtAge": null,
+            "usedFormDiv": "01",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 100,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-17",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-17",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000900",
+                    "subsidyDetailId": "D000000953",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 30,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 100,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": null,
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "pricetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "agetypeLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "agetypePd": {
+                "valueList": null,
+                "isVisiable": "false"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    },
+    {
+        "availableData": {
+            "subsidyDetailId": "D000000965",
+            "dispSubsidyNm": "U2_任意_宿泊補助クーポン5000円_20枚",
+            "subsidyId": "B000000629",
+            "receptionDateFrom": "2022-06-01",
+            "receptionDateTo": "2022-07-31",
+            "applicableDateFrom": "2022-06-01",
+            "applicableDateTo": "2022-07-31",
+            "subsidyType": "01",
+            "settlementNo": null,
+            "requestType": "01",
+            "applicableDegreeCnt": 2,
+            "personAccompanyFlg": "0",
+            "minTgtAge": null,
+            "usedFormDiv": "02",
+            "usedLimTerm": "01",
+            "usedLimUnit": "01",
+            "usedMaxCnt": null,
+            "usedMaxTotalAmt": null,
+            "parsonalUsedMaxCnt": 20,
+            "parsonalUsedMaxTotalAmt": null,
+            "usedExpectedAmt": null,
+            "yearEndDatetime": "2023-03-31",
+            "useStopFlg": "0",
+            "subsidySts": "02",
+            "requestDate": "2022-06-21",
+            "requestUserId": "673",
+            "approvalDate": "2022-06-21",
+            "approvalUserId": "313",
+            "minChargeAmt": null,
+            "costUnderChargeableFlg": "1",
+            "priceList": [
+                {
+                    "subsidyPriceId": "P000000907",
+                    "subsidyDetailId": "D000000965",
+                    "priceType": "一律",
+                    "limApplicableDateFrom": "2022-06-01",
+                    "limApplicableDateTo": "2022-07-31",
+                    "price": 5000,
+                    "ageType": "一律"
+                }
+            ],
+            "couponInfo": null,
+            "subsidyClass": "01",
+            "multipleUnusableFlg": "0"
+        },
+        "remainingCount": 9,
+        "remainingAmount": null,
+        "scrennDisplayItemList": {
+            "nameLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "seiInput": {
+                "isVisiable": "false"
+            },
+            "meiInput": {
+                "isVisiable": "false"
+            },
+            "relationshipLabel": {
+                "value": "会員との続柄",
+                "isVisiable": "true"
+            },
+            "relationshipPd": {
+                "relationshipPatternCd": "50",
+                "valueList": [
+                    "妻|21|0",
+                    "夫|22|0",
+                    "長男|31|1",
+                    "二男|32|1",
+                    "三男|33|1",
+                    "長女|41|1",
+                    "二女|42|1",
+                    "三女|43|1",
+                    "父|11|1",
+                    "母|12|1",
+                    "義父|51|1",
+                    "義母|61|1",
+                    "兄弟（姉妹）1|210|2",
+                    "兄弟（姉妹）2|211|2",
+                    "兄弟（姉妹）3|212|2",
+                    "兄弟（姉妹）4|213|2",
+                    "兄弟（姉妹）5|214|2",
+                    "兄弟（姉妹）6|215|2",
+                    "孫1|216|2",
+                    "孫2|217|2",
+                    "孫3|218|2",
+                    "2親等内親族1|219|2",
+                    "2親等内親族2|220|2",
+                    "2親等内親族3|221|2",
+                    "2親等内親族4|222|2",
+                    "2親等内親族5|223|2",
+                    "2親等内親族6|224|2",
+                    "2親等内親族7|225|2",
+                    "2親等内親族8|226|2",
+                    "2親等内親族9|227|2",
+                    "2親等内親族10|228|2",
+                    "その他会員|205|9",
+                    "本人|0|0"
+                ],
+                "isVisiable": "true"
+            },
+            "ageLabel": {
+                "value": null,
+                "isVisiable": "false"
+            },
+            "ageInput": {
+                "isVisiable": "false"
+            },
+            "pricetypeLabel": {
+                "value": "単価種別",
+                "isVisiable": "true"
+            },
+            "pricetypePd": {
+                "valueList": [
+                    "一律"
+                ],
+                "isVisiable": "true"
+            },
+            "agetypeLabel": {
+                "value": "年齢種別",
+                "isVisiable": "true"
+            },
+            "agetypePd": {
+                "valueList": [
+                    "一律:[一律|5000|2022-06-01|2022-07-31]"
+                ],
+                "isVisiable": "true"
+            },
+            "subsidyNameLabel": null,
+            "applicableDateFromLabel": null,
+            "applicableDateToLabel": null,
+            "receptionDateFromLabel": null,
+            "receptionDateToLabel": null,
+            "priceList": null,
+            "remainingCountLabel": null,
+            "remainingAmountLabel": null,
+            "applicableDegreeCntLabel": null,
+            "personAccompanyNecessityLabel": null,
+            "tgtAgeLabel": null,
+            "costUnderChargeableNecessityLabel": null,
+            "multipleUnusableNecessityLabel": null
+        }
+    }
+]
+}

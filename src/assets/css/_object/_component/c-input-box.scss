@@ -1,0 +1,41 @@
+$BgColor3: #F2F2F2;
+.c-input-box{
+  position: relative;
+  display: block;
+  padding: 0;
+  width: 100%;
+  INPUT{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 10px 8px;
+    max-width: 100%;
+    width: 100%;
+    font-size: 1em;
+    background-color: $CoolGray6;
+    cursor: default;
+    &:focus{
+      cursor: auto;
+      outline: none;
+      background-color: $LightYellow;
+    }
+    &:disabled {
+      background-color:$BgColor3;
+    }
+    &.allowClear{
+      padding-right: 28px;
+    }
+  }
+  .clear{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6px;
+    font-size: 16px;
+    background: #FFF;
+    cursor: pointer;
+    opacity: 0.8;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.c-order-check-list {
+  .p-order-error__alert {
+    margin: 0;
+    margin-bottom: 1rem;
+    white-space: pre-line;
+  }
+
+  .p-order__table-list__item {
+    display: block;
+    &--label {
+      width: 100%;
+    }
+    &--text {
+      width: 100%;
+    }
+
+    &--error {
+      input,
+      .c-radio__box,
+      .c-select .c-select__control,
+      .c-textarea TEXTAREA,
+      .c-checkbox__box {
+        border-color: $Error;
+        background-color: $Error10;
+      }
+
+      &-msg {
+        margin-top: 0.25rem;
+        color: $Error;
+        svg {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  &--fixed-text {
+    margin-bottom: 1rem;
+  }
+}

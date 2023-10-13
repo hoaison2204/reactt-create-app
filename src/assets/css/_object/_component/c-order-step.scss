@@ -1,0 +1,96 @@
+.c-order-step {
+  position: relative;
+  max-width: 840px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    border: 1px solid $CoolGray1;
+    width: calc(100% - 6rem);
+    z-index: 1;
+    @include mq() {
+      top: 21%;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    text-align: center;
+    &__circle-wrap {
+      position: relative;
+      width: 72px;
+      background-color: $CoolGray6;
+      margin: 0 auto;
+      z-index: 2;
+      @include mq() {
+        width: 42px;
+      }
+    }
+    &__circle {
+      width: 40px;
+      height: 40px;
+      margin: 0 auto 0.75rem auto;
+      border: 2px solid $CoolGray1;
+      border-radius: 50%;
+      background-color: #FFF;
+      @include mq() {
+        border: 1px solid $CoolGray1;
+        width: 24px;
+        height: 24px;
+      }
+      &--idx {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        color: $CoolGray1;
+        @include mq() {
+          font-size: 12px;
+          font-weight: initial;
+          .c-icon {
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+      &--current {
+        color: #FFF;
+        background-color: $Red;
+      }
+      &--checked {
+        background-color: $CoolGray;
+      }
+    }
+    &--current {
+      .c-order-step__item__circle {
+        background-color: $Red;
+        border: 2px solid $Red;
+        &--idx {
+          color: #FFF;
+        }
+      }
+      .c-order-step__item__status {
+        color: $Red;
+      }
+    }
+    &--checked {
+      .c-order-step__item__circle {
+        background-color: $CoolGray2;
+        border: 2px solid $CoolGray2;
+      }
+      .c-order-step__item__status {
+        color: $CoolGray2;
+      }
+    }
+  }
+}

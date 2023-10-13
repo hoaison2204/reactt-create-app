@@ -1,0 +1,52 @@
+.c-reviews-list-block {
+  &__detail {
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__category {
+      color: $CoolGray;
+      font-size: .75rem;
+      margin-bottom: .5rem;
+      &--label {
+        color: $Red;
+        background-color: $CoolGray6;
+        padding: .2rem .6rem;
+        border-radius: 2px;
+        margin-right: .5rem;
+      }
+    }
+    &__status {
+      font-size: .875rem;
+      color: $CoolGray;
+      display: flex;
+      &--date {
+        margin-right: 1rem;
+      }
+      &--label {
+        display: inline-block;
+        font-size: .625rem;
+        background-color: rgba(246, 168, 44, 0.1);
+        padding: .3rem .6rem;
+        border-radius: 2px;
+        position: relative;
+        padding-left: 1.5rem;
+        .c-icon {
+          position: absolute;
+          top: 50%;
+          left: 6px;
+          transform: translateY(-50%);
+          fill: #F6A82C;
+        }
+      }
+    }
+    &__name {
+      font-weight: bold;
+    }
+    &__rate {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}

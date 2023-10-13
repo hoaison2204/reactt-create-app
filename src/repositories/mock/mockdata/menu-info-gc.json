@@ -1,0 +1,756 @@
+{
+	"menuBasicInfo": {
+		"menuNo": "2300001G",
+		"menuNm": "居酒屋　新宿西口本店",
+		"menuNmKana": "イザカヤシンジュクニシグチホンテン",
+		"menuRcSttDt": "2023/04/01 12:00:00",
+		"menuRcEndDt": "2025/12/31 12:00:00",
+		"srvicDiv": "B35",
+		"shopAreaDiv": null,
+		"extSystemCd": null,
+		"catchCopy": "０１キャッチコピー",
+		"leadCopy": "０１リードコピー",
+		"areaInfomation": {
+			"areaLrgClassCd": "region-4",
+			"areaLrgClassNm": "首都圏",
+			"areaMidClassCd": "tokyo",
+			"areaMidClassNm": "東京都",
+			"areaSmlClassCd": "tokyo",
+			"areaSmlClassNm": "東京２３区内",
+			"areaDtlClassCd": null,
+			"areaDtlClassNm": null,
+			"latitude": "35.6913457",
+			"longitude": "139.6936900"
+		},
+		"categoryInfomation": {
+			"catLrgClassCd": "113",
+			"catLrgClassNm": "グルメ",
+			"catMidClassCd": "201",
+			"catMidClassNm": "飲食店",
+			"catSmlClassCd": "301",
+			"catSmlClassNm": "居酒屋"
+		},
+		"menuImages": [
+			{
+				"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu1.png",
+				"imageExplanation": "画像説明文ーメニュー①"
+			},
+			{
+				"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu2.png",
+				"imageExplanation": "画像説明文ーメニュー②"
+			},
+			{
+				"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu3.png",
+				"imageExplanation": "画像説明文ーメニュー③"
+			},
+			{
+				"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01menu4.png",
+				"imageExplanation": "画像説明文ーメニュー④"
+			}
+		]
+	},
+	"menuIcons": null,
+	"menuHashtags": null,
+	"menuInformation": null,
+	"photoGallery": [
+		{
+			"imageId": 79,
+			"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01PhotoGallery1.png",
+			"imageExplanation": "画像説明文ーフォトギャラリー①",
+			"imageCategoryCd": "04",
+			"imageCategoryNm": "内観",
+			"imageHeading": "menu01PhotoGallery1.png",
+			"imageCatchCopy": "画像説明文ーフォトギャラリー①",
+			"imageBenefitCont": null
+		},
+		{
+			"imageId": 80,
+			"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01PhotoGallery2.png",
+			"imageExplanation": "画像説明文ーフォトギャラリー②",
+			"imageCategoryCd": "05",
+			"imageCategoryNm": "外観",
+			"imageHeading": "menu01PhotoGallery2.png",
+			"imageCatchCopy": "画像説明文ーフォトギャラリー②",
+			"imageBenefitCont": null
+		}
+	],
+	"photoGallerySumary": {
+		"imgGroupAllSum": 2,
+		"imgGroupCookingSum": 0,
+		"imgGroupDrinkSum": 0,
+		"imgGroupIntrospectionSum": 1,
+		"imgGroupExteriorSum": 1,
+		"imgGroupOtherSum": 0
+	},
+	"plans": [
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000001",
+				"planNm": "０１Ａプラン",
+				"planLeadCopy": "０１Ａプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan1.png",
+						"imageExplanation": "画像説明文ープランー①"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "morning",
+					"iconNm": "モーニング",
+					"iconSuppl": null
+				},
+				{
+					"iconCd": "lunch",
+					"iconNm": "ランチ",
+					"iconSuppl": null
+				},
+				{
+					"iconCd": "dinner",
+					"iconNm": "ディナー",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		},
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000002",
+				"planNm": "０１Ｂプラン",
+				"planLeadCopy": "０１Ｂプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan2.png",
+						"imageExplanation": "画像説明文ープランー②"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "morning",
+					"iconNm": "モーニング",
+					"iconSuppl": null
+				},
+				{
+					"iconCd": "lunch",
+					"iconNm": "ランチ",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		},
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000003",
+				"planNm": "０１Ｃプラン",
+				"planLeadCopy": "０１Ｃプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan3.png",
+						"imageExplanation": "画像説明文ープランー③"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "morning",
+					"iconNm": "モーニング",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		},
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000004",
+				"planNm": "０１Ｄプラン",
+				"planLeadCopy": "０１Ｄプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan4.png",
+						"imageExplanation": "画像説明文ープランー④"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "lunch",
+					"iconNm": "ランチ",
+					"iconSuppl": null
+				},
+				{
+					"iconCd": "dinner",
+					"iconNm": "ディナー",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		},
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000005",
+				"planNm": "０１Ｅプラン",
+				"planLeadCopy": "０１Ｅプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan5.png",
+						"imageExplanation": "画像説明文ープランー⑤"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "dinner",
+					"iconNm": "ディナー",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		},
+		{
+			"planBasicInfo": {
+				"menuNo": "2300001G",
+				"planId": "9000000006",
+				"planNm": "０１Ｆプラン",
+				"planLeadCopy": "０１Ｆプラン プランの説明",
+				"planRcSttDt": "2023/04/01 12:00:00",
+				"planRcEndDt": "2025/12/31 12:00:00",
+				"planImages": [
+					{
+						"imageUrl": "https://d3u3cps1l61p9b.cloudfront.net/img/ppgm/file/A4000171/menu01plan6.png",
+						"imageExplanation": "画像説明文ープランー⑥"
+					}
+				]
+			},
+			"planIcons": [
+				{
+					"iconCd": "lunch",
+					"iconNm": "ランチ",
+					"iconSuppl": null
+				},
+				{
+					"iconCd": "dinner",
+					"iconNm": "ディナー",
+					"iconSuppl": null
+				}
+			],
+			"benefitHeadlines": null
+		}
+	],
+	"facilities": {
+		"facilities": [
+			{
+				"facilityNm": "グルメテスト加盟店０１",
+				"facilityAddress": "新宿区西新宿",
+				"zipCode": "〒160-0023",
+				"latitude": 35.6913457,
+				"longitude": 139.69369,
+				"access": "山手線新宿駅より徒歩5分",
+				"openingHours": [
+					"月　水　木　",
+					"8:00～9:30 L.O 9:00",
+					"10:00～14:00 L.O 13:30",
+					"16:00～21:00 L.O 20:30",
+					"平日営業時間",
+					"　",
+					"金　",
+					"8:00～10:00 L.O 9:30",
+					"10:30～14:30 L.O 14:00",
+					"0:00～21:30 L.O 21:00",
+					"週末営業時間",
+					"　",
+					"土　祝前日　",
+					"8:30～10:30 L.O 10:00",
+					"11:00～15:00 L.O 14:30",
+					"16:00～22:30 L.O 22:00",
+					"休日前営業時間",
+					"　",
+					"祝日　祝前日　",
+					"9:00～11:00 L.O 10:30",
+					"11:30～15:00 L.O 14:30",
+					"16:00～22:00 L.O 21:30",
+					"休日営業時間"
+				],
+				"regularlyCloseds": [
+					"火曜日"
+				],
+				"note": null,
+				"facilityTelNo": "00-0000-0000",
+				"facilityFax": null,
+				"facilityEmail": null,
+				"areaLrgClassCd": "region-4",
+				"areaLrgClassNm": "首都圏",
+				"areaMidClassCd": "tokyo",
+				"areaMidClassNm": "東京都",
+				"areaSmlClassCd": "tokyo",
+				"areaSmlClassNm": "東京２３区内",
+				"equipServices": [
+					{
+						"equipServTitleCd": "grm_dtl_info",
+						"equipServTitleNm": "グルメ詳細情報",
+						"equipServNote": null,
+						"equipServDetail1": [
+							{
+								"equipServCd1": "credit",
+								"equipServNm1": "クレジット",
+								"equipServValue1": "カード可",
+								"equipServNote1": null,
+								"equipServDetail2": [
+									{
+										"equipServCd2": "01",
+										"equipServNm2": null,
+										"equipServValue2": "VISA",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "02",
+										"equipServNm2": null,
+										"equipServValue2": "Master",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "03",
+										"equipServNm2": null,
+										"equipServValue2": "JCB",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "04",
+										"equipServNm2": null,
+										"equipServValue2": "AMEX",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "05",
+										"equipServNm2": null,
+										"equipServValue2": "Diners",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "06",
+										"equipServNm2": null,
+										"equipServValue2": "その他",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "genre",
+								"equipServNm1": "ジャンル",
+								"equipServValue1": "居酒屋 (301)",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "budget",
+								"equipServNm1": "予算",
+								"equipServValue1": null,
+								"equipServNote1": null,
+								"equipServDetail2": [
+									{
+										"equipServCd2": "lunch",
+										"equipServNm2": "ランチ",
+										"equipServValue2": "1,000円～1,999円",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "dinner",
+										"equipServNm2": "ディナー",
+										"equipServValue2": "10,000円～10,999円",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "reservation",
+								"equipServNm1": "予約",
+								"equipServValue1": "予約可",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "emoney",
+								"equipServNm1": "電子マネー",
+								"equipServValue1": "電子マネー可",
+								"equipServNote1": null,
+								"equipServDetail2": [
+									{
+										"equipServCd2": "01",
+										"equipServNm2": null,
+										"equipServValue2": "交通系電子マネー（Suicaなど）",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "02",
+										"equipServNm2": null,
+										"equipServValue2": "楽天Eｄｙ",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "03",
+										"equipServNm2": null,
+										"equipServValue2": "nanaco",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "04",
+										"equipServNm2": null,
+										"equipServValue2": "WAON",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "05",
+										"equipServNm2": null,
+										"equipServValue2": "QUICPay",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "06",
+										"equipServNm2": null,
+										"equipServValue2": "その他",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "qrcode",
+								"equipServNm1": "QRコード",
+								"equipServValue1": "QRコード決済可",
+								"equipServNote1": null,
+								"equipServDetail2": [
+									{
+										"equipServCd2": "01",
+										"equipServNm2": null,
+										"equipServValue2": "paypay",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "02",
+										"equipServNm2": null,
+										"equipServValue2": "d払い",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "03",
+										"equipServNm2": null,
+										"equipServValue2": "楽天ペイ",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "04",
+										"equipServNm2": null,
+										"equipServValue2": "au PAY",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "05",
+										"equipServNm2": null,
+										"equipServValue2": "その他",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "service_price",
+								"equipServNm1": "サービス料",
+								"equipServValue1": "サービス料：30％",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "url_hp",
+								"equipServNm1": "ホームページURL",
+								"equipServValue1": "menu1.com",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "seat_information",
+								"equipServNm1": "席情報",
+								"equipServValue1": null,
+								"equipServNote1": "デーブル×15　 カウンター×20 　個室×5 　半個室×10",
+								"equipServDetail2": [
+									{
+										"equipServCd2": "tot_seat",
+										"equipServNm2": "総席数",
+										"equipServValue2": "50",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "cell",
+								"equipServNm1": "個室",
+								"equipServValue1": "あり",
+								"equipServNote1": "個室は座席になります。",
+								"equipServDetail2": [
+									{
+										"equipServCd2": "room_qty",
+										"equipServNm2": "個室部屋数",
+										"equipServValue2": "5",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "max_seat_capa",
+										"equipServNm2": "個室最大収容人数",
+										"equipServValue2": "10",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "reserved",
+								"equipServNm1": "貸切",
+								"equipServValue1": "あり",
+								"equipServNote1": "貸切は３０以上からお受けします。",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "no_smoking_or_smoking",
+								"equipServNm1": "禁煙・喫煙",
+								"equipServValue1": "全席喫煙可",
+								"equipServNote1": "全席喫煙可能",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "parking",
+								"equipServNm1": "駐車場",
+								"equipServValue1": "あり",
+								"equipServNote1": "コインパーキング",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "facil",
+								"equipServNm1": "空間設備",
+								"equipServValue1": "車椅子で入店可/無料Wi-Fiあり/電源あり/プロジェクターあり/立ち飲みができる/バリアフリー/スポーツ観戦可/カラオケあり/オープンテラスあり/掘りごたつあり/カップルシートあり/座敷あり/ソファー席あり/カウンター席あり",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "free_drink",
+								"equipServNm1": "飲み放題",
+								"equipServValue1": "あり",
+								"equipServNote1": "アサヒビール",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "brig_drink",
+								"equipServNm1": "ドリンク持込",
+								"equipServValue1": "可",
+								"equipServNote1": "1ボトル１００００円",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "souvenirs",
+								"equipServNm1": "手土産",
+								"equipServValue1": "可",
+								"equipServNote1": "ご連絡ください。",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "taxi_arrange",
+								"equipServNm1": "タクシー手配",
+								"equipServValue1": "可",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "agency",
+								"equipServNm1": "代行手配",
+								"equipServValue1": "可",
+								"equipServNote1": null,
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "children_accompanied",
+								"equipServNm1": "お子様の同伴",
+								"equipServValue1": null,
+								"equipServNote1": "子供も安心",
+								"equipServDetail2": [
+									{
+										"equipServCd2": "01",
+										"equipServNm2": null,
+										"equipServValue2": "子供可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "02",
+										"equipServNm2": null,
+										"equipServValue2": "乳児可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "03",
+										"equipServNm2": null,
+										"equipServValue2": "未就学児可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "04",
+										"equipServNm2": null,
+										"equipServValue2": "小学生可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "05",
+										"equipServNm2": null,
+										"equipServValue2": "お子様メニューあり",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "06",
+										"equipServNm2": null,
+										"equipServValue2": "ベビーカー入店可",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "pet_accompanied",
+								"equipServNm1": "ペットの同伴",
+								"equipServValue1": "可",
+								"equipServNote1": "ねこのみ",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "dress_code",
+								"equipServNm1": "ドレスコード",
+								"equipServValue1": null,
+								"equipServNote1": "服装自由",
+								"equipServDetail2": [
+									{
+										"equipServCd2": "01",
+										"equipServNm2": null,
+										"equipServValue2": "スマートカジュアル",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "02",
+										"equipServNm2": null,
+										"equipServValue2": "スマートエレガント",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "03",
+										"equipServNm2": null,
+										"equipServValue2": "ジャケット着用",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "04",
+										"equipServNm2": null,
+										"equipServValue2": "短パン不可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "05",
+										"equipServNm2": null,
+										"equipServValue2": "サンダル不可",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "06",
+										"equipServNm2": null,
+										"equipServValue2": "カジュアル",
+										"equipServValues2": null
+									}
+								]
+							},
+							{
+								"equipServCd1": "supplement",
+								"equipServNm1": "備考",
+								"equipServValue1": null,
+								"equipServNote1": "全項目入力して登録いたします。",
+								"equipServDetail2": null
+							},
+							{
+								"equipServCd1": "sns_ofcl_acct_url",
+								"equipServNm1": "公式アカウント",
+								"equipServValue1": null,
+								"equipServNote1": null,
+								"equipServDetail2": [
+									{
+										"equipServCd2": "2",
+										"equipServNm2": "Facebook",
+										"equipServValue2": "menu1",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "1",
+										"equipServNm2": "Twitter",
+										"equipServValue2": "menu1",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "3",
+										"equipServNm2": "Instagram",
+										"equipServValue2": "menu1",
+										"equipServValues2": null
+									},
+									{
+										"equipServCd2": "4",
+										"equipServNm2": "TikTok",
+										"equipServValue2": "menu1",
+										"equipServValues2": null
+									}
+								]
+							}
+						]
+					}
+				],
+				"snsOfclAccts": [
+					{
+						"snsNm": "Facebook",
+						"snsOfclAcctUrl": "menu1"
+					},
+					{
+						"snsNm": "Twitter",
+						"snsOfclAcctUrl": "menu1"
+					},
+					{
+						"snsNm": "Instagram",
+						"snsOfclAcctUrl": "menu1"
+					},
+					{
+						"snsNm": "TikTok",
+						"snsOfclAcctUrl": "menu1"
+					}
+				]
+			}
+		]
+	},
+	"equipServices": null,
+	"serviceAreas": {
+		"areaDiv": "20",
+		"areaDivNm": "一部地域",
+		"areaNote": null,
+		"serviceTrgetAreas": [
+			{
+				"prefId": "13",
+				"prefNm": "東京都",
+				"municipalities": null
+			}
+		]
+	},
+	"providerInfo": null,
+	"extConnections": null,
+	"menuGourmetInfo": {
+		"updateDate": "2023年07月20日"
+	}
+}

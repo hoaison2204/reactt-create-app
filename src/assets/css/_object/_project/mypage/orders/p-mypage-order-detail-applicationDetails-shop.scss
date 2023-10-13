@@ -1,0 +1,132 @@
+.apply-container {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    .content {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 15px;
+      @include mq() {
+        font-size: 13px;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+      }
+      p,
+      span,
+      li {
+        font-weight: 500;
+      }
+      .span {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .ui {
+        margin-bottom: 1rem;
+        @include mq() {
+          margin-bottom: 0.625rem;
+        }
+      }
+    }
+    .view-more {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      p {
+        font-size: 14px;
+        font-weight: 700;
+      }
+      i {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 6px;
+      }
+    }
+    .expiryDate {
+      display: flex;
+      flex-direction: column;
+      .item-title {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        .font-24 {
+          font-size: 24px
+        }
+
+        h1 {
+          padding-top: 1rem;
+          text-align: center;
+          width: 100%;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 36px;
+          color: #63666a;
+        }
+        span {
+          padding-bottom: 0.5rem;
+          padding-left: 1rem;
+          font-size: 14px;
+          font-weight: 500;
+          color: #63666a;
+        }
+        p {
+          padding-left: 1rem;
+          font-size: 12px;
+          font-weight: 700;
+        }
+      }
+    }
+    .table-info {
+      display: flex;
+      flex-direction: column;
+      .item {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        @media (max-width: 768px) {
+          display: flex;
+          flex-direction: column;
+        }
+        p {
+          padding-left: 0.5rem;
+          width: 33.333333%;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          background-color: #e7e7e7;
+          border: 1px solid #f2f2f2;
+        }
+        span {
+          padding-left: 0.5rem;
+          width: 66.666667%;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          background-color: #ffffff;
+          border: 1px solid #f2f2f2;
+        }
+        @media (max-width: 768px) {
+          p,
+          span {
+            padding-left: 1rem;
+            width: 100%;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .checkList{
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      p{
+        margin: 1rem;
+        font-size: 14px;
+        font-weight: 500;
+        color: #63666a;
+      }
+    }
+  }

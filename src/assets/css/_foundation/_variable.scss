@@ -1,0 +1,17 @@
+@import 'variable-colors';
+
+// breakpoints
+$breakpoints: (
+  sm: 320px,
+  md: 1023px,
+  lg: 1031px,
+) !default;
+
+
+
+// コンテンツ幅
+$contentWidth: 1032px;
+// コンテンツ幅(主にタブレットサイズ向け)
+$contentWidthMd: 1024px;
+// サイドバーがある場合のコンテンツ幅
+$contentWidthS: 744px;

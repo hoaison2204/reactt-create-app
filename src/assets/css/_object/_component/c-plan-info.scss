@@ -1,0 +1,169 @@
+.c-plan-info {
+  &__wrap {
+    display: flex;
+    @include mq("lg", "min") {
+      margin-bottom: 1rem;
+    }
+  }
+  &__image {
+    width: 96px;
+    max-height: 96px;
+    margin-right: 1rem;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+  }
+  &__heading {
+    margin-bottom: 0.5rem;
+    display: block;
+    @include mq() {
+      margin-bottom: 1rem;
+    }
+    .c-title5 {
+      font-size: 1.125rem;
+    }
+    &__category {
+      margin-right: 0.5rem;
+      padding: 0.2rem 1rem;
+      background-color: $CoolGray4;
+      @include mq() {
+        display: none;
+      }
+    }
+    &__contents {
+      margin-right: 1rem;
+      color: $CoolGray;
+      @include mq() {
+        display: block;
+        margin-bottom: 4px;
+      }
+    }
+    &__name {
+      font-size: 0.875rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    &__description {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+  }
+  &__benefit {
+    margin-bottom: 1rem;
+    @include mq() {
+      border-top: 1px solid $CoolGray4;
+      padding-top: 1.5rem;
+    }
+    &--label {
+      color: $CoolGray;
+      font-weight: bold;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+    &--contents {
+      width: 100%;
+    }
+    &--item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $CoolGray4;
+      margin-bottom: 1rem;
+      @include mq() {
+        display: block;
+      }
+      &__right {
+        @include mq() {
+          text-align: right;
+        }
+      }
+      &__sheets {
+        font-weight: bold;
+        @include mq() {
+          text-align: right;
+          font-size: 0.875rem;
+        }
+      }
+      &__shipping {
+        margin-left: 1rem;
+        @include mq() {
+          text-align: right;
+          font-size: 0.875rem;
+        }
+      }
+      &__total {
+        font-weight: bold;
+        margin-left: 1rem;
+        @include mq() {
+          text-align: right;
+          font-size: 0.875rem;
+        }
+      }
+      .c-lead2 {
+        margin-bottom: 1rem !important;
+      }
+    }
+    &--prize-contents {
+      margin-bottom: 1rem;
+    }
+  }
+  &__total {
+    position: relative;
+    text-align: right;
+    min-height: 1rem;
+    &--value {
+      display: inline-block;
+      margin-left: 1.5rem;
+    }
+    &__amount {
+      font-weight: bold;
+      margin-bottom: 10px;
+      &--value {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  &__change-btn {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    @include mq() {
+      position: relative;
+    }
+    & > p {
+      display: inline-block;
+      width: auto;
+    }
+  }
+  &__share-btn {
+    text-align: right;
+    margin-bottom: -1.5rem;
+    @include mq() {
+      margin-bottom: 0;
+    }
+    .p-order__pos-right {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 4rem;
+      width: auto;
+      @include mq() {
+        width: 100%;
+      }
+    }
+    & svg {
+      vertical-align: middle;
+      width: 2.25rem;
+      height: 2.25rem;
+      margin-right: 0.5rem;
+    }
+    &--detail-link {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 1rem;
+      border-left: 2px solid $CoolGray4;
+      @include mq() {
+        border-left: none;
+      }
+    }
+  }
+}

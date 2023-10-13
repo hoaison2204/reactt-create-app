@@ -1,0 +1,9 @@
+{
+  "ids": [
+    0, 1
+  ],
+  "header": "<div class=\"p-headerHoge\"><%% component1 %%><%% menu_ids=100001,100002,100003 %%><%% menu_ids=100004,100003,100002 %%><Icon name=\"action_edit\" width=\"19px\" height=\"19px\" /><p></p><p>headerタグ</p><button id=\"testBtn\" @click=\"$emit('click-event', testText);\">ボタン</button></div>",
+  "footer": "<div><p>footerタグ</p></div>",
+  "css": ".p-headerHoge {background-color: #6bc;}",
+  "js": "console.log(vm);"
+}

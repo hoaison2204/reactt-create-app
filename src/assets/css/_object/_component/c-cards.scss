@@ -1,0 +1,33 @@
+.c-cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  &__item {
+    @include mq('md', 'min') {
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+    &--col3{
+      width: calc(100% / 3 - 1rem);
+      @include mq() {
+        width: 100%;
+        &:not(:last-of-type) {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+    &--col4{
+      width: calc(100% / 4 - 1.2rem);
+      @include mq() {
+        width: 100%;
+        &:not(:last-of-type) {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+    &--col5{
+      width: calc(100% / 5 - 1.2rem);
+    }
+  }
+}

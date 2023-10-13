@@ -1,0 +1,30 @@
+.c-displaySp {
+  @include mq("md", "min") {
+    display: none;
+  }
+  @include mq() {
+    display: block;
+  }
+
+  &--inline {
+    @include mq() {
+      display: inline;
+    }
+  }
+
+  &--inlineFlex {
+    @include mq() {
+      display: inline-flex;
+    }
+  }
+
+  &--flex {
+    @include mq() {
+      display: flex;
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}

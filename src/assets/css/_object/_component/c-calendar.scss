@@ -1,0 +1,39 @@
+.c-calendar{
+  position: relative;
+  .c-calendar__input{
+    position: relative;
+    padding: 2px 5px;
+    font-weight: bold;
+    border: 1px solid $CoolGray3;
+    border-radius: 4px;
+    background: transparent;
+    width: 100%;
+    &::placeholder{
+      text-align: center;
+    }
+    &.clearMode{
+      text-align: left;
+    }
+    &:after {
+      content: url('~@/assets/images/icon/calender.svg');
+    }
+    &::-webkit-calendar-picker-indicator {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: auto;
+      height: auto;
+      color: transparent;
+      background: transparent;
+      z-index:100;
+    }
+    &::-webkit-inner-spin-button {
+      z-index: 1;
+    }
+    &::-webkit-clear-button {
+      z-index: 1;
+    }
+  }
+}

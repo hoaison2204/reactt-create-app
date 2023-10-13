@@ -1,0 +1,146 @@
+.l-side {
+  width: 248px;
+  font-size: 0.875rem;
+  &__wrap {
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px;
+    overflow: hidden;
+    .l-side__mypage__Button {
+      border-radius: .5rem;
+      position: relative;
+      margin-bottom: 0.75rem;
+      height: 3rem;
+      line-height: 3rem;
+      box-shadow: 0px 0px 8px #00000029;
+      .l-side__icon {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: inline-block;
+        right: 0.5rem;
+        margin: auto;
+      }
+      .c-icon {
+        width: 1.5em;
+        height: 1.5rem;
+        g {
+          fill: $Red;
+        }
+      }
+    }
+  }
+  &__content {
+    box-shadow: 0px 0px 8px #00000029;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+  &__lists {
+    position: relative;
+    ul {
+      li:not(:last-child) {
+        a {
+          border-bottom: 1px solid #e7e7e7;
+        }
+      }
+    }
+  }
+  &__list {
+    &__title {
+      background-color: #e7e7e7;
+      font-size: 12px;
+      height: 33px;
+      font-weight: bold;
+      padding: 9px 16px;
+      &:first-child {
+        border-radius: 0.2rem 0.2rem 0 0;
+      }
+    }
+    &__item {
+      position: relative;
+      display: block;
+      color: $CoolBlack;
+      margin: 0 1rem;
+      padding: .5rem 0;
+      font-size: 15px;
+      .c-icon {
+        position: absolute;
+        top: 50%;
+        right: -6px;
+        transform: translateY(-50%);
+      }
+      span {
+        font-size: 0.75rem;
+        display: block;
+      }
+      &--head {
+        font-weight: 700;
+      }
+      &--checked {
+        position: absolute;
+        top: 50%;
+        right: 13px;
+        transform: translateY(-50%);
+        color: $Red;
+      }
+      @include mq() {
+        padding-top: .625rem;
+        padding-bottom: .625rem;
+      }
+      input:checked + .c-checkbox__box::before {
+        color: $Red;
+      }
+    }
+    &__bottom {
+      border-bottom: none;
+    }
+    &--checked {
+      background-color: $LightYellow;
+    }
+  }
+  a {
+    color: $CoolBlack;
+    .c-icon {
+      width: 1.5em;
+      height: 1.5rem;
+      g {
+        fill: $Red;
+      }
+    }
+    &:hover {
+      color: $Red;
+      text-decoration: none;
+      .c-icon {
+        g {
+          fill: $Red;
+        }
+      }
+    }
+  }
+  .l-side__submit {
+    text-align: center;
+    .l-side__submit__button {
+      width: 120px;
+      padding: 0.25rem 1rem;
+      background-color: $CoolBlack;
+      border-radius: 8px;
+      cursor: pointer;
+      .l-side__submit__label {
+        color: #fff;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .l-side__select {
+    margin-bottom: 0.5rem;
+    padding: 0 1.5rem;
+    &.c-select:after {
+      right: 2rem;
+    }
+    .l-side__select__control {
+      height: 2rem;
+      font-size: 0.9rem;
+    }
+
+  }
+}

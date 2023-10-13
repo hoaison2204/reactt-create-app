@@ -1,0 +1,78 @@
+$Red: #da291c;
+$Red1: #ed2d1e;
+$RedPink: #ef3d55;
+$Blue: #259bee;
+$CoolBlack: #1f2021;
+$CoolGray: #63666a;
+$CoolGray-1: #434547;
+$CoolGray1: #73767a;
+$CoolGray2: #a8aaad;
+$CoolGray3: #cacccf;
+$CoolGray4: #dcdee0;
+$CoolGray5: #edeef0;
+$CoolGray6: #f4f5f6;
+$LightYellow: #fff5e2;
+$LinkText: #0d76bf;
+$Orange: #f6a82c;
+$Pink: #f081a3;
+
+$Error: #cc0621;
+$ErrorBg: #fae6e9;
+$Error10: #cc06211a;
+$Kyuutoku: #f58700;
+$LineColor: #06c755;
+
+// ① グレー系統で上記にないカラーコードは、下記のように近似の色へ置換する。
+// #222222 → #1f2021 (Cool Black)
+// #444444 → #434547 (Cool Gray -1)
+// #777777 → #73767a (Cool Gray +1)
+
+// ② 追加する場合は、後述の:exportへも追加する(JavaScriptとの一元管理を目的としている)。
+// 必要に応じてpluginsの調整をする。
+// src/plugins/colors.js
+// 必要に応じてコンポーネントリストへの追加・調整をする。
+// src/views/components/index.vue
+
+:export {
+  // ブランド
+  brand: {
+    red: $Red;
+    coolgray: $CoolGray;
+  }
+
+  // ブランドの派生
+  brandderived: {
+    red1: $Red1;
+    coolgray-1: $CoolGray-1;
+    coolgray1: $CoolGray1;
+    coolgray2: $CoolGray2;
+    coolgray3: $CoolGray3;
+    coolgray4: $CoolGray4;
+    coolgray5: $CoolGray5;
+    coolgray6: $CoolGray6;
+    white: #fff;
+  }
+
+  // テキスト
+  text: {
+    coolblack: $CoolBlack;
+    linktext: $LinkText;
+  }
+
+  // サブ
+  sub: {
+    redpink: $RedPink;
+    blue: $Blue;
+    orange: $Orange;
+    pink: $Pink;
+    lightyellow: $LightYellow;
+  }
+
+  // その他
+  other: {
+    error: $Error;
+    error10: $Error10;
+    kyuutoku: $Kyuutoku;
+    linecolor: $LineColor;
+  }
+}

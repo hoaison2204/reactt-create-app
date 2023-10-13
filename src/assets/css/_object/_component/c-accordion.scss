@@ -1,0 +1,28 @@
+.c-accordion {
+  width: 100%;
+  .c-accordion__button {
+    padding-right: 40px;
+    font-size: 0.75rem;
+    border: none;
+    position: relative;
+    background-color: #fff;
+  }
+  .c-accordion__angle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+    width: 0.7rem;
+    height: 0.7rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    &.rotate-0 {
+      transform: rotate(0deg);
+    }
+    &.rotate-180 {
+      transform: rotate(180deg)
+    }
+  }
+}

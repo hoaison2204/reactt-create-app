@@ -1,0 +1,258 @@
+.p-order-subsidy-modal {
+  &__title {
+    text-align: left;
+  }
+  &__contents {
+    margin-left: 1.5rem;
+    @include mq() {
+      margin-left: 0;
+    }
+  }
+  &__state {
+    margin-bottom: 1rem;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include mq() {
+      display: block;
+    }
+    &__item {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      @include mq() {
+        display: block;
+      }
+      &--label {
+        min-width: 3rem;
+      }
+      &--required {
+        position: relative;
+        @include mq() {
+          width: 100%;
+        }
+        &::after {
+          content: "必須";
+          position: absolute;
+          top: 3px;
+          right: -2rem;
+          font-size: 10px;
+          color: #fff;
+          border-radius: 2px;
+          padding: 2px 6px;
+          background-color: $Error;
+          @include mq() {
+            left: 40px;
+            right: initial;
+          }
+        }
+      }
+      &--flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 300px;
+      }
+      &--use-count {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        min-width: 176px;
+        .c-select {
+          margin-left: 1rem;
+        }
+      }
+    }
+    &__price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      @include mq() {
+        text-align: right;
+      }
+    }
+  }
+  &__item {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $CoolGray4;
+
+    .p-order-subsidy-modal__coupon {
+      line-height: 0;
+
+      * {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 18px;
+        width: 33%;
+      }
+      &--title {
+        cursor: pointer;
+        line-height: 20px;
+        @include mq() {
+          width: 100%;
+        }
+      }
+      &--price {
+        @include mq() {
+          width: 50%;
+        }
+      }
+      &--count {
+        * {
+          width: auto;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        & select {
+          min-width: 5rem;
+        }
+        @include mq() {
+          width: 50%;
+        }
+      }
+      &--terms-of-use {
+        // display: none;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        transition: all 300ms 0s ease;
+        padding-left: 2rem;
+        color: $CoolGray;
+        line-height: 20px;
+
+        &-contents {
+          width: 100%;
+          height: auto;
+        }
+
+        &-contents > .p-order-subsidy-modal__coupon--order-limit {
+          font-weight: normal;
+          display: block;
+
+          .p-order-subsidy-modal__coupon--order-limit--label {
+            display: inline-block;
+            vertical-align: top;
+          }
+          .p-order-subsidy-modal__coupon--order-limit--date {
+            display: inline-block;
+            vertical-align: top;
+            white-space: pre;
+          }
+        }
+        &-contents > :not(.p-order-subsidy-modal__coupon--order-limit) {
+          font-weight: normal;
+          display: inline;
+        }
+      }
+
+      &--checkbox {
+        display: none;
+
+        &:checked
+        + .p-order-subsidy-modal__coupon--title
+        + .p-order-subsidy-modal__coupon--price
+        + .p-order-subsidy-modal__coupon--count
+        + .p-order-subsidy-modal__coupon--terms-of-use {
+          // display: block;
+          height: 100px;
+        }
+      }
+    }
+  }
+  &__list {
+    height: 390px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &__summary {
+    text-align: right;
+    &__lists {
+      margin-bottom: 1rem;
+    }
+    &__list {
+      &--price {
+        display: inline-block;
+        min-width: 10rem;
+      }
+    }
+    &__benepo {
+      font-weight: bold;
+      margin-top: 20px;
+      .p-order-subsidy-modal__summary__list--label {
+        display: inline-block;
+        font-size: 18px;
+        color: $CoolGray;
+        @include mq() {
+          max-width: 180px;
+        }
+      }
+      .p-order-subsidy-modal__summary__list--price {
+        font-weight: bold;
+        font-size: 27px;
+        @include mq() {
+          min-width: 8rem;
+        }
+      }
+    }
+    &__amount {
+      font-weight: bold;
+      margin-top: 20px;
+      .p-order-subsidy-modal__summary__list--label {
+        display: inline-block;
+        font-size: 18px;
+        color: $CoolGray;
+        @include mq() {
+          max-width: 180px;
+        }
+      }
+      .p-order-subsidy-modal__summary__list--price {
+        font-weight: bold;
+        font-size: 27px;
+        @include mq() {
+          min-width: 8rem;
+        }
+      }
+    }
+    &__forced-sum {
+      font-size: 18px;
+      text-align: left;
+      .p-order-subsidy-modal__summary__list--label {
+        font-weight: bold;
+        color: $CoolGray;
+        margin-right: 2rem;
+      }
+      .p-order-subsidy-modal__summary__list--price {
+        font-weight: bold;
+        font-size: 18px;
+
+        @include mq() {
+          min-width: 6rem;
+        }
+      }
+    }
+  }
+  &__button {
+    text-align: center;
+    @include mq() {
+      width: 100%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  &__border {
+    border-bottom: 1px solid $CoolGray4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  &__radio-comment {
+    display: block;
+  }
+  &__optional--price {
+    margin-left: 2rem;
+  }
+}

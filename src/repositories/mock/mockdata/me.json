@@ -1,0 +1,48 @@
+{
+  "familyName": "Viet",
+  "firstName": "Nam",
+  "familyNameKana": "タナカ",
+  "firstNameKana": "ハナコ",
+  "defaultDestination": "0",
+  "loginIdType": "0",
+  "passwordReminderIsEnabled": true,
+  "birthday": "2000-08-24T00:00:00.000+00:00",
+  "sex": 1,
+  "email": "kyubi95@exdonuts.com",
+  "tel": "07035174967",
+  "secondEmail": "dung.dinh@amela.vn",
+  "secondTel": "0344059539",
+  "addresses": [
+    {
+      "postalCode": "1670022",
+      "prefectureCode": "13",
+      "address1": "東京都千代田区霞が関霞が関ビル（１８階）",
+      "address2": "霞が関霞が関ビル（１８階）"
+    },
+    {
+      "postalCode": "1670022",
+      "prefectureCode": "13",
+      "address1": "東京都千代田区霞が関霞が関ビル（１８階）",
+      "address2": "霞が関霞が関ビル（１８階）"
+    }
+  ],
+  "addressUser": {
+    "defaultDestination": 0,
+    "addresses": [
+      {
+        "postalCode": "1670022",
+        "prefectureCode": "13",
+        "address1": "東京都千代田区霞が関霞が関ビル（１８階）",
+        "address2": "霞が関霞が関ビル（１８階）"
+      },
+      {
+        "postalCode": "1670022",
+        "prefectureCode": "13",
+        "address1": "東京都千代田区霞が関霞が関ビル（１８階）",
+        "address2": "霞が関霞が関ビル（１８階）"
+      }
+    ]
+  },
+  "companyCd": "C100070CC",
+  "companyName": "強制あり任意あり法人２"
+}

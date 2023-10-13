@@ -1,0 +1,70 @@
+/**
+ * リンクボタン
+ */
+.crth-crly-a-error-link-btn {
+  background-color: #0b6fad;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding: 16px 0;
+  width: 75%;
+  margin: auto;
+  border-radius: 5px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    right: 16px;
+    margin-top: -4px;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    pointer-events: none;
+    z-index: 1;
+  }
+  &.--border {
+    border-radius: 5px;
+    border-bottom: 2px solid  #095e93;
+  }
+  &.--btn-lg {
+    padding: 14px;
+    height: auto;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+  }
+  &.--secondary { 
+    background-color: #73797e;
+    border-bottom: 2px solid #62666a;
+  }
+  &.--btn-back {
+    &::after {
+      right: auto;
+      left: 16px;
+      transform: rotate(-135deg);
+    }
+  }
+  &.--btn-outline {
+    width: 80%;
+    font-size: 20px;
+    height: 60px;   
+    font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: white;
+    border: 2px solid #0b6fad;
+    color: #0b6fad;
+    &::after {
+      border-right-color: #0b6fad;
+      border-top-color: #0b6fad;
+    }
+  }
+}

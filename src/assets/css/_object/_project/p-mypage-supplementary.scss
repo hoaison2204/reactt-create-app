@@ -1,0 +1,75 @@
+.p-mypage-supplementary {
+  &__inner {
+    @include mypageInner();
+  }
+  &__coupon {
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid $CoolGray4;
+  }
+  .coupon {
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    &__discountPrice {
+      font-weight: bold;
+      font-size: 1.5rem;
+      .unit {
+        font-size: 1rem;
+      }
+    }
+    &__status {
+      margin-bottom: 1rem;
+      UL {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .status__label {
+        background-color: $CoolGray5;
+        padding: .2rem .6rem;
+        font-size: .75rem;
+        border-radius: 2px;
+        margin-right: .5rem;
+      }
+    }
+    &__conditions {
+      margin-bottom: 1rem;
+      LI {
+        line-height: 2;
+        font-size: .875rem;
+      }
+      .conditions__label {
+        display: inline-block;
+        width: 8rem;
+        position: relative;
+        &::after {
+          content: '：';
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    &__button {
+      text-align: center;
+    }
+  }
+  &__infomation {
+    &__inner {
+      padding: 1.5rem;
+    }
+    &__title {
+      font-weight: bold;
+      margin-bottom: 1.125rem;
+    }
+    &__body {
+      font-size: .875rem;
+      white-space: pre-line;
+      word-wrap: break-word;
+    }
+  }
+}

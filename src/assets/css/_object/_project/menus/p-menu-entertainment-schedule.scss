@@ -1,0 +1,38 @@
+/**
+ * プラン詳細興行 日程情報
+ */
+.p-menu-entertainment-schedule {
+  position: relative;
+
+  &__info {
+    margin-bottom: 24px;
+  }
+
+  /* 日付・会場 */
+  &__date-info {
+    background-color: $CoolGray;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    /* 日付情報 */
+    &__date {
+      display: inline-block;
+      text-align: left;
+      width: 30%;
+      @include mq() {
+        display: block;
+      }
+    }
+
+    /* 会場情報 */
+    &__venue {
+      display: inline-block;
+      text-align: right;
+      width: 70%;
+      @include mq() {
+        display: block;
+        text-align: left;
+      }
+    }
+  }
+}

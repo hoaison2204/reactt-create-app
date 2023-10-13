@@ -1,0 +1,155 @@
+.p-mypage-order-id {
+  &__sec {
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+    .c-title {
+      margin-bottom: 1rem;
+    }
+  }
+  &__table {
+    &--mb {
+      margin-bottom: 1rem;
+    }
+    li {
+      width: 100%;
+      height: 29px;
+      line-height: 29px;
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      @include mq() {
+        display: block;
+        height: auto;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  &__table__label {
+    width: 208px;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: $CoolGray5;
+    border-radius: 2px;
+    margin-right: 1.5rem;
+    @include mq() {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+  }
+  &__tabel__value {
+    font-size: 1rem;
+  }
+
+  // ========== header section 部分 ============
+
+  &__header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    height: 32px;
+    position: relative;
+  }
+  &__header__nav-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  &__header__nav-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  &__header__nav__share-btn {
+    font-size: 0.75rem;
+    margin-right: 2rem;
+    display: flex;
+    @include mq() {
+      display: none;
+    }
+    p {
+      line-height: 30px;
+    }
+  }
+  &__header__nav__icons {
+    margin-left: 1rem;
+  }
+  &__header__nav__icon {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  &__header__nav__copy {
+    &--pc {
+      @include mq() {
+        display: none;
+      }
+    }
+    &--sp {
+      display: none;
+      @include mq() {
+        display: block;
+      }
+    }
+  }
+
+  // ========== contents section 部分 ============
+
+  &__content {
+    margin-bottom: 2rem;
+    @include mq() {
+      margin-bottom: 3rem;
+    }
+    .c-title2 {
+      margin-bottom: 1rem;
+    }
+  }
+  &__content__plan {
+    margin-bottom: 1rem;
+  }
+  &__content__toggle-btn {
+    text-align: center;
+  }
+  &__content__point-info {
+    margin-bottom: 0.5rem;
+  }
+  &__content__limit {
+    margin-bottom: 1rem;
+  }
+  &__content__about-limit {
+    margin-bottom: 3rem;
+  }
+  &__content__about-limit__sub-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  // ==========  payment section 部分 ============
+
+  &__payment__detail {
+    margin-bottom: 2rem;
+  }
+  &__payment__grant-point {
+    margin-top: 4rem;
+  }
+  &__payment__grant-point__sub-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  // ==========  cancel section 部分 ============
+
+  // ==========  footer section 部分 ============
+
+  &__footer {
+    text-align: center;
+  }
+}
