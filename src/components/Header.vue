@@ -2,6 +2,7 @@
   <header class="l-header" :inert="$modal.inert">
     <div v-if="crmHeaderFlag" :class="{ 'l-header__sub': isSubHeader, 'l-header__top': showHeaderBottomBorder }">
       <section class="l-header__top__inner">
+        <h1>This is header</h1>
         <div class="l-header__top__logo">
           <CMS
               contents_type="block_contents"
